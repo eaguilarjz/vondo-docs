@@ -1,0 +1,218 @@
+// Sidebar text and interactive states for the dark-green sidebar.
+// just-the-docs exposes $sidebar-color and $nav-child-link-color but not
+// the colors of headings, hover/active states, or the search box, so we
+// set those here.
+
+$savr-sidebar-bg: #15803d;       // brand-700, matches $sidebar-color
+$savr-sidebar-text: #ffffff;
+$savr-sidebar-text-muted: rgba(255, 255, 255, 0.92);
+$savr-sidebar-hover: rgba(255, 255, 255, 0.12);
+$savr-sidebar-active: rgba(255, 255, 255, 0.20);
+
+.side-bar {
+  color: $savr-sidebar-text;
+
+  .site-title,
+  .site-title:hover {
+    color: $savr-sidebar-text;
+    background-image: none;
+  }
+
+  .site-header {
+    background-color: transparent;
+    border-bottom-color: rgba(255, 255, 255, 0.15);
+  }
+
+  // The "This site uses Just the Docs..." attribution that the theme
+  // injects at the bottom of the sidebar. The element ships with
+  // Bootstrap-style `d-md-block` utility classes that use !important,
+  // so we need !important to override.
+  .site-footer {
+    display: none !important;
+  }
+
+  // Top-level group labels (English / Español) and all child links
+  .nav-list .nav-list-item .nav-list-link {
+    color: $savr-sidebar-text-muted;
+
+    &:hover {
+      color: $savr-sidebar-text;
+      background-image: linear-gradient(
+        $savr-sidebar-hover 0%,
+        $savr-sidebar-hover 100%
+      );
+    }
+
+    &.active {
+      color: $savr-sidebar-text;
+      font-weight: 600;
+      background-image: linear-gradient(
+        $savr-sidebar-active 0%,
+        $savr-sidebar-active 100%
+      );
+    }
+  }
+
+  .nav-list-expander {
+    color: $savr-sidebar-text-muted;
+
+    &:hover {
+      color: $savr-sidebar-text;
+      background-color: $savr-sidebar-hover;
+    }
+
+    svg {
+      fill: currentColor;
+    }
+  }
+
+  // Search box embedded in the sidebar
+  .search {
+    background-color: rgba(255, 255, 255, 0.96);
+    border-radius: 6px;
+    margin: 0.5rem;
+
+    .search-input-wrap {
+      background-color: transparent;
+      box-shadow: none;
+    }
+
+    .search-input {
+      color: #14532d; // brand-900
+      background-color: transparent;
+
+      &::placeholder {
+        color: rgba(20, 83, 45, 0.55);
+      }
+    }
+
+    .search-label .search-icon {
+      color: rgba(20, 83, 45, 0.6);
+    }
+  }
+}
+
+// Search results panel that pops out of the sidebar should still
+// look like the main (light) content area.
+.search-results {
+  color: #14532d;
+  background-color: #ffffff;
+}
+
+// Brand-green globe icon for the cross-language banner at the top
+// of every page (replaces the default blue 🌐 emoji).
+.lang-globe {
+  display: inline-block;
+  vertical-align: -3px;
+  margin-right: 0.25rem;
+  color: #16a34a; // brand-600
+}
+
+// Dark mode — automatically applied when the visitor's OS is set
+// to dark. The sidebar already uses brand greens; the content area
+// flips to dark surfaces with brand-aligned accents.
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #0c0a09;
+    color: #e7e5e4;
+  }
+
+  // Sidebar — go a touch darker than the light-mode brand-700.
+  .side-bar {
+    background-color: #052e16; // brand-950
+  }
+
+  // Main content area
+  .main-content {
+    color: #e7e5e4;
+
+    h1, h2, h3, h4, h5, h6 {
+      color: #f0fdf4; // brand-50
+    }
+
+    a:not(.btn) {
+      color: #4ade80; // brand-400 — brighter green pops on dark bg
+
+      &:hover {
+        color: #86efac; // brand-300
+      }
+    }
+
+    strong {
+      color: #f0fdf4;
+    }
+
+    code {
+      background-color: #1c1917;
+      color: #fde68a;
+    }
+
+    pre,
+    pre.highlight,
+    .highlight {
+      background-color: #1c1917 !important;
+
+      code {
+        background-color: transparent;
+      }
+    }
+
+    table {
+      th {
+        background-color: #1c1917;
+        color: #f0fdf4;
+        border-color: #292524;
+      }
+
+      td {
+        background-color: #0c0a09; // matches body bg
+        color: #e7e5e4;
+        border-color: #292524;
+      }
+
+      tr:nth-child(even) td {
+        background-color: #1c1917; // subtle zebra stripe
+      }
+    }
+
+    blockquote {
+      background-color: rgba(34, 197, 94, 0.06);
+      border-left-color: #22c55e;
+      color: #e7e5e4;
+    }
+
+    hr {
+      border-color: #292524;
+    }
+  }
+
+  // Breadcrumbs above the page title
+  .breadcrumb-nav,
+  .breadcrumb-nav-list-item,
+  .breadcrumb-nav-list-item a {
+    color: #a8a29e;
+  }
+
+  // Search results dropdown
+  .search-results {
+    color: #e7e5e4;
+    background-color: #1c1917;
+    border-color: #292524;
+
+    .search-result {
+      &:hover,
+      &.active {
+        background-color: #292524;
+      }
+
+      .search-result-title {
+        color: #f0fdf4;
+      }
+    }
+  }
+}
+

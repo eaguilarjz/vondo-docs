@@ -1,7 +1,7 @@
 ---
 title: Plan y Facturación
 parent: Español
-nav_order: 13
+nav_order: 14
 ---
 
 > {% include lang-globe.html %} Read this page in [English](../../en/billing/)
@@ -14,9 +14,19 @@ Esta página cubre todo lo relacionado con facturación: la prueba, los planes, 
 
 ---
 
+## Una suscripción por hogar
+
+La suscripción de savr pertenece al **hogar**, no a ti personalmente. Cuando te registras, savr crea un hogar para ti y comienza la prueba de ese hogar. Si después compartes el hogar con tu pareja o un familiar, ellos van sobre la misma suscripción — no hay cargo aparte.
+
+Si perteneces a más de un hogar (por ejemplo, uno familiar y uno personal), cada hogar tiene **su propia prueba, plan y facturación**. El Propietario de cada uno lo paga; los demás miembros nunca ven un cargo. Mira [Hogares](../hogares/) para entender cómo funciona la relación entre propiedad y facturación.
+
+Para abreviar, el resto de esta página dice "tu suscripción" — léelo como "la suscripción del hogar del que eres Propietario."
+
+---
+
 ## La prueba gratuita de 90 días
 
-Cada cuenta nueva empieza con **90 días de prueba gratuita**. No se requiere tarjeta de crédito.
+Cada hogar nuevo empieza con **90 días de prueba gratuita**. No se requiere tarjeta de crédito.
 
 Tres meses son suficientes para:
 

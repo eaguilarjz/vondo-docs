@@ -1,7 +1,7 @@
 ---
 title: App Móvil
 parent: Español
-nav_order: 12
+nav_order: 13
 ---
 
 > {% include lang-globe.html %} Read this page in [English](../../en/mobile/)
@@ -36,9 +36,13 @@ La parte inferior de la pantalla tiene cinco pestañas:
 
 ### El menú "…"
 
-Las cosas que no viven en una pestaña — Categorías, Beneficiarios, Recurrentes, Perfil, Seguridad, Plan y Facturación, Sesiones Activas, Cambios Pendientes — se abren desde un botón **…** en las pantallas de Inicio, Presupuesto y Actividad. Tócalo y se abre una hoja con todos los destinos secundarios agrupados por tema.
+Las cosas que no viven en una pestaña — Categorías, Beneficiarios, Recurrentes, Perfil, Hogares, Seguridad, Plan y Facturación, Sesiones Activas, Cambios Pendientes — se abren desde un botón **…** en las pantallas de Inicio, Presupuesto y Actividad. Tócalo y se abre una hoja con todos los destinos secundarios agrupados por tema.
 
 Tomamos este enfoque porque la barra de pestañas inferior se llena rápido, y las guías de Apple recomiendan máximo cinco. El resultado: las cinco cosas que haces todos los días están a un toque; el resto, a dos.
+
+### Selector de hogar
+
+Si eres miembro de más de un [hogar](../hogares/), el menú "…" también muestra un **selector de hogar**. Tócalo y se abre una hoja que lista cada hogar al que perteneces, con tu insignia de rol, el conteo de miembros y una marca de **Activo** junto al que estás usando. Toca cualquier entrada para cambiarte — el presupuesto, las cuentas y la actividad se recargan para mostrar los datos de ese hogar. Tu sesión, tema e idioma permanecen igual.
 
 ---
 
@@ -85,6 +89,16 @@ Un par de notas específicas de móvil:
 - **Cerrar sesión borra los datos locales.** Cerrar sesión en un teléfono limpia el caché local del dispositivo, la cola de escrituras pendientes y el cursor de sincronización — así que la siguiente persona que inicie sesión (tú u otra) empieza limpia. El cierre de sesión en web solo limpia los tokens; el móvil limpia tokens *y* la base de datos en el dispositivo.
 - **Las sesiones activas muestran tus teléfonos.** Tus dispositivos móviles aparecen en **Seguridad → Sesiones activas** junto con los navegadores web. Revoca una sesión de teléfono desde la web si pierdes un dispositivo.
 
+## Cuando termina la prueba (o se pausa una suscripción)
+
+Si tu prueba expira o tu suscripción queda en pausa sin un plan activo, la app móvil muestra una pantalla de **bloqueo de suscripción** al abrirla — una señal de alto amigable que:
+
+- Te dice que la prueba terminó (o que la suscripción está en pausa), con la fecha.
+- Tiene un único botón **Administrar suscripción** que abre el portal de facturación en tu navegador.
+- Se queda al frente de la app hasta que arregles la facturación — aún puedes cerrar sesión, pero no llegas a Presupuesto / Actividad / etc.
+
+Tus datos están completamente a salvo. El bloqueo es una pausa de acceso; en cuanto te suscribas o reanudes desde el portal, la próxima vez que abras la app móvil te deja pasar directo a donde te quedaste.
+
 ---
 
 ## Lo que es igual
@@ -97,12 +111,20 @@ Casi todo. Para ahorrarte leer las demás páginas de ayuda otra vez, esto es lo
 - [Mover dinero](../budget/#mover-dinero-entre-categorías) entre categorías
 - Los cuatro [tipos de objetivo](../budget/#objetivos-también-llamados-metas) (Mensual, Semanal, Anual, Personalizado) con arrastre
 - Las cinco [frecuencias recurrentes](../recurring/#frecuencias), el modal de previsualización al aplicar vencidos, y pagos de deuda recurrentes
-- Los seis [tipos de cuenta](../accounts/#tipos-de-cuenta) incluyendo tarjetas de crédito con límite opcional
+- Los seis [tipos de cuenta](../accounts/#tipos-de-cuenta) incluyendo tarjetas de crédito con límite opcional y la categoría de pago vinculada que se autofinancia conforme gastas
 - [Conciliación](../reconcile/)
-- [Informes](../reports/) (Ingresos vs Gastos, Ahorro Neto, Gasto por Categoría, Beneficiarios Principales)
+- [Informes](../reports/) — las cinco gráficas (Ingresos vs Gastos, Ahorro Neto, Patrimonio Neto, Gastos por Categoría, Beneficiarios Principales) con los mismos preajustes de rango de tiempo y filtros de Cuenta y Categoría que la web
 - Deshacer / Rehacer (toca las flechas curvas en la barra superior)
-- Todas tus [vistas guardadas](../actividad/#vistas-guardadas), filtros y el cuadro de búsqueda (con sugerencias de categoría/beneficiario/cuenta)
-- Tema Claro / Oscuro e idioma
+- Todas tus [vistas guardadas](../actividad/#vistas-guardadas), filtros y el cuadro de búsqueda
+- Tema **Sistema / Claro / Oscuro** e idioma
+
+### Detalles de móvil
+
+Un puñado de pequeños toques que móvil tiene además de la paridad:
+
+- **Crear en línea desde el formulario de transacción.** Cuando estás capturando una transacción y necesitas una categoría o beneficiario que aún no existe, escribe un nombre que no coincida con nada y aparece una opción **"Crear *<nombre>*"** al final de las sugerencias. Tócala y la entidad se crea ahí mismo — sin tener que salir del formulario, ir a la pantalla de Categorías o Beneficiarios, y regresar.
+- **Crear en línea desde el formulario recurrente también.** Mismo atajo cuando configuras una cuenta recurrente.
+- **Pull-to-refresh** en cualquier pantalla de lista fuerza una sincronización fresca con el servidor.
 
 ---
 

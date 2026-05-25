@@ -1,7 +1,7 @@
 ---
 title: Plans & Billing
 parent: English
-nav_order: 13
+nav_order: 14
 ---
 
 > {% include lang-globe.html %} Lee esta página en [Español](../../es/billing/)
@@ -14,9 +14,19 @@ This page covers everything billing-related: the trial, the plans, how to upgrad
 
 ---
 
+## One subscription per household
+
+savr's subscription belongs to the **household**, not to you personally. When you sign up, savr creates a household for you and starts that household's trial. If you later share the household with a partner or family member, they ride on the same subscription — no separate charge.
+
+If you belong to more than one household (say, a family one and a personal one), each household has **its own trial, plan, and billing**. The Owner of each pays for it; other members never see a charge. See [Households](../households/) for how the ownership and billing relationship works.
+
+For brevity, the rest of this page says "your subscription" — read it as "the subscription on the household you own."
+
+---
+
 ## The 90-day free trial
 
-Every new account starts with a **90-day free trial**. No credit card required.
+Every new household starts with a **90-day free trial**. No credit card required.
 
 Three months is plenty of time to:
 

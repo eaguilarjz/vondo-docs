@@ -1,4 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="8" fill="#16a34a"/>
-  <text x="16" y="23" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="22" fill="white" text-anchor="middle">s</text>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Savr web favicon — matches the mobile app icon (C3): brand-green
+  rounded tile + breakout checkbox glyph whose tick lands on a white
+  coin with a green $. Rounded corners (rx) are kept here because
+  browsers render favicons as-is (no system mask).
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Savr">
+  <rect width="1024" height="1024" rx="224" fill="#16a34a"/>
+  <path d="M 524 252 L 320 252 Q 252 252 252 320 L 252 704
+           Q 252 772 320 772 L 704 772 Q 772 772 772 704 L 772 524"
+    fill="none" stroke="#ffffff" stroke-width="58"
+    stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="350,512 466,628 742,318"
+    fill="none" stroke="#ffffff" stroke-width="76"
+    stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="762" cy="300" r="98" fill="#ffffff"/>
+  <text x="762" y="344" text-anchor="middle"
+    font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+    font-size="130" font-weight="800" fill="#15803d">$</text>
 </svg>

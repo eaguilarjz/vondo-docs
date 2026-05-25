@@ -22,6 +22,8 @@ Esta guía te lleva paso a paso por crear tu cuenta, configurar tu primer mes y 
 
 Cada cuenta nueva en savr recibe **90 días de prueba gratuita** — la misma duración tanto si te registras con correo como si lo haces con Google o Microsoft. No se requiere tarjeta de crédito al inicio, sin cargos sorpresa. Úsalos para conocer la herramienta. Elige un plan cuando estés listo, o no — savr te recordará cerca del final.
 
+Al registrarte, savr crea automáticamente un **hogar** para ti, lo nombra contigo y te hace el Propietario. Si en algún momento quieres compartir el presupuesto con tu pareja o un familiar, podrás invitarlos desde **Perfil → Hogares** después. Hasta cinco personas en total por hogar. Consulta [Hogares](../hogares/) para la foto completa.
+
 Tienes tres formas de registrarte. Elige la que se sienta más fácil:
 
 ### Opción A — Regístrate con Google o Microsoft (la más rápida)
@@ -209,6 +211,7 @@ Algunos detalles que vale saber:
 | [Conciliación](../reconcile/) | Hacer coincidir savr con tu extracto, encontrar discrepancias |
 | [Importar y Exportar](../import-export/) | Asistente de importación CSV, exportaciones |
 | [Perfil y Ajustes](../profile/) | Nombre, idioma, tema, zona horaria, moneda |
+| [Hogares](../hogares/) | Compartir un presupuesto con hasta 5 personas, roles, invitaciones, cambio de hogar, transferir propiedad |
 | [App Móvil](../movil/) | iOS y Android, offline-first, pantalla de cambios pendientes, qué es solo web |
 | [Plan y Facturación](../billing/) | Prueba, planes, facturas, cancelación, fallos de pago |
 | [Seguridad](../security/) | Autenticación de dos factores, códigos de recuperación, cambio de contraseña, sesiones |

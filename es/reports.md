@@ -10,14 +10,15 @@ nav_order: 8
 
 La página de Informes es donde el presupuesto deja de ser una tarea y empieza a ser interesante.
 
-Son cuatro gráficas, actualizadas en vivo conforme registras transacciones, que responden las preguntas que has tenido silenciosamente por años:
+Son cinco gráficas, actualizadas en vivo conforme registras transacciones, que responden las preguntas que has tenido silenciosamente por años:
 
 - "¿Estoy realmente ahorrando más de lo que gasto?"
 - "¿A dónde se va la mayor parte de mi dinero cada mes?"
 - "¿A quién le estoy dando más dinero?"
 - "¿Las cosas están mejorando o empeorando?"
+- "¿Cuánto valgo realmente?"
 
-Abre **Informes** desde la navegación. Elige un mes con los botones de anterior/siguiente arriba. Los cuatro informes de abajo se actualizan para ese mes.
+Abre **Informes** desde la navegación. Elige un rango de tiempo (Este mes, 3 meses, 6 meses, 12 meses, o Este año), opcionalmente acota los datos con los filtros de Cuenta y Categoría, y las cinco gráficas se actualizan juntas.
 
 ---
 
@@ -25,18 +26,21 @@ Abre **Informes** desde la navegación. Elige un mes con los botones de anterior
 
 | Reporte | Tipo | Qué muestra |
 |---|---|---|
-| **Ingresos vs. gastos de 12 meses** | Gráfica de barras agrupadas | Ingresos (verde) y gastos (rojo) lado a lado, los últimos 12 meses |
-| **Tendencia de ahorro neto a 12 meses** | Gráfica de líneas | Ingresos menos gastos cada uno de los últimos 12 meses — la línea que quieres ver subir |
-| **Gastos por categoría** | Gráfica de dona | Top 8 categorías de gasto del mes seleccionado, con el resto agrupado en "Otros" |
-| **Beneficiarios principales** | Gráfica de barras horizontales | A dónde se fue realmente tu dinero este mes, ordenado |
+| **Ingresos vs. Gastos** | Gráfica de barras agrupadas | Ingresos (verde) y gastos (rojo) lado a lado por cada periodo del rango |
+| **Ahorro Neto** | Gráfica de líneas | Ingresos menos gastos en cada periodo — la línea que quieres ver subir |
+| **Patrimonio Neto** | Gráfica de líneas / área | Activos, Deudas y el Patrimonio Neto resultante en el rango. Ignora los filtros de Cuenta y Categoría (siempre es del portafolio completo). |
+| **Gastos por Categoría** | Gráfica de dona | Categorías principales de gasto del rango, con el resto agrupado en "Otros ({{count}})" |
+| **Beneficiarios Principales** | Gráfica de barras horizontales | A dónde se fue realmente tu dinero, ordenado |
 
-Las cuatro funcionan bien con modo claro y oscuro, y se apilan verticalmente en móvil para que las leas en el teléfono.
+Las cinco funcionan bien con modo claro y oscuro, y se apilan verticalmente en móvil para que las leas en el teléfono.
+
+Cada gráfica que lista categorías o beneficiarios tiene una acción **Ver transacciones** — haz clic y aterrizas en la página de Actividad con el filtro correspondiente ya aplicado. Ideal para el momento "espera, ¿*tanto* en Amazon??" cuando quieres ver los recibos uno por uno.
 
 ---
 
-## Ingresos vs. gastos de 12 meses
+## Ingresos vs. Gastos
 
-Esta es la vista panorámica. Cada mes obtiene un par de barras:
+Esta es la vista panorámica. Cada periodo del rango obtiene un par de barras:
 
 - **Ingresos** (verde) — total de entradas del mes
 - **Gastos** (rojo) — total de salidas del mes
@@ -52,23 +56,42 @@ Las etiquetas del eje X muestran "Mes Año" — el año se omite para el año ac
 
 ---
 
-## Tendencia de ahorro neto a 12 meses
+## Ahorro Neto
 
-Los mismos datos que la gráfica de barras, pero presentados como una sola línea: **ahorro neto cada mes** (ingresos − gastos).
+Los mismos datos que la gráfica de barras, pero presentados como una sola línea: **ahorro neto en cada periodo** (ingresos − gastos).
 
 Sobre cero = ahorraste. Bajo cero = gastaste más de lo que ganaste. La tendencia importa más que cualquier punto individual.
 
-Esta gráfica es la forma más limpia de responder "¿estoy construyendo a lo largo del tiempo?" Seis meses de barras juntas pueden verse ruidosas. La línea corta el ruido.
+Esta gráfica es la forma más limpia de responder "¿estoy construyendo a lo largo del tiempo?" Un puñado de barras juntas puede verse ruidoso. La línea corta el ruido.
 
 > **Por ejemplo:** Si tu línea de ahorro neto se mueve entre +$200 y -$150 mes a mes, estás más o menos punto-a-punto, con varianza normal. Si la línea está consistentemente sobre cero y subiendo, estás construyendo. Si está consistentemente bajo cero, estás resbalando — es momento de planear una intervención. La gráfica no moraliza; solo te muestra la forma.
 
 ---
 
-## Gastos por categoría
+## Patrimonio Neto
 
-Una gráfica de dona de a dónde se fue tu dinero este mes, dividido por categoría.
+La gráfica más reciente, y posiblemente la más importante. Tres líneas a lo largo del rango seleccionado:
 
-Las 8 categorías principales obtienen sus propias rebanadas. El resto se agrupa en una rebanada más pequeña para que la gráfica no se convierta en un pastel de confeti.
+- **Activos** — suma de los saldos de tus cuentas Corrientes, de Ahorro, Efectivo y de Inversión
+- **Deudas** — suma de lo que debes en Tarjetas de Crédito y Préstamos (se muestra como número positivo para legibilidad)
+- **Patrimonio Neto** — Activos menos Deudas
+
+Patrimonio Neto es la línea que realmente quieres ver subir. Ingresos vs. Gastos te dice cómo va el mes; Patrimonio Neto te dice la trayectoria de tu vida financiera.
+
+> **Qué buscar:**
+> - **La línea de Patrimonio Neto subiendo de forma constante** aunque los meses individuales sean ruidosos. Esa es la meta.
+> - **Deudas bajando más rápido de lo que crecen los activos.** Pagar un préstamo mueve el Patrimonio Neto igual que ahorrar lo mismo; esta gráfica te enseña ambas cosas a la vez.
+> - **Un evento único grande** (pagaste un auto, compraste una casa, te llegó un reembolso de impuestos) se ve como un escalón. Útil para entender qué significaron esos eventos en contexto.
+
+> **Atención:** Patrimonio Neto siempre muestra tu portafolio completo. Los filtros de **Cuenta** y **Categoría** aplican a las otras cuatro gráficas pero **no cambian Patrimonio Neto** — un patrimonio neto filtrado no significaría gran cosa, así que savr siempre muestra la foto completa.
+
+---
+
+## Gastos por Categoría
+
+Una gráfica de dona de a dónde se fue tu dinero en el rango seleccionado, dividido por categoría.
+
+Las categorías principales obtienen sus propias rebanadas. El resto se agrupa en una rebanada de "**Otros**" cuyo nombre incluye el conteo — p. ej. "Otros (12)" significa que hay 12 categorías pequeñas adicionales fusionadas ahí. Haz clic en "Otros" o en cualquier rebanada y aparece una acción **Ver transacciones** que te lleva a la página de Actividad con el filtro correspondiente ya aplicado.
 
 Pasa el cursor sobre cualquier rebanada para el monto exacto y el porcentaje. La leyenda al lado lista cada una.
 
@@ -76,28 +99,52 @@ Las divisiones se atribuyen correctamente: una compra de comida de $87 dividida 
 
 > **Qué buscar:**
 > - ¿La rebanada más grande es la que esperarías? Si "Suscripciones" es más grande que "Comida", vale la pena un segundo vistazo.
-> - ¿Hay rebanadas que no reconoces? "Otros" o "Sin categoría" creciendo más del 5% es señal de que tienes transacciones que necesitan una categoría real.
-> - Compara con el mes pasado usando los botones de anterior/siguiente arriba. La forma de la dona debería ser razonablemente estable. Cambios grandes tienen historia.
+> - ¿Hay rebanadas que no reconoces? "Otros" creciendo más del 5% es señal de que tienes transacciones que necesitan una categoría real. Haz clic ahí para ver qué se está acumulando.
+> - Compara con un rango más largo usando el selector. La forma de la dona debería ser razonablemente estable. Cambios grandes tienen historia.
 
 ---
 
-## Beneficiarios principales
+## Beneficiarios Principales
 
-Una gráfica de barras horizontales que ordena los beneficiarios donde más gastaste este mes.
+Una gráfica de barras horizontales que ordena los beneficiarios donde más gastaste en el rango seleccionado.
 
-Esta es la gráfica que produce esos momentos de "espera, ¿*tanto* en Amazon??". Es un check de realidad útil.
+Esta es la gráfica que produce esos momentos de "espera, ¿*tanto* en Amazon??". Es un check de realidad útil. Haz clic en cualquier barra y **Ver transacciones** te lleva a Actividad filtrada por ese beneficiario — visible recibo por recibo al instante.
 
 Las transacciones de ingreso se excluyen — esto es sobre a dónde se fue tu dinero, no de dónde vino.
 
-> **Por ejemplo:** Costco es tu beneficiario #1 con $487. Walmart es #4 con $108. Gasto total en supermercado entre ambos: $595, que es $95 sobre tu presupuesto de Comida de $500. La gráfica no presupuestó por ti, pero te mostró la verdad — rápido.
+> **Por ejemplo:** Costco es tu beneficiario #1 con $487. Walmart es #4 con $108. Gasto total en supermercado entre ambos: $595, que es $95 sobre tu presupuesto de Comida de $500. La gráfica no presupuestó por ti, pero te mostró la verdad — rápido. Haz clic en Costco → Ver transacciones y ves exactamente qué recibos sumaron esos $487.
 
 ---
 
-## Controles de tiempo
+## Rango de tiempo y filtros
 
-Los botones de anterior/siguiente arriba de la página navegan el **mes seleccionado** para el desglose de categorías y los beneficiarios principales. Las gráficas de 12 meses arriba siempre son móviles, terminando en cualquier mes que hayas seleccionado.
+Tres controles en la parte superior de la página de Informes definen lo que muestran todas las gráficas:
 
-Puedes navegar tan atrás como tengas datos. **Siguiente** se desactiva cuando llegas al mes actual — savr no te deja asomarte a un mes que no ha pasado.
+### Rango de tiempo
+
+| Preajuste | Qué cubre |
+|---|---|
+| **Este mes** | El mes calendario actual del día 1 a hoy. |
+| **3 meses** | Los últimos tres meses completos más el actual. |
+| **6 meses** | Los últimos seis meses completos más el actual. |
+| **12 meses** | Un año móvil de datos. Es el valor por defecto. |
+| **Este año** | Del 1 de enero del año en curso hasta hoy. |
+
+Elige un rango más largo cuando quieras ver tendencias; elige "Este mes" cuando quieras ver lo que está pasando ahora.
+
+### Filtro de cuenta
+
+Un selector múltiple — elige una cuenta, varias, o déjalo en **Todas las cuentas** por defecto. Útil cuando quieres ver solo la actividad de una tarjeta de crédito de negocio sin el resto de tus finanzas en la foto.
+
+### Filtro de categoría
+
+Misma idea, para categorías. Especialmente útil en la gráfica de Beneficiarios Principales: filtra a "Restaurantes" y la gráfica se convierte al instante en un ranking de qué restaurantes se comieron más de tu presupuesto.
+
+> **Atención — Patrimonio Neto ignora ambos filtros.** Los filtros de Cuenta y Categoría acotan Ingresos vs. Gastos, Ahorro Neto, Gastos por Categoría y Beneficiarios Principales. No tocan Patrimonio Neto, que siempre refleja tu portafolio completo. (Un Patrimonio Neto filtrado sería confuso.) Cuando un filtro está activo, la gráfica de Patrimonio Neto muestra un aviso recordándotelo.
+
+### Profundizar en los números
+
+Tanto la dona de Gastos por Categoría como la gráfica de Beneficiarios Principales tienen una acción **Ver transacciones** en cada rebanada/fila. Abre la página de Actividad con el filtro ya aplicado — mismo rango de tiempo, misma selección de cuentas, más la categoría o beneficiario en el que hiciste clic. Útil para los momentos "quiero ver los recibos reales detrás de este número."
 
 ---
 

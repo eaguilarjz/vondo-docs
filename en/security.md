@@ -1,7 +1,7 @@
 ---
 title: Security
 parent: English
-nav_order: 14
+nav_order: 15
 ---
 
 > {% include lang-globe.html %} Lee esta página en [Español](../../es/security/)
@@ -213,6 +213,21 @@ To protect your account from brute-force attacks, certain endpoints are rate-lim
 If you hit a limit, you'll see an error asking you to wait. Limits reset automatically.
 
 Most users will never see one of these messages. They exist to slow down attackers who'd otherwise try thousands of password guesses against your account.
+
+---
+
+## Deleting your savr account
+
+If you want to delete your savr account entirely — not just leave a household, not just cancel a subscription, but remove the user record itself — open **Profile → Danger Zone → Delete my account**.
+
+A few things to know first, because this is the one operation in savr that genuinely can't be undone:
+
+- **Different from deleting a household.** Your savr account is *you*; a household is the budget(s) you're in. Deleting your account removes you from every household you belong to and erases your user record. Deleting a household removes the budget but leaves your user account intact. See the [Households](../households/#delete-household-vs-delete-account) page for a comparison table.
+- **If you own a household, transfer or delete it first.** savr refuses to delete a user that still owns a paying or trialing household — there'd be a budget with no owner, members locked out, no one able to fix the billing. The Delete button is disabled until you've either [transferred ownership](../households/#transfer-ownership-owner-only) or [deleted the household](../households/#deleting-a-household).
+- **Outstanding billing must be settled.** If you have an unpaid invoice on a household you own, settle it before deleting.
+- **Your data goes with you.** Once the account is deleted, your transactions, custom categories, payees, and recurring rules in households you owned (and have deleted) are gone. If you want a copy, [export your data](../import-export/#exporting-your-data) first.
+
+If you're just stepping away for a while and aren't sure, **pause your subscription** instead — your data sits safely and you can come back any time. See [Plans & Billing → Pausing and resuming](../billing/#pausing-and-resuming).
 
 ---
 

@@ -13,6 +13,7 @@ The Profile page is where you manage your personal information and how savr look
 This page covers the everyday personal stuff. For:
 
 - **Plans, trial, billing, invoices** → [Plans & Billing](../billing/)
+- **Sharing your budget, inviting members, switching between budgets** → [Households](../households/)
 - **Password change, two-factor authentication, recovery codes, trusted devices, connected Google/Microsoft accounts** → [Security](../security/)
 
 ---
@@ -45,10 +46,11 @@ Pick the appearance of the app:
 
 | Option | Behavior |
 |---|---|
-| **Light** | Light mode regardless of your device setting |
-| **Dark** | Dark mode regardless of your device setting |
+| **System** | Follows your device's setting. Switches automatically when your OS does (e.g. macOS scheduling Dark Mode at sunset). |
+| **Light** | Light mode regardless of your device setting. |
+| **Dark** | Dark mode regardless of your device setting. |
 
-Charts, tables, forms — everything respects the theme. The Reports page in dark mode is particularly satisfying to look at.
+**System** is the default for new accounts. Charts, tables, forms — everything respects the theme. The Reports page in dark mode is particularly satisfying to look at.
 
 ### Timezone
 
@@ -87,6 +89,8 @@ A few things sometimes expected on a profile page that live elsewhere:
 | Setting | Where to find it |
 |---|---|
 | **Plan, trial status, invoices, cancellation** | [Plans & Billing](../billing/) |
+| **Sharing the budget with another person, household roles** | [Households](../households/) |
+| **Switching between households** | [Households → Switching households](../households/#switching-households) |
 | **Password change** | [Security → Change your password](../security/#change-your-password) |
 | **Sign-in options (Google, Microsoft)** | [Security → How you sign in](../security/#how-you-sign-in) |
 | **Connected accounts** | [Security → Connected accounts](../security/#connected-accounts) |

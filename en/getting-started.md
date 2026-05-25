@@ -22,6 +22,8 @@ This guide walks you through creating an account, setting up your first month, a
 
 Every new savr account gets a **90-day free trial** — same length whether you sign up with email or with Google/Microsoft. No credit card required up front, no surprise charges. Use it to get your bearings. Pick a paid plan when you're ready, or don't — savr will remind you near the end.
 
+When you sign up, savr automatically creates a **household** for you, named after you, and makes you the Owner. If you ever want to share the budget with a partner or family member, you can invite them from **Profile → Households** later. Up to five people total per household. See [Households](../households/) for the full picture.
+
 You've got three ways to sign up. Pick whichever feels easiest:
 
 ### Option A — Sign up with Google or Microsoft (fastest)
@@ -209,6 +211,7 @@ A few details worth knowing:
 | [Reconciliation](../reconcile/) | Matching savr to your bank statement, finding discrepancies |
 | [Import & Export](../import-export/) | CSV import wizard, exports for transactions/accounts/categories/payees |
 | [Profile & Settings](../profile/) | Display name, language, theme, timezone, currency |
+| [Households](../households/) | Sharing a budget with up to 5 people, roles, invites, switching, transferring ownership |
 | [Mobile App](../mobile/) | iOS and Android, offline-first, pending-changes UI, what's web-only |
 | [Plans & Billing](../billing/) | Trial, plans, invoices, cancellation, payment failures |
 | [Security](../security/) | Two-factor authentication, recovery codes, password change, sessions |

@@ -1,7 +1,7 @@
 ---
 title: Mobile App
 parent: English
-nav_order: 12
+nav_order: 13
 ---
 
 > {% include lang-globe.html %} Lee esta página en [Español](../../es/movil/)
@@ -36,9 +36,13 @@ The bottom of the screen has five tabs:
 
 ### The "…" overflow menu
 
-Things that don't live in a tab — Categories, Payees, Recurring, Profile, Security, Plan & Billing, Active Sessions, Pending Changes — open from an overflow **…** button on the Home, Budget, and Activity screens. Tap it and you get a sheet with all the secondary destinations grouped by topic.
+Things that don't live in a tab — Categories, Payees, Recurring, Profile, Households, Security, Plan & Billing, Active Sessions, Pending Changes — open from an overflow **…** button on the Home, Budget, and Activity screens. Tap it and you get a sheet with all the secondary destinations grouped by topic.
 
 We took this approach because the bottom tab bar gets crowded fast, and Apple's HIG advises keeping it at five or fewer. The result: the five things you do every day are one tap away; everything else is two taps away.
+
+### Household switcher
+
+If you're a member of more than one [household](../households/), the overflow menu also surfaces a **household switcher**. Tap it and you get a sheet listing each household you belong to, with your role badge, member count, and an **Active** marker next to the one you're currently using. Tap any entry to switch — the budget, accounts, and activity reload to show that household's data. Your sign-in, theme, and language preferences stay the same.
 
 ---
 
@@ -85,6 +89,16 @@ A couple of mobile-specific notes:
 - **Logout wipes local data.** Signing out on a phone clears the device's local cache, the pending-writes queue, and the sync cursor — so the next person to sign in (you or someone else) starts clean. The web sign-out only clears tokens; mobile sign-out clears tokens *and* the on-device database.
 - **Active sessions show your phones.** Your mobile devices appear in **Security → Active sessions** alongside web browsers. Revoke a phone session from the web if a device is lost.
 
+## When the trial ends (or a subscription is paused)
+
+If your trial expires or your subscription gets paused without an active plan, the mobile app shows a **subscription gate** screen on launch — a friendly stop sign that:
+
+- Tells you the trial has ended (or that the subscription is paused), with the date.
+- Has a single **Manage subscription** button that opens the billing portal in your browser.
+- Stays in front of the app until billing is sorted — you can still sign out, but you can't reach Budget / Activity / etc.
+
+Your data is completely safe. The gate is purely an access pause; once you subscribe or resume from the portal, the next time you open the mobile app it lets you straight through to wherever you left off.
+
 ---
 
 ## What's the same
@@ -97,12 +111,20 @@ Nearly everything. To save you reading the rest of the help pages a second time,
 - [Move Money](../budget/#moving-money-between-categories) between categories
 - All four [target types](../budget/#targets-a-k-a-goals) (Monthly, Weekly, Yearly, Custom) with rollover
 - All five [recurring frequencies](../recurring/#frequencies), the apply-due preview modal, and recurring debt payments
-- All six [account types](../accounts/#account-types) including credit cards with optional credit limit
+- All six [account types](../accounts/#account-types) including credit cards with optional credit limit and the linked payment category that auto-funds as you spend
 - [Reconciliation](../reconcile/)
-- [Reports](../reports/) (Income vs Expenses, Net Savings, Spending by Category, Top Payees)
-- Undo / Redo (gesture: tap the curved arrow icons in the top bar)
-- All your [saved views](../activity/#saved-views), filters, and the search box (with category/payee/account suggestions)
-- Light / Dark theme and language
+- [Reports](../reports/) — all five charts (Income vs Expenses, Net Savings, Net Worth, Expenses by Category, Top Payees) with the same time-range presets, account, and category filters as web
+- Undo / Redo (tap the curved arrow icons in the top bar)
+- All your [saved views](../activity/#saved-views), filters, and the search box
+- **System / Light / Dark theme** and language
+
+### Mobile niceties
+
+A handful of small flourishes that mobile gets in addition to parity:
+
+- **Inline create on the transaction form.** When you're entering a transaction and need a category or payee that doesn't exist yet, type a name that doesn't match anything and a **"Create *<name>*"** option appears at the bottom of the suggestions. Tap it and the entity is created in place — no need to leave the form, go to the Categories or Payees screen, and come back.
+- **Inline create on the recurring form too.** Same affordance when you're setting up a recurring bill.
+- **Pull-to-refresh** on any list screen forces a fresh sync from the server.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Seguridad
 parent: Español
-nav_order: 14
+nav_order: 15
 ---
 
 > {% include lang-globe.html %} Read this page in [English](../../en/security/)
@@ -213,6 +213,21 @@ Para proteger tu cuenta de ataques de fuerza bruta, ciertos endpoints están lim
 Si alcanzas un límite, verás un error pidiendo que esperes. Los límites se reinician automáticamente.
 
 La mayoría de los usuarios nunca verán uno de estos mensajes. Existen para frenar a los atacantes que de otra forma intentarían miles de adivinanzas de contraseña contra tu cuenta.
+
+---
+
+## Eliminar tu cuenta de savr
+
+Si quieres eliminar tu cuenta de savr por completo — no sólo salir de un hogar, no sólo cancelar una suscripción, sino borrar el registro de usuario mismo — abre **Perfil → Zona de Peligro → Eliminar mi cuenta**.
+
+Algunas cosas que debes saber primero, porque esta es la única operación en savr que de verdad no se puede deshacer:
+
+- **Diferente a eliminar un hogar.** Tu cuenta de savr eres *tú*; un hogar es el presupuesto (o los presupuestos) en los que estás. Eliminar tu cuenta te quita de cada hogar al que perteneces y borra tu registro de usuario. Eliminar un hogar borra el presupuesto pero deja intacta tu cuenta de usuario. Mira la página de [Hogares](../hogares/#eliminar-hogar-vs-eliminar-cuenta) para una tabla comparativa.
+- **Si eres propietario de un hogar, transfiérelo o elimínalo primero.** savr no permite eliminar a un usuario que sigue siendo propietario de un hogar de pago o en prueba — quedaría un presupuesto sin propietario, miembros bloqueados, nadie capaz de arreglar la facturación. El botón Eliminar permanece deshabilitado hasta que hayas [transferido la propiedad](../hogares/#transferir-la-propiedad-sólo-propietario) o [eliminado el hogar](../hogares/#eliminar-un-hogar).
+- **Las facturas pendientes deben pagarse.** Si tienes una factura impaga en un hogar del que eres propietario, salda el saldo antes de eliminar.
+- **Tus datos se van contigo.** Una vez eliminada la cuenta, tus transacciones, categorías personalizadas, beneficiarios y reglas recurrentes en los hogares que eras propietario (y eliminaste) desaparecen. Si quieres una copia, [exporta tus datos](../import-export/#exportar-tus-datos) primero.
+
+Si sólo te alejas por un tiempo y no estás seguro, **pausa tu suscripción** mejor — tus datos se quedan a salvo y puedes regresar cuando quieras. Mira [Plan y Facturación → Pausar y reanudar](../billing/#pausar-y-reanudar).
 
 ---
 

@@ -13,6 +13,7 @@ La página de Perfil es donde administras tu información personal y cómo se ve
 Esta página cubre los temas personales del día a día. Para:
 
 - **Planes, prueba, facturación, facturas** → [Plan y Facturación](../billing/)
+- **Compartir tu presupuesto, invitar miembros, cambiar entre presupuestos** → [Hogares](../hogares/)
 - **Cambio de contraseña, autenticación de dos factores, códigos de recuperación, dispositivos de confianza, cuentas conectadas de Google/Microsoft** → [Seguridad](../security/)
 
 ---
@@ -45,10 +46,11 @@ Elige la apariencia de la app:
 
 | Opción | Comportamiento |
 |---|---|
-| **Claro** | Modo claro sin importar la configuración de tu dispositivo |
-| **Oscuro** | Modo oscuro sin importar la configuración de tu dispositivo |
+| **Sistema** | Sigue la configuración de tu dispositivo. Cambia automáticamente cuando tu sistema operativo lo hace (p. ej. cuando macOS programa el Modo Oscuro al atardecer). |
+| **Claro** | Modo claro sin importar la configuración de tu dispositivo. |
+| **Oscuro** | Modo oscuro sin importar la configuración de tu dispositivo. |
 
-Gráficas, tablas, formularios — todo respeta el tema. La página de Informes en modo oscuro es particularmente satisfactoria de ver.
+**Sistema** es el valor por defecto para cuentas nuevas. Gráficas, tablas, formularios — todo respeta el tema. La página de Informes en modo oscuro es particularmente satisfactoria de ver.
 
 ### Zona horaria
 
@@ -87,6 +89,8 @@ Algunas cosas que a veces se esperan en una página de perfil viven en otro lado
 | Ajuste | Dónde encontrarlo |
 |---|---|
 | **Plan, estado de prueba, facturas, cancelación** | [Plan y Facturación](../billing/) |
+| **Compartir el presupuesto con otra persona, roles del hogar** | [Hogares](../hogares/) |
+| **Cambiar entre hogares** | [Hogares → Cambiar de hogar](../hogares/#cambiar-de-hogar) |
 | **Cambio de contraseña** | [Seguridad → Cambia tu contraseña](../security/#cambia-tu-contraseña) |
 | **Opciones de inicio de sesión (Google, Microsoft)** | [Seguridad → Cómo inicias sesión](../security/#cómo-inicias-sesión) |
 | **Cuentas conectadas** | [Seguridad → Cuentas conectadas](../security/#cuentas-conectadas) |

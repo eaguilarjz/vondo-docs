@@ -20,8 +20,9 @@ If you're the only person on the account, that's fine: you just have a household
 |---|---|---|
 | Accounts, categories, transactions, recurring, targets, reports, saved views, the budget itself | **The household** | Shared with every member. Edits by one are visible to everyone. |
 | Plan & subscription, trial period | **The household** | The household pays for itself. Members don't get billed separately. |
-| Your display name, email, password, MFA, trusted devices, active sessions | **Your user account** | Yours alone. Stays the same no matter which household you're in. |
-| Theme, language, timezone, currency display preferences | **Your user account** | Personal. The household's data is rendered with your preferences. |
+| **Currency and timezone** | **The household** | Same for every member, so the numbers and dates mean the same thing to everyone. **Only the Owner can change these.** |
+| Display name, email, password, MFA, trusted devices, active sessions | **Your user account** | Yours alone. Stays the same no matter which household you're in. |
+| Theme and language | **Your user account** | Personal — each member picks their own. The household's data is rendered with your preferences. |
 
 You can be a **member of multiple households** and switch between them. You can **own one household** at a time (the one whose subscription you pay for).
 
@@ -42,14 +43,40 @@ Exactly **one Owner** per household. The Owner can't leave — they have to eith
 
 ## Creating a household
 
-If you've just signed up, you already have one — savr creates a household for you on your first sign-in, names it after you, and starts the 90-day trial. You're the Owner. You can rename it later.
+If you've just signed up, you already have one — savr creates a household for you on your first sign-in, names it after you, picks a default **currency** and **timezone** from your browser locale, and starts the 90-day trial. You're the Owner. You can rename it (and change the currency and timezone) later.
 
 If you're a user without any households (for example, you got removed from one and you don't own any), you'll see a welcome screen on sign-in with two options:
 
-- **Create your household** — fresh 90-day trial, you're the Owner, you can invite up to four other people. Pick a name (e.g. "The Smiths' Budget"), confirm, done.
+- **Create your household** — fresh 90-day trial, you're the Owner, you can invite up to four other people. Pick a name (e.g. "The Smiths' Budget"), confirm the suggested currency and timezone (or change them now if savr's guess is wrong), done.
 - **Wait for an invite** — if someone's planning to add you, the welcome screen tells you which email to expect the invitation at, and refreshes automatically when one arrives.
 
 > **Heads up:** You can only **own** one household at a time. If you already own one and want to create a second, you'll need to either leave or delete the first. There's no limit on how many households you can be a **member** of, though.
+
+---
+
+## Currency and timezone
+
+A household has one **currency** and one **timezone**, and they apply to every member.
+
+This isn't a personal display preference — it's part of the household's data:
+
+- **Currency** is the unit your accounts and budget are denominated in. savr doesn't perform exchange-rate conversion, so it only makes sense if everyone looking at the budget sees the same currency. A $400 grocery line that's $400 to one member and €400 to another would be nonsense.
+- **Timezone** controls budget-month boundaries — whether a transaction recorded at 11:30 PM on Jan 31 belongs to January or February. Two members in different timezones still need to agree on which month a given transaction lives in, so the household picks one timezone and uses it for everyone.
+
+### Who can change them
+
+**Only the Owner.** Members can see the current currency and timezone on the household's page but can't change them. The Owner edits both from **Profile → Households → [household name]** in the household settings section.
+
+> **For example:** You set "Casa Aguilar" to MXN and `America/Mexico_City` when you create it. Your partner — who happens to have their phone set to English and uses Dark mode — opens the same household and sees pesos and the same month boundaries you do. Their theme and language preferences are still their own; the household's money and calendar are shared.
+
+### Changing them later
+
+You can change either at any time, but think before you do:
+
+- **Currency:** changing it doesn't convert existing balances. A $1,000 account stays "1,000" — it'll just be displayed with the new symbol. If you actually need to switch a household from USD to EUR with proper conversion, export your data, create a new household in the target currency, and re-import. (Most people only need to change currency once, right after creating the household.)
+- **Timezone:** changing it can shift a transaction's *budget month* by a day at the boundary. For most people it's harmless. If you're moving across the world, just be aware that a couple of late-night transactions near month-end may pop into the previous or next month after the switch.
+
+If you're a Member and you want the household's currency or timezone changed, ask the Owner — only they have the control.
 
 ---
 

@@ -29,8 +29,8 @@ If you're just getting started, head to [Getting Started](getting-started/). If 
 | [Reports](reports/) | Monthly trends, net savings, expenses by category, top payees |
 | [Reconciliation](reconcile/) | Matching savr to your bank statement, finding discrepancies |
 | [Import & Export](import-export/) | CSV import wizard, exports for transactions, accounts, categories, payees |
-| [Profile & Settings](profile/) | Display name, language, theme, timezone, currency |
-| [Households](households/) | Sharing a budget with up to 5 people, roles, invites, switching, transferring ownership |
+| [Profile & Settings](profile/) | Display name, language, theme |
+| [Households](households/) | Sharing a budget with up to 5 people, roles, invites, switching, transferring ownership, currency, timezone |
 | [Mobile App](mobile/) | iOS and Android, offline-first sync, the Pending Changes screen, mobile-specific tips |
 | [Plans & Billing](billing/) | Trial, plans, invoices, cancellation, payment failures |
 | [Security](security/) | Two-factor authentication, recovery codes, password change, sessions |

@@ -36,6 +36,8 @@ Your email is shown read-only. It's the address you registered with and the dest
 
 Preferences save instantly when you change them — no separate **Save** button. Try one and watch it apply.
 
+These two preferences are **personal** — each member of a household picks their own. They don't affect anyone else.
+
 ### Language
 
 Choose between **English** and **Español**. The change applies immediately across the entire app, including this help site (which has separate language sections in the sidebar). Switch back and forth as you like.
@@ -52,19 +54,7 @@ Pick the appearance of the app:
 
 **System** is the default for new accounts. Charts, tables, forms — everything respects the theme. The Reports page in dark mode is particularly satisfying to look at.
 
-### Timezone
-
-Sets the timezone savr uses for transaction dates, recurring schedules, and date filters.
-
-The list includes every IANA timezone available to your browser (typically several hundred entries). It's searchable — start typing "New_York" or "Mexico" or "Auckland" to narrow the list quickly.
-
-> **Why timezone matters:** A transaction created at 11:30 PM local time on the 31st should belong to that month's budget, not the next one. If you're traveling or live in a non-default timezone, set this correctly the first time and forget about it.
-
-### Currency
-
-Choose your display currency from a list of 40+ options including USD, EUR, GBP, MXN, JPY, BRL, CAD, AUD, and many more. The currency code (e.g. "USD") and full name (e.g. "US Dollar") are both searchable.
-
-savr uses the currency for formatting amounts everywhere — account balances, budget totals, transaction lists, exports. It doesn't perform exchange-rate conversion. If you have accounts in multiple currencies, treat the displayed amounts as their nominal values.
+> **Looking for Currency or Timezone?** Those live on the **household**, not on your user account — see [Households → Currency and timezone](../households/#currency-and-timezone). Everyone in the household sees the same currency and the same month boundaries; only the Owner can change them.
 
 ---
 
@@ -91,6 +81,8 @@ A few things sometimes expected on a profile page that live elsewhere:
 | **Plan, trial status, invoices, cancellation** | [Plans & Billing](../billing/) |
 | **Sharing the budget with another person, household roles** | [Households](../households/) |
 | **Switching between households** | [Households → Switching households](../households/#switching-households) |
+| **Currency** | [Households → Currency and timezone](../households/#currency-and-timezone) |
+| **Timezone** | [Households → Currency and timezone](../households/#currency-and-timezone) |
 | **Password change** | [Security → Change your password](../security/#change-your-password) |
 | **Sign-in options (Google, Microsoft)** | [Security → How you sign in](../security/#how-you-sign-in) |
 | **Connected accounts** | [Security → Connected accounts](../security/#connected-accounts) |

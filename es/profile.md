@@ -36,6 +36,8 @@ Tu correo se muestra en modo solo lectura. Es la dirección con la que te regist
 
 Las preferencias se guardan al instante cuando las cambias — sin botón de **Guardar** separado. Prueba una y míralo aplicar.
 
+Estas dos preferencias son **personales** — cada miembro de un hogar elige las suyas. No afectan a nadie más.
+
 ### Idioma
 
 Elige entre **English** y **Español**. El cambio aplica de inmediato en toda la aplicación, incluyendo este sitio de documentación (que tiene secciones separadas por idioma en la barra lateral). Cambia de un lado a otro como gustes.
@@ -52,19 +54,7 @@ Elige la apariencia de la app:
 
 **Sistema** es el valor por defecto para cuentas nuevas. Gráficas, tablas, formularios — todo respeta el tema. La página de Informes en modo oscuro es particularmente satisfactoria de ver.
 
-### Zona horaria
-
-Configura la zona horaria que savr usa para fechas de transacciones, calendarios recurrentes y filtros de fecha.
-
-La lista incluye cada zona horaria IANA disponible en tu navegador (típicamente varios cientos). Es buscable — empieza a teclear "New_York" o "Mexico" o "Auckland" para acotar la lista rápido.
-
-> **Por qué importa la zona horaria:** Una transacción creada a las 11:30 PM hora local del 31 debe pertenecer al presupuesto de ese mes, no del siguiente. Si viajas o vives en una zona horaria no estándar, configúrala bien la primera vez y olvídate.
-
-### Moneda
-
-Elige tu moneda de visualización de una lista de 40+ opciones incluyendo USD, EUR, GBP, MXN, JPY, BRL, CAD, AUD y muchas más. El código (p. ej. "MXN") y el nombre completo (p. ej. "Peso Mexicano") son ambos buscables.
-
-savr usa la moneda para formatear los montos en todas partes — saldos de cuenta, totales de presupuesto, listas de transacciones, exportaciones. No realiza conversión de tipo de cambio. Si tienes cuentas en varias monedas, trata los montos mostrados como sus valores nominales.
+> **¿Buscas Moneda o Zona horaria?** Esas viven en el **hogar**, no en tu cuenta de usuario — consulta [Hogares → Moneda y zona horaria](../hogares/#moneda-y-zona-horaria). Todos en el hogar ven la misma moneda y los mismos límites de mes; sólo el Propietario las puede cambiar.
 
 ---
 
@@ -91,6 +81,8 @@ Algunas cosas que a veces se esperan en una página de perfil viven en otro lado
 | **Plan, estado de prueba, facturas, cancelación** | [Plan y Facturación](../billing/) |
 | **Compartir el presupuesto con otra persona, roles del hogar** | [Hogares](../hogares/) |
 | **Cambiar entre hogares** | [Hogares → Cambiar de hogar](../hogares/#cambiar-de-hogar) |
+| **Moneda** | [Hogares → Moneda y zona horaria](../hogares/#moneda-y-zona-horaria) |
+| **Zona horaria** | [Hogares → Moneda y zona horaria](../hogares/#moneda-y-zona-horaria) |
 | **Cambio de contraseña** | [Seguridad → Cambia tu contraseña](../security/#cambia-tu-contraseña) |
 | **Opciones de inicio de sesión (Google, Microsoft)** | [Seguridad → Cómo inicias sesión](../security/#cómo-inicias-sesión) |
 | **Cuentas conectadas** | [Seguridad → Cuentas conectadas](../security/#cuentas-conectadas) |

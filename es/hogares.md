@@ -20,8 +20,9 @@ Si eres la única persona en la cuenta, está bien: simplemente tienes un hogar 
 |---|---|---|
 | Cuentas, categorías, transacciones, recurrentes, objetivos, informes, vistas guardadas, el presupuesto mismo | **El hogar** | Compartido con cada miembro. Las ediciones de uno son visibles para todos. |
 | Plan y suscripción, periodo de prueba | **El hogar** | El hogar paga por sí mismo. Los miembros no reciben cargos por separado. |
-| Tu nombre, correo, contraseña, MFA, dispositivos confiables, sesiones activas | **Tu cuenta de usuario** | Sólo tuya. Permanece igual sin importar en qué hogar estés. |
-| Tema, idioma, zona horaria, preferencias de moneda | **Tu cuenta de usuario** | Personales. Los datos del hogar se muestran con tus preferencias. |
+| **Moneda y zona horaria** | **El hogar** | Iguales para cada miembro, para que los números y las fechas signifiquen lo mismo para todos. **Sólo el Propietario puede cambiarlas.** |
+| Nombre, correo, contraseña, MFA, dispositivos confiables, sesiones activas | **Tu cuenta de usuario** | Sólo tuya. Permanece igual sin importar en qué hogar estés. |
+| Tema e idioma | **Tu cuenta de usuario** | Personales — cada miembro elige los suyos. Los datos del hogar se muestran con tus preferencias. |
 
 Puedes ser **miembro de varios hogares** y cambiar entre ellos. Puedes **ser propietario de un hogar a la vez** (aquel cuya suscripción pagas).
 
@@ -42,14 +43,40 @@ Exactamente **un Propietario** por hogar. El Propietario no puede salir — tien
 
 ## Crear un hogar
 
-Si acabas de registrarte, ya tienes uno — savr crea un hogar para ti en tu primer inicio de sesión, lo nombra como tú, y empieza la prueba de 90 días. Eres el Propietario. Puedes renombrarlo después.
+Si acabas de registrarte, ya tienes uno — savr crea un hogar para ti en tu primer inicio de sesión, lo nombra como tú, elige una **moneda** y una **zona horaria** por defecto a partir de la configuración regional de tu navegador, y empieza la prueba de 90 días. Eres el Propietario. Puedes renombrarlo (y cambiar la moneda y la zona horaria) después.
 
 Si eres un usuario sin hogares (por ejemplo, te eliminaron de uno y no eres propietario de ninguno), verás una pantalla de bienvenida al iniciar sesión con dos opciones:
 
-- **Crea tu hogar** — prueba fresca de 90 días, eres el Propietario, puedes invitar a hasta cuatro personas más. Elige un nombre (p. ej. "La familia Aguilar"), confirma y listo.
+- **Crea tu hogar** — prueba fresca de 90 días, eres el Propietario, puedes invitar a hasta cuatro personas más. Elige un nombre (p. ej. "La familia Aguilar"), confirma la moneda y la zona horaria sugeridas (o cámbialas ahora si savr adivinó mal), listo.
 - **Espera una invitación** — si alguien planea agregarte, la pantalla de bienvenida te dice a qué correo esperar la invitación, y se actualiza automáticamente cuando llega una.
 
 > **Atención:** Sólo puedes **ser propietario** de un hogar a la vez. Si ya eres propietario de uno y quieres crear otro, tendrás que salir o eliminar el primero. Pero no hay límite en cuántos hogares puedes **ser miembro**.
+
+---
+
+## Moneda y zona horaria
+
+Un hogar tiene una **moneda** y una **zona horaria**, y aplican a cada miembro.
+
+No son una preferencia personal de visualización — son parte de los datos del hogar:
+
+- **La moneda** es la unidad en que están denominadas tus cuentas y el presupuesto. savr no hace conversión de tipo de cambio, así que sólo tiene sentido si todos los que ven el presupuesto ven la misma moneda. Una línea de supermercado de $400 que sea $400 para un miembro y €400 para otro no significaría nada.
+- **La zona horaria** controla los límites del mes de presupuesto — si una transacción registrada a las 11:30 PM del 31 de enero pertenece a enero o a febrero. Dos miembros en zonas horarias distintas igualmente necesitan ponerse de acuerdo en a qué mes pertenece cada transacción, así que el hogar elige una zona y la usa para todos.
+
+### Quién las puede cambiar
+
+**Sólo el Propietario.** Los miembros pueden ver la moneda y la zona horaria actuales en la página del hogar pero no pueden cambiarlas. El Propietario las edita desde **Perfil → Hogares → [nombre del hogar]** en la sección de ajustes del hogar.
+
+> **Ejemplo concreto:** Configuras "Casa Aguilar" con MXN y `America/Mexico_City` cuando la creas. Tu pareja — que tiene su teléfono en inglés y usa modo oscuro — abre el mismo hogar y ve pesos y los mismos límites de mes que tú. Sus preferencias de tema e idioma siguen siendo suyas; el dinero y el calendario del hogar son compartidos.
+
+### Cambiarlas después
+
+Puedes cambiar cualquiera de las dos en cualquier momento, pero piénsalo:
+
+- **Moneda:** cambiarla no convierte los saldos existentes. Una cuenta de $1,000 se queda en "1,000" — sólo se mostrará con el nuevo símbolo. Si de verdad necesitas pasar un hogar de USD a EUR con conversión real, exporta tus datos, crea un hogar nuevo en la moneda destino y vuelve a importar. (La mayoría de la gente sólo necesita cambiar la moneda una vez, justo después de crear el hogar.)
+- **Zona horaria:** cambiarla puede mover el *mes de presupuesto* de una transacción por un día en la frontera. Para la mayoría es inofensivo. Si te mudas al otro lado del mundo, ten en cuenta que un par de transacciones tarde por la noche cerca de fin de mes pueden caer al mes anterior o siguiente tras el cambio.
+
+Si eres Miembro y quieres que la moneda o la zona horaria del hogar cambie, pídeselo al Propietario — sólo él tiene el control.
 
 ---
 

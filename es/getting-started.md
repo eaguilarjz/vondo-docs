@@ -210,8 +210,8 @@ Algunos detalles que vale saber:
 | [Informes](../reports/) | Tendencias mensuales, gastos por categoría, beneficiarios principales |
 | [Conciliación](../reconcile/) | Hacer coincidir savr con tu extracto, encontrar discrepancias |
 | [Importar y Exportar](../import-export/) | Asistente de importación CSV, exportaciones |
-| [Perfil y Ajustes](../profile/) | Nombre, idioma, tema, zona horaria, moneda |
-| [Hogares](../hogares/) | Compartir un presupuesto con hasta 5 personas, roles, invitaciones, cambio de hogar, transferir propiedad |
+| [Perfil y Ajustes](../profile/) | Nombre, idioma, tema |
+| [Hogares](../hogares/) | Compartir un presupuesto con hasta 5 personas, roles, invitaciones, cambio de hogar, transferir propiedad, moneda, zona horaria |
 | [App Móvil](../movil/) | iOS y Android, offline-first, pantalla de cambios pendientes, qué es solo web |
 | [Plan y Facturación](../billing/) | Prueba, planes, facturas, cancelación, fallos de pago |
 | [Seguridad](../security/) | Autenticación de dos factores, códigos de recuperación, cambio de contraseña, sesiones |

@@ -1,15 +1,25 @@
 // savr brand color overrides on top of the light theme.
-// Primary: brand-600 (#16a34a) — same green used in the web app's favicon
-// and Tailwind brand palette.
+//
+// Palette mirrors apps/web/src/index.css and apps/mobile/src/shared/theme.ts:
+//   brand-500 #0ea5e9 (sky)         — primary accent
+//   brand-600 #0284c7 (sky-600)     — links, pressed states, splash brand
+//   brand-700 #0369a1 (sky-700)     — sidebar background, wordmark
+//   brand-900 #0c4a6e (sky-900)     — darkest brand shade
+//   neutral-50 #fef9f3              — warm cream body background (light mode)
+//   neutral-900 #1c1917             — warm-dark body text (stone-900)
 
-$link-color: #16a34a;
-$btn-primary-color: #16a34a;
-$body-heading-color: #14532d; // brand-900 — slightly tinted for warmth
+$link-color: #0284c7;                 // brand-600
+$btn-primary-color: #0284c7;
+$body-heading-color: #0c4a6e;         // brand-900 — slightly tinted for warmth
+$body-text-color: #1c1917;            // stone-900 (warm dark)
+$body-background-color: #fef9f3;      // warm cream
+$content-background: #ffffff;
+$border-color: #e7e5e4;               // stone-200
 
-// Dark green sidebar with white text. Fine-grained text/active-state
+// Sky sidebar with white text. Fine-grained text/active-state
 // overrides live in _sass/custom/custom.scss because just-the-docs
 // doesn't expose those as SCSS variables.
-$sidebar-color: #15803d;                          // brand-700
+$sidebar-color: #0369a1;                          // brand-700
 $nav-child-link-color: rgba(255, 255, 255, 0.92); // child nav items in sidebar
 
 // Code highlight + table-of-contents accent inherits from $link-color

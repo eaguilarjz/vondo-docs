@@ -75,7 +75,9 @@ This section explains exactly how that works.
 
 ### The payment category — savr's quiet superpower
 
-When you create a credit-card account, savr automatically creates a **linked payment category** for it. By default it lives in a group called "Credit Card Payments" and is named `<your card's name> Payment` (e.g. "Chase Sapphire Payment"). You can override the group and name during account creation, or link to an existing category instead of making a new one.
+When you create a credit-card account, savr automatically creates a **linked payment category** for it. It's named `<your card's name> Payment` (e.g. "Chase Sapphire Payment") and lives in a system-managed group called **Credit Card Payments** — Spanish users see "Pagos de tarjeta de crédito" (the group's default name follows your language at the moment the first card is added). The group is created the first time you add a credit card to a household; every subsequent card reuses the same group, so all your CC payment categories sit together.
+
+The Credit Card Payments group is special — savr manages it automatically. You can't delete it while it has cards attached, you can't drop unrelated categories into it, and you can't move CC payment categories out of it. The reasoning and the full list of constraints live in [Categories → The Credit Card Payments group](../categories/#the-credit-card-payments-group).
 
 That payment category is the trick. Whenever you charge a budgeted expense to the card, savr automatically moves that money into the payment category — so the funds to pay the card off are *already set aside* by the time the statement arrives.
 

@@ -50,10 +50,10 @@ Elegir el tipo correcto importa. Aquí está la chuleta:
 1. Abre **Actividad** y haz clic en **Nueva Transacción** (o presiona el mismo botón en la página de detalle de una cuenta).
 2. Llena:
    - **Tipo** — Ingreso, Gasto, Transferencia o Crédito
-   - **Cuenta** — qué cuenta afecta
+   - **Cuenta** — qué cuenta afecta. El menú desplegable muestra el **saldo actual** de cada cuenta junto a su nombre, así sabes de un vistazo cuál tiene fondos.
    - **Monto** — siempre positivo; el tipo le dice a savr la dirección. **Puedes escribir expresiones matemáticas** aquí: `30+12.50`, `100/4`, `(15+8)*2` — savr las evalúa cuando sales del campo. Útil para dividir una cuenta o aplicar un porcentaje sobre la marcha.
    - **Fecha** — por defecto hoy
-   - **Categoría** — requerida para Gasto y Crédito. El menú desplegable muestra el saldo **Disponible** de cada categoría junto a su nombre, así puedes elegir una con espacio sin salir del formulario.
+   - **Categoría** — requerida para Gasto y Crédito. El menú desplegable muestra el saldo **Disponible** de cada categoría junto a su nombre, así puedes elegir una con espacio sin salir del formulario. Las categorías de pago de tarjeta de crédito se **ocultan intencionalmente** de este selector — se llenan automáticamente por el [autoflujo de tarjetas](../accounts/#tarjetas-de-crédito), no se eligen como destino de gasto.
    - **Beneficiario** — opcional, pero útil para análisis de gasto
    - **Memo** — notas opcionales
    - **Compensada** — actívalo si ya está confirmada en tu extracto

@@ -73,6 +73,8 @@ Cuando la regla se ejecuta, la transacción resultante hereda las divisiones.
 
 > **Por ejemplo:** Tu sueldo tiene $1,800 a cuenta corriente y $600 yendo a una sub-cuenta de ahorro. Configuras la regla de ingreso con dos divisiones — $1,800 a "Sueldo → Cuenta corriente" y $600 a "Sueldo → Ahorro." Cada periodo de pago, ambos aterrizan en sus lugares correctos.
 
+> **Atención:** Las categorías de pago de tarjeta de crédito no aparecen en el selector de categoría de las reglas recurrentes — por la misma razón que están ocultas en las transacciones normales. Se llenan por el [autoflujo de tarjetas](../accounts/#tarjetas-de-crédito), no por entradas directas. Si quieres pagar una tarjeta de crédito en un calendario, configura una **Transferencia** recurrente de tu cuenta corriente a la cuenta de la tarjeta; la matemática se cuida sola.
+
 ---
 
 ## Pagos de deuda recurrentes

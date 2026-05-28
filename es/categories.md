@@ -72,6 +72,28 @@ Para eliminar un grupo, todas las categorías dentro deben eliminarse o moverse 
 
 ---
 
+## El grupo Pagos de tarjeta de crédito
+
+Hay un grupo que savr gestiona por ti: el grupo **Pagos de tarjeta de crédito** (o **Credit Card Payments** en inglés — el nombre por defecto sigue el idioma que estés usando cuando agregas tu primera tarjeta de crédito).
+
+Se crea automáticamente la primera vez que agregas una cuenta de tarjeta de crédito, y cada categoría de pago de tarjeta que crees vive dentro de él. Esto es lo que da vida al [autoflujo de tarjetas de crédito](../accounts/#tarjetas-de-crédito) de savr: cuando cargas un gasto presupuestado a una tarjeta, savr mueve el monto correspondiente a la categoría de pago de esa tarjeta — que siempre vive en este grupo.
+
+Como savr depende de que este grupo sea un hogar limpio y predecible para las categorías de pago, tiene algunas reglas que los demás grupos no tienen:
+
+| Regla | Qué significa |
+|---|---|
+| **Uno por hogar** | El grupo se crea una sola vez. Agregar una segunda, tercera o quinta tarjeta de crédito lo reutiliza — la categoría de pago de cada tarjeta cae en el mismo lugar. |
+| **No se puede eliminar mientras existan tarjetas** | Dejarías huérfanas las categorías de pago vinculadas. Para eliminar el grupo, elimina primero todas las tarjetas del hogar; cuando el grupo quede vacío, podrás eliminarlo. (savr creará uno nuevo si agregas una tarjeta después.) |
+| **No se pueden agregar categorías regulares** | Si intentas meter "Comida" o "Vacaciones" en él desde la página de Categorías, savr lo rechaza. El grupo está reservado para las categorías de pago autogeneradas. |
+| **No se pueden sacar categorías de pago** | La categoría de pago de una tarjeta tiene que quedarse en este grupo — moverla a otro lado rompería el autoflujo que la alimenta. |
+| **Renombrarlo está permitido** | Puedes renombrar el grupo (p. ej. de "Pagos de tarjeta de crédito" a "Liquidar mis tarjetas"). La identidad de sistema es independiente del nombre visible, así que las reglas anteriores siguen aplicando tras un renombrado. |
+
+Puedes renombrar o reordenar las categorías *dentro* del grupo exactamente como en cualquier otro. Ocultar una categoría de pago de tarjeta está permitido pero es raro — si ya no vas a usar una tarjeta, [ciérrala](../accounts/#cerrar-una-cuenta) y las categorías relacionadas se irán quedando fuera de uso de forma natural.
+
+> **Atención:** Las categorías de pago de tarjeta no aparecen en el **selector de categoría de una transacción o regla recurrente** — no son un lugar donde gastas dinero directamente. Aparecen donde deben: como destinos en la **página de Presupuesto** (para que veas y ajustes su Disponible), y como destino del autoflujo cuando cargas gastos a una tarjeta.
+
+---
+
 ## Categorías
 
 ### Crear una categoría

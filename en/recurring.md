@@ -71,6 +71,8 @@ Recurring rules support splits, just like one-off transactions. Toggle **Split**
 
 When the rule fires, the resulting transaction inherits the splits.
 
+> **Heads up:** Credit-card payment categories don't appear in the recurring-rule category picker — same reason they're hidden on regular transactions. They're filled by the [CC auto-flow](../accounts/#credit-cards), not by direct entries. If you want to pay a credit card on a schedule, set up a recurring **Transfer** from your checking to the card account; the math takes care of itself.
+
 > **For example:** Your paycheck has $1,800 take-home and $600 going to a savings sub-account. You set up the income rule with two splits — $1,800 to "Paycheck → Checking" and $600 to "Paycheck → Savings." Each pay period, both land in their right places.
 
 ---

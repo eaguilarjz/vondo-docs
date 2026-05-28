@@ -75,7 +75,9 @@ Esta sección explica exactamente cómo funciona.
 
 ### La categoría de pago — el superpoder silencioso de savr
 
-Cuando creas una cuenta de tarjeta de crédito, savr crea automáticamente una **categoría de pago vinculada** para ella. Por defecto vive en un grupo llamado "Pagos de Tarjeta de Crédito" y se llama `Pago de <nombre de tu tarjeta>` (p. ej. "Pago de Chase Sapphire"). Puedes cambiar el grupo y el nombre al crear la cuenta, o vincular a una categoría existente en vez de crear una nueva.
+Cuando creas una cuenta de tarjeta de crédito, savr crea automáticamente una **categoría de pago vinculada** para ella. Se llama `Pago de <nombre de tu tarjeta>` (p. ej. "Pago de Chase Sapphire") y vive en un grupo gestionado por el sistema llamado **Pagos de tarjeta de crédito** — los usuarios en inglés lo ven como "Credit Card Payments" (el nombre por defecto del grupo sigue tu idioma en el momento en que agregas la primera tarjeta). El grupo se crea la primera vez que agregas una tarjeta de crédito al hogar; cada tarjeta posterior reutiliza el mismo grupo, así que todas tus categorías de pago de tarjetas viven juntas.
+
+El grupo Pagos de tarjeta de crédito es especial — savr lo gestiona automáticamente. No puedes eliminarlo mientras tenga tarjetas vinculadas, no puedes meter categorías ajenas en él y no puedes sacar categorías de pago de tarjetas hacia otros grupos. La explicación y la lista completa de restricciones están en [Categorías → El grupo Pagos de tarjeta de crédito](../categories/#el-grupo-pagos-de-tarjeta-de-crédito).
 
 Esa categoría de pago es el truco. Cada vez que cargas un gasto presupuestado a la tarjeta, savr mueve automáticamente ese dinero a la categoría de pago — así que los fondos para pagar la tarjeta ya están *apartados* para cuando llegue el estado de cuenta.
 

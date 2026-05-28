@@ -72,6 +72,28 @@ To delete a group, every category inside it has to be deleted or moved out first
 
 ---
 
+## The Credit Card Payments group
+
+There's one group savr manages for you: the **Credit Card Payments** group (or **Pagos de tarjeta de crédito** in Spanish — the default name follows the language you're using when you add your first credit card).
+
+It's created automatically the first time you add a credit-card account, and every CC payment category you ever create lives inside it. This is what powers savr's [credit-card auto-flow](../accounts/#credit-cards): when you charge a budgeted expense to a card, savr moves the matching amount into the card's payment category — which always lives in this group.
+
+Because savr depends on this group being a clean, predictable home for payment categories, it carries a few rules other groups don't:
+
+| Rule | What it means |
+|---|---|
+| **One per household** | The group is created once. Adding a second, third, or fifth credit card reuses it — every card's payment category lands in the same place. |
+| **Can't be deleted while CC accounts exist** | You'd orphan the linked payment categories. To delete the group, first delete every credit card on the household; once the group is empty you can delete it. (savr will mint a fresh one if you add a CC later.) |
+| **Can't add regular categories to it** | If you try to drop "Groceries" or "Vacation" into it from the Categories page, savr refuses. The group is reserved for the auto-created payment categories. |
+| **Can't move CC payment categories out** | The card's payment category has to stay in this group — moving it elsewhere would break the auto-flow that fills it. |
+| **Renaming is allowed** | You can rename the group itself (e.g. from "Credit Card Payments" to "Pay Off My Cards"). The system identity is independent of the visible name, so the rules above still apply after a rename. |
+
+You can rename or reorder the categories *inside* the group exactly as you would in any other group. Hiding a CC payment category is allowed but unusual — if you're not going to use a card anymore, [close the card](../accounts/#close-an-account) and the related categories naturally fade from active use.
+
+> **Heads up:** CC payment categories don't appear in the **category picker on a transaction or recurring rule** — they're not a place you spend money directly. They show up where they should: as targets on the **Budget page** (so you can see and adjust their Available balance), and as the auto-flow destination when you charge spending to a card.
+
+---
+
 ## Categories
 
 ### Create a category

@@ -49,10 +49,10 @@ Picking the right type matters. Here's the cheat sheet:
 1. Open **Activity** and click **New Transaction** (or hit the same button on an account's detail page).
 2. Fill in:
    - **Type** — Income, Expense, Transfer, or Credit
-   - **Account** — which account this affects
+   - **Account** — which account this affects. The dropdown shows each account's **current balance** next to its name, so you can tell at a glance which one has the funds.
    - **Amount** — always positive; the type tells savr the direction. **You can type math expressions** here: `30+12.50`, `100/4`, `(15+8)*2` — savr evaluates them when you tab away. Useful for splitting a check or applying a percentage on the fly.
    - **Date** — defaults to today
-   - **Category** — required for Expense and Credit. The dropdown shows each category's **Available** balance next to its name, so you can pick one that has room without leaving the form.
+   - **Category** — required for Expense and Credit. The dropdown shows each category's **Available** balance next to its name, so you can pick one that has room without leaving the form. Credit-card payment categories are intentionally **hidden from this picker** — they're filled automatically by the [CC auto-flow](../accounts/#credit-cards), not picked as a spending destination.
    - **Payee** — optional, but useful for spending analysis
    - **Memo** — optional notes
    - **Cleared** — toggle if it's already cleared your bank statement

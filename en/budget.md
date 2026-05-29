@@ -25,6 +25,7 @@ It sounds boring written out like that. In practice it's surprisingly satisfying
 | **Account balance total** | Sum of all your active accounts, shown alongside the budget for context. |
 | **Category groups** | Collapsible groupings of categories. Each group shows aggregated metrics. |
 | **Category rows** | Each category shows Assigned, Spent, and Available for the selected month. |
+| **Monthly Summary card** | Side panel that totals the visible categories — Carryover, Assigned, Activity, Available, Targets — and lets you fire any Quick-fill strategy with its preview total in view. See [Monthly Summary](#monthly-summary) below. |
 | **Toolbar** | Holds the **Quick-fill** menu, **Recent Moves**, and **Expand all / Collapse all** for the category groups. |
 
 Each category row has three numbers:
@@ -111,6 +112,45 @@ Open **Recent Moves** from the Budget toolbar to see a chronological log of ever
 - **Assigned** — only the direct allocations.
 
 Useful when you can't remember which category you pulled $50 out of last week, or when you're reconciling end-of-month and want to see the order things happened in.
+
+---
+
+## Monthly Summary
+
+A side panel on the Budget page that gives you the month at a glance — totals across your visible categories and one-tap shortcuts into every Quick-fill strategy. Think of it as the dashboard for the page: you don't have to scan every category row to see how the month is shaping up.
+
+### What it shows
+
+| Row | What it tells you |
+|---|---|
+| **Carryover** | Money left over from prior months that rolled into this month (only positive remainders — overspends are excluded so you don't get double-penalized for last month's slip). |
+| **Assigned in {Month}** | The sum of everything you've assigned this month. |
+| **Activity** | The sum of everything spent this month, shown as a negative number when there's outflow. |
+| **Available** | The bottom line for the visible categories — `Carryover + Assigned − Activity`. Turns red when negative. |
+| **{Month}'s targets** | Sum of every target's suggested amount for the month — useful for spotting "I have $X of targets but only $Y assigned" gaps. Hidden when no targets are set. |
+| **Quick-fill strategies** | One row per strategy with the total it would move if you ran it now. Click a row to open the [Quick-fill](#quick-fill-strategies) modal pre-selected to that strategy. |
+
+### The Quick-fill shortcuts
+
+Each strategy row on the summary card shows a live amount preview:
+
+- A **blue amount** is the net it would *draw from Ready to Assign* — that's how much extra money the strategy would move into your categories.
+- An **orange "releases" badge with an orange amount** means the strategy doesn't pull from Ready to Assign — it rebalances money between categories (zero-out, reduce overfunded, etc.). The number is the total amount that would move.
+- A **greyed-out amount** means the strategy has nothing to do right now — every category that it would touch is already where it should be.
+
+Click any non-greyed row to open the Quick-fill modal, already focused on that strategy, with the per-category breakdown shown. Confirm or tweak and you're done.
+
+### Filter-aware
+
+The summary reflects whatever **category filter pill** is active on the budget page. If you've narrowed to "Overspent," the Carryover / Assigned / Activity / Available totals — *and* the Quick-fill previews — are recomputed for the overspent slice only. A small "showing sums for the {filter} filter only" hint appears at the top of the card so you don't misread it.
+
+This is genuinely useful in practice: filter to **Underfunded**, glance at the summary, and you can see "I need $240 to cover everything I'm short on, and Quick-fill → Underfunded would draw exactly that much from Ready to Assign." Two clicks to a balanced month.
+
+### Read-only mode
+
+When a household is in [read-only mode](../billing/#what-happens-when) (trial ended, subscription paused), the summary still shows the stats rows — you can still see Carryover, Assigned, Activity, Available, and Targets — but the Quick-fill strategy buttons are hidden, since they each ultimately write to the budget.
+
+> **Tip:** Keep the summary collapsed if you find it noisy; expand it at the start and end of the month for the panoramic view. The totals you'd otherwise compute mentally — "did I assign more or less than last month?" "did I cover all my targets?" — are right there.
 
 ---
 

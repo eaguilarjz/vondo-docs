@@ -25,6 +25,7 @@ Suena aburrido escrito así. En la práctica es sorprendentemente satisfactorio.
 | **Saldo total de cuentas** | Suma de todas tus cuentas activas, mostrado junto al presupuesto como contexto. |
 | **Grupos de categorías** | Agrupaciones colapsables. Cada grupo muestra métricas agregadas. |
 | **Filas de categoría** | Cada categoría muestra Asignado, Gastado y Disponible para el mes seleccionado. |
+| **Tarjeta de Resumen Mensual** | Panel lateral que totaliza las categorías visibles — Saldo anterior, Asignado, Actividad, Disponible, Objetivos — y te deja disparar cualquier estrategia de Llenado rápido con su total previsto a la vista. Ver [Resumen Mensual](#resumen-mensual) abajo. |
 | **Barra de herramientas** | Contiene el menú **Llenado rápido**, **Cambios recientes**, y **Expandir todos / Colapsar todos** para los grupos de categorías. |
 
 Cada fila de categoría tiene tres números:
@@ -111,6 +112,45 @@ Abre **Cambios recientes** desde la barra de herramientas del Presupuesto para v
 - **Asignados** — solo las asignaciones directas.
 
 Útil cuando no recuerdas de qué categoría sacaste $50 la semana pasada, o cuando estás conciliando a fin de mes y quieres ver el orden en que pasaron las cosas.
+
+---
+
+## Resumen Mensual
+
+Un panel lateral en la página de Presupuesto que te da el mes de un vistazo — totales sobre las categorías visibles y atajos de un toque a cada estrategia de Llenado rápido. Piénsalo como el tablero de la página: no tienes que escanear cada fila de categoría para ver cómo va el mes.
+
+### Qué muestra
+
+| Fila | Qué te dice |
+|---|---|
+| **Saldo anterior** | Dinero sobrante de meses previos que se acarreó a este mes (sólo remanentes positivos — los sobregiros se excluyen para no penalizarte dos veces por el desliz del mes pasado). |
+| **Asignado en {mes}** | La suma de todo lo que has asignado este mes. |
+| **Actividad** | La suma de todo lo gastado este mes, mostrada como número negativo cuando hay salida. |
+| **Disponible** | El resultado para las categorías visibles — `Saldo anterior + Asignado − Actividad`. Se pone rojo cuando es negativo. |
+| **Objetivos de {mes}** | Suma del monto sugerido de cada objetivo para el mes — útil para detectar brechas del tipo "tengo $X en objetivos pero sólo $Y asignados". Se oculta cuando no hay objetivos. |
+| **Estrategias de Llenado rápido** | Una fila por estrategia con el total que movería si la corrieras ahora. Haz clic en una fila para abrir el modal de [Llenado rápido](#estrategias-de-llenado-rápido) preseleccionado en esa estrategia. |
+
+### Los atajos de Llenado rápido
+
+Cada fila de estrategia en la tarjeta muestra un monto previsto en vivo:
+
+- Un **monto azul** es el neto que *retiraría de Por asignar* — cuánto dinero extra movería la estrategia hacia tus categorías.
+- Una **insignia naranja de "libera" con monto naranja** significa que la estrategia no toma de Por asignar — rebalancea dinero entre categorías (poner en cero, reducir sobrefinanciamiento, etc.). El número es el monto total que se movería.
+- Un **monto en gris** significa que la estrategia no tiene nada que hacer ahora mismo — cada categoría que tocaría ya está donde debe.
+
+Haz clic en cualquier fila no gris para abrir el modal de Llenado rápido, ya enfocado en esa estrategia, con el desglose por categoría visible. Confirma o ajusta y listo.
+
+### Reacciona al filtro
+
+El resumen refleja la **pill de filtro de categoría** que esté activa en la página de presupuesto. Si has acotado a "Sobregirado", los totales de Saldo anterior / Asignado / Actividad / Disponible — *y* las vistas previas de Llenado rápido — se recalculan sólo para el corte sobregirado. Aparece una pequeña nota "Mostrando sumas solo para el filtro {filtro}" arriba de la tarjeta para que no la malinterpretes.
+
+Esto es genuinamente útil en la práctica: filtra a **Sub-financiado**, mira el resumen, y puedes ver "Necesito $240 para cubrir todo lo que me falta, y Llenado rápido → Sub-financiado retiraría exactamente eso de Por asignar". Dos clics a un mes balanceado.
+
+### Modo de sólo lectura
+
+Cuando un hogar está en [modo de sólo lectura](../billing/#qué-pasa-cuando) (prueba terminada, suscripción pausada), el resumen sigue mostrando las filas de estadísticas — sigues viendo Saldo anterior, Asignado, Actividad, Disponible y Objetivos — pero los botones de estrategia de Llenado rápido se ocultan, ya que cada uno termina escribiendo al presupuesto.
+
+> **Consejo:** Mantén el resumen colapsado si lo encuentras ruidoso; expándelo al inicio y final del mes para la vista panorámica. Los totales que de otra forma calcularías mentalmente — "¿asigné más o menos que el mes pasado?" "¿cubrí todos mis objetivos?" — están ahí mismo.
 
 ---
 

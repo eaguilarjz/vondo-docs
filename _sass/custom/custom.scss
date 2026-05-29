@@ -145,13 +145,15 @@ $savr-sidebar-active: rgba(255, 255, 255, 0.20);
   background-color: #ffffff;
 }
 
-// Brand-sky globe icon for the cross-language banner at the top
-// of every page (replaces the default blue 🌐 emoji).
+// Accent-orange globe icon for the cross-language banner at the top
+// of every page (replaces the default blue 🌐 emoji). Matches the
+// adjacent "Lee esta página en…" link color so the banner reads as
+// one cohesive accent-tinted element.
 .lang-globe {
   display: inline-block;
   vertical-align: -3px;
   margin-right: 0.25rem;
-  color: #0284c7; // brand-600
+  color: #ea580c; // accent-600
 }
 
 // Blockquote callouts — tinted sky to match brand "Heads up" tone.
@@ -173,9 +175,14 @@ $savr-sidebar-active: rgba(255, 255, 255, 0.20);
     color-scheme: dark;
   }
 
+  // Body text is INTENTIONALLY dimmer than headings — pure-white body
+  // text on dark bg both eye-strains the reader AND flattens the
+  // visual hierarchy (h2 stops popping when body is just as bright).
+  // Pattern lifted from GitHub / Vercel / Linear: soft stone-200 for
+  // running text, bright sky-50 reserved for headings + strong.
   body {
     background-color: #1c1917;   // stone-900 (warm dark)
-    color: #fafaf9;              // stone-50
+    color: #e7e5e4;              // stone-200 — soft, not glaring
   }
 
   // Sidebar — go a touch darker than the light-mode brand-700.
@@ -185,22 +192,22 @@ $savr-sidebar-active: rgba(255, 255, 255, 0.20);
 
   // Main content area
   .main-content {
-    color: #fafaf9;
+    color: #e7e5e4;              // stone-200 — paired with bright headings below
 
     h1, h2, h3, h4, h5, h6 {
-      color: #f0f9ff;            // brand-50 — bright sky on dark
+      color: #f0f9ff;            // brand-50 — bright sky on dark; pops against the dimmer body
     }
 
     a:not(.btn) {
-      color: #38bdf8;            // brand-400 — pops on dark bg
+      color: #fb923c;            // accent-400 — warm orange pops on dark bg; matches the wordmark check
 
       &:hover {
-        color: #7dd3fc;          // brand-300
+        color: #fdba74;          // accent-300 — brighter on hover
       }
     }
 
     strong {
-      color: #f0f9ff;
+      color: #f0f9ff;            // matches headings — same "elevated" emphasis tier
     }
 
     code {
@@ -222,13 +229,13 @@ $savr-sidebar-active: rgba(255, 255, 255, 0.20);
       th {
         background-color: #292524; // stone-800
         color: #f0f9ff;
-        border-color: #44403c;     // stone-700
+        border-color: #57534e;     // stone-600 — visible against stone-800 th bg
       }
 
       td {
         background-color: #1c1917; // matches body bg
-        color: #fafaf9;
-        border-color: #44403c;
+        color: #e7e5e4;
+        border-color: #57534e;
       }
 
       tr:nth-child(even) td {
@@ -239,11 +246,13 @@ $savr-sidebar-active: rgba(255, 255, 255, 0.20);
     blockquote {
       background-color: rgba(14, 165, 233, 0.10); // brand-500 @ 10%
       border-left-color: #0ea5e9;                 // brand-500
-      color: #fafaf9;
+      color: #e7e5e4;
     }
 
+    // Horizontal rule — was nearly invisible at stone-700. Bump to
+    // stone-600 so the section breaks actually register.
     hr {
-      border-color: #44403c;     // stone-700
+      border-color: #57534e;     // stone-600 — visible section breaks
     }
   }
 
@@ -256,9 +265,9 @@ $savr-sidebar-active: rgba(255, 255, 255, 0.20);
 
   // Search results dropdown
   .search-results {
-    color: #fafaf9;
+    color: #e7e5e4;
     background-color: #292524;
-    border-color: #44403c;
+    border-color: #57534e;
 
     .search-result {
       &:hover,
@@ -272,8 +281,9 @@ $savr-sidebar-active: rgba(255, 255, 255, 0.20);
     }
   }
 
-  // Brand-sky globe icon in dark mode — brighter sky for contrast.
+  // Accent-orange globe icon in dark mode — matches the dark-mode
+  // link color so the language banner stays cohesive.
   .lang-globe {
-    color: #38bdf8;              // brand-400
+    color: #fb923c;              // accent-400
   }
 }

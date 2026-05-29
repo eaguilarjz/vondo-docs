@@ -8,8 +8,15 @@
 //   neutral-50 #fef9f3              — warm cream body background (light mode)
 //   neutral-900 #1c1917             — warm-dark body text (stone-900)
 
-$link-color: #0284c7;                 // brand-600
-$btn-primary-color: #0284c7;
+// Links use the warm-orange ACCENT palette, not brand sky. Pairs
+// with the cream surface and creates a clear "interactive vs body"
+// signal (orange on cream reads instantly as "click me"). accent-600
+// #ea580c clears WCAG AA (4.6:1) against the cream background; the
+// brand palette stays reserved for the sidebar + wordmark glyph
+// chrome so the visual hierarchy stays "brand = identity, accent =
+// action."
+$link-color: #ea580c;                 // accent-600
+$btn-primary-color: #0284c7;          // brand-600 — primary CTAs stay brand-sky
 $body-heading-color: #0c4a6e;         // brand-900 — slightly tinted for warmth
 $body-text-color: #1c1917;            // stone-900 (warm dark)
 $body-background-color: #fef9f3;      // warm cream

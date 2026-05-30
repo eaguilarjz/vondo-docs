@@ -7,9 +7,9 @@ permalink: /es/
 
 > {% include lang-globe.html %} Read this help in [English](../en/)
 
-# Ayuda de savr
+# Docs de savr
 
-Bienvenido. savr es una aplicación de presupuesto basada en una idea simple: cada dólar tiene una categoría antes de gastarse, así que cuando llega la cuenta ya sabes exactamente dónde está el dinero. Diseñada para ser el tipo de herramienta que sigues usando seis meses después. Esta ayuda cubre todo lo que necesitas para configurar tus cuentas, construir un presupuesto real y aprovechar las funciones de savr con confianza.
+Bienvenido. savr es una aplicación de presupuesto basada en una idea simple: cada dólar tiene una categoría antes de gastarse, así que cuando llega la cuenta ya sabes exactamente dónde está el dinero. Diseñada para ser el tipo de herramienta que sigues usando seis meses después. Esta documentación cubre todo lo que necesitas para configurar tus cuentas, construir un presupuesto real y aprovechar las funciones de savr con confianza.
 
 Si apenas empiezas, ve a [Primeros pasos](getting-started/). Si ya conoces savr y solo vienes a buscar algo específico, la tabla de abajo es tu amiga.
 

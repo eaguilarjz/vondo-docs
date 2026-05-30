@@ -7,9 +7,9 @@ permalink: /en/
 
 > {% include lang-globe.html %} Lee esta documentación en [Español](../es/)
 
-# savr Help
+# savr Docs
 
-Welcome. savr is a budgeting app built on one simple idea: every dollar gets a category before you spend it, so when the bill arrives you already know exactly where the money is. It's designed to be the kind of tool you actually keep using six months in. This help covers everything you need to set up your accounts, build a working budget, and use savr's features confidently.
+Welcome. savr is a budgeting app built on one simple idea: every dollar gets a category before you spend it, so when the bill arrives you already know exactly where the money is. It's designed to be the kind of tool you actually keep using six months in. These docs cover everything you need to set up your accounts, build a working budget, and use savr's features confidently.
 
 If you're just getting started, head to [Getting Started](getting-started/). If you've been here before and just need to look something up, the table below is your friend.
 

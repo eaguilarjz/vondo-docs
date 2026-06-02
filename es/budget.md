@@ -8,7 +8,7 @@ nav_order: 2
 
 # Presupuesto
 
-La página de Presupuesto es el corazón de savr. Es donde tomas decisiones en lugar de reaccionar a ellas.
+La página de Presupuesto es el corazón de vondo. Es donde tomas decisiones en lugar de reaccionar a ellas.
 
 Cada mes, tomas lo que tienes y decides a dónde debe ir cada dólar. Renta. Comida. Ahorros. Esa cita con el dentista que has estado posponiendo. Cuando terminas, cada dólar está asignado a una categoría y sabes — con números reales, no con sensaciones — qué tienes disponible para qué.
 
@@ -156,7 +156,7 @@ Cuando un hogar está en [modo de sólo lectura](../billing/#qué-pasa-cuando) (
 
 ## Estrategias de llenado rápido
 
-savr puede llenar tu presupuesto automáticamente. Abre el menú **Llenado rápido** en la página de Presupuesto y elige una de seis estrategias:
+vondo puede llenar tu presupuesto automáticamente. Abre el menú **Llenado rápido** en la página de Presupuesto y elige una de seis estrategias:
 
 | Estrategia | Qué hace | Cuándo usarla |
 |---|---|---|
@@ -184,13 +184,13 @@ Este es el flujo "configúralo y olvídate" de la mayoría de la gente después 
 
 ### Auto-asignación por categoría
 
-Cada categoría también tiene su propia acción de llenado rápido — útil cuando solo quieres llenar un lugar. savr sugiere un monto basado en el objetivo (o tu gasto previo si no hay objetivo).
+Cada categoría también tiene su propia acción de llenado rápido — útil cuando solo quieres llenar un lugar. vondo sugiere un monto basado en el objetivo (o tu gasto previo si no hay objetivo).
 
 ---
 
 ## Objetivos (también llamados metas)
 
-Un objetivo le dice a savr "esto es lo que quiero presupuestar para esta categoría." Una vez configurado, savr puede:
+Un objetivo le dice a vondo "esto es lo que quiero presupuestar para esta categoría." Una vez configurado, vondo puede:
 
 - Mostrarte un estado (en regla, insuficiente, sin asignar) de un vistazo
 - Potenciar Llenar por Objetivos para financiar todo con un clic
@@ -207,9 +207,9 @@ Un objetivo le dice a savr "esto es lo que quiero presupuestar para esta categor
 
 > **Por ejemplo:**
 > - Renta — Objetivo Mensual de $1,400, vence el día 1.
-> - Comida — Objetivo Semanal de $125 (savr sabe que son ~$540/mes).
+> - Comida — Objetivo Semanal de $125 (vondo sabe que son ~$540/mes).
 > - Seguro de auto — Objetivo Anual de $720, vence en octubre.
-> - Vacaciones — Objetivo Personalizado de $2,400 para agosto del próximo año. savr sugiere ~$200/mes.
+> - Vacaciones — Objetivo Personalizado de $2,400 para agosto del próximo año. vondo sugiere ~$200/mes.
 
 ### Configurar un objetivo
 

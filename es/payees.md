@@ -10,7 +10,7 @@ nav_order: 7
 
 Los beneficiarios son las personas, negocios o servicios al otro lado de una transacción. El supermercado. Tu casero. Ese servicio de suscripción. Tu empleador (sí — tu empleador también es un "beneficiario" en tus sueldos entrantes).
 
-Los beneficiarios son opcionales en savr. Puedes llevar un buen presupuesto sin usarlos nunca. Pero hacen un par de cosas más fáciles — y una vez que empiezas a usarlos, te preguntas por qué no lo hacías antes.
+Los beneficiarios son opcionales en vondo. Puedes llevar un buen presupuesto sin usarlos nunca. Pero hacen un par de cosas más fáciles — y una vez que empiezas a usarlos, te preguntas por qué no lo hacías antes.
 
 ---
 
@@ -22,7 +22,7 @@ Los beneficiarios son más útiles para:
 - **Filtrar en la página de Actividad.** Sigue toda la actividad con una parte específica.
 - **Encontrar duplicados.** Cuando ves "Costco" con 47 transacciones y "COSTCO WHSE #1234" con 3, son el mismo lugar — fusiónalos.
 
-Si ninguno de los dos te llama la atención, sáltate los beneficiarios. savr no te va a regañar.
+Si ninguno de los dos te llama la atención, sáltate los beneficiarios. vondo no te va a regañar.
 
 ---
 
@@ -32,7 +32,7 @@ De dos formas:
 
 ### En línea, mientras creas una transacción
 
-En el campo **Beneficiario** del diálogo de transacción, simplemente escribe un nombre. Si no existe, savr lo crea automáticamente al guardar la transacción. Así es como la mayoría de la gente construye su lista de beneficiarios — naturalmente, conforme registra actividad.
+En el campo **Beneficiario** del diálogo de transacción, simplemente escribe un nombre. Si no existe, vondo lo crea automáticamente al guardar la transacción. Así es como la mayoría de la gente construye su lista de beneficiarios — naturalmente, conforme registra actividad.
 
 ### Desde la página de Beneficiarios
 
@@ -57,7 +57,7 @@ Así es como limpias las exportaciones bancarias que destrozaron el nombre. Edit
 Haz clic en la acción de eliminar en la fila del beneficiario.
 
 - **Si el beneficiario no tiene transacciones**, se elimina al instante.
-- **Si el beneficiario tiene transacciones**, savr abre un modal de **reasignación**:
+- **Si el beneficiario tiene transacciones**, vondo abre un modal de **reasignación**:
   1. Elige otro beneficiario que se quede con sus transacciones (o elige **Ninguno** para dejar el campo vacío).
   2. Confirma.
 

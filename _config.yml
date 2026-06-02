@@ -1,6 +1,6 @@
-title: savr Docs
-description: Docs and guides for savr — every dollar gets a category before you spend it.
-url: https://docs.savr.pro
+title: vondo Docs
+description: Docs and guides for vondo — every dollar gets a category before you spend it.
+url: https://docs.vondo.app
 logo: /assets/wordmark.svg
 
 remote_theme: just-the-docs/just-the-docs
@@ -12,7 +12,7 @@ plugins:
 
 permalink: pretty
 
-color_scheme: savr
+color_scheme: vondo
 
 search_enabled: true
 search:
@@ -28,11 +28,11 @@ last_edit_timestamp: false
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "&copy; savr. All rights reserved."
+footer_content: "&copy; vondo. All rights reserved."
 
 aux_links:
-  "savr app":
-    - "https://savr.pro"
+  "vondo app":
+    - "https://vondo.app"
 aux_links_new_tab: true
 
 exclude:

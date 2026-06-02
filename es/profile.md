@@ -8,7 +8,7 @@ nav_order: 11
 
 # Perfil y Ajustes
 
-La página de Perfil es donde administras tu información personal y cómo se ve y se comporta savr. Ábrela desde tu avatar en la barra lateral (escritorio) o el menú superior (móvil).
+La página de Perfil es donde administras tu información personal y cómo se ve y se comporta vondo. Ábrela desde tu avatar en la barra lateral (escritorio) o el menú superior (móvil).
 
 Esta página cubre los temas personales del día a día. Para:
 
@@ -22,7 +22,7 @@ Esta página cubre los temas personales del día a día. Para:
 
 ### Nombre
 
-Tu nombre aparece en la página de perfil y donde sea que savr te salude. Edítalo en el campo **Nombre** y haz clic en **Guardar**. No hay reglas — primer nombre, nombre completo, apodo, todo funciona.
+Tu nombre aparece en la página de perfil y donde sea que vondo te salude. Edítalo en el campo **Nombre** y haz clic en **Guardar**. No hay reglas — primer nombre, nombre completo, apodo, todo funciona.
 
 ### Correo electrónico
 
@@ -60,13 +60,13 @@ Elige la apariencia de la app:
 
 ## Legal
 
-Los **Términos de Servicio** son accesibles desde la página de Perfil. savr lleva el control de qué versión de los términos aceptaste y cuándo. Si los términos se actualizan, se te pedirá revisar y aceptar la nueva versión antes de continuar.
+Los **Términos de Servicio** son accesibles desde la página de Perfil. vondo lleva el control de qué versión de los términos aceptaste y cuándo. Si los términos se actualizan, se te pedirá revisar y aceptar la nueva versión antes de continuar.
 
 ---
 
 ## Cerrar sesión
 
-Usa **Cerrar sesión** desde el menú de usuario para terminar tu sesión. La próxima vez que inicies sesión, savr te pedirá tu correo, contraseña y (si está activo) tu código de dos factores.
+Usa **Cerrar sesión** desde el menú de usuario para terminar tu sesión. La próxima vez que inicies sesión, vondo te pedirá tu correo, contraseña y (si está activo) tu código de dos factores.
 
 Para detalles sobre qué pasa con tu sesión — duración de tokens, refresco, múltiples dispositivos — consulta [Seguridad → Sesiones](../security/#sesiones).
 

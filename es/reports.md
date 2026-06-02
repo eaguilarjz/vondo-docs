@@ -83,7 +83,7 @@ Patrimonio Neto es la línea que realmente quieres ver subir. Ingresos vs. Gasto
 > - **Deudas bajando más rápido de lo que crecen los activos.** Pagar un préstamo mueve el Patrimonio Neto igual que ahorrar lo mismo; esta gráfica te enseña ambas cosas a la vez.
 > - **Un evento único grande** (pagaste un auto, compraste una casa, te llegó un reembolso de impuestos) se ve como un escalón. Útil para entender qué significaron esos eventos en contexto.
 
-> **Atención:** Patrimonio Neto siempre muestra tu portafolio completo. Los filtros de **Cuenta** y **Categoría** aplican a las otras cuatro gráficas pero **no cambian Patrimonio Neto** — un patrimonio neto filtrado no significaría gran cosa, así que savr siempre muestra la foto completa.
+> **Atención:** Patrimonio Neto siempre muestra tu portafolio completo. Los filtros de **Cuenta** y **Categoría** aplican a las otras cuatro gráficas pero **no cambian Patrimonio Neto** — un patrimonio neto filtrado no significaría gran cosa, así que vondo siempre muestra la foto completa.
 
 ---
 

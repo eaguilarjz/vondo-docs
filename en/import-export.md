@@ -10,10 +10,10 @@ nav_order: 10
 
 Two scenarios where this page matters:
 
-- **You're starting savr with a year of history** somewhere else (your bank, a spreadsheet, another budgeting app). You want to bring it in.
+- **You're starting vondo with a year of history** somewhere else (your bank, a spreadsheet, another budgeting app). You want to bring it in.
 - **You want a copy of your data.** For backup, for taxes, for a spreadsheet pivot, for peace of mind.
 
-savr handles both with CSV — the dependable, universally-supported format that opens in Excel, Numbers, Google Sheets, and a hundred other tools.
+vondo handles both with CSV — the dependable, universally-supported format that opens in Excel, Numbers, Google Sheets, and a hundred other tools.
 
 ---
 
@@ -25,9 +25,9 @@ The import wizard lives at **Account Detail → Import CSV**. It's a three-step 
 
 ### Step 1 — Upload and configure
 
-Choose the target account, pick a CSV file from your computer, and configure how savr should read it.
+Choose the target account, pick a CSV file from your computer, and configure how vondo should read it.
 
-savr auto-detects what it can, but you'll often need to confirm or adjust:
+vondo auto-detects what it can, but you'll often need to confirm or adjust:
 
 | Setting | What it means |
 |---|---|
@@ -42,15 +42,15 @@ savr auto-detects what it can, but you'll often need to confirm or adjust:
 
 A preview shows the first 5 rows of your CSV after applying the settings. Tweak until the preview looks right.
 
-> **Pro tip:** Once you've configured the settings for a particular bank, savr remembers them. Next time you upload a CSV with the same column headers, the settings load automatically. You're done with the configuring part forever.
+> **Pro tip:** Once you've configured the settings for a particular bank, vondo remembers them. Next time you upload a CSV with the same column headers, the settings load automatically. You're done with the configuring part forever.
 
 ### Step 2 — Match against existing transactions
 
-If you've already entered some transactions for this account (manually, via a previous import, or via recurring rules), savr won't blindly import duplicates. The matcher compares each row in the CSV against your unreconciled transactions and shows what it found:
+If you've already entered some transactions for this account (manually, via a previous import, or via recurring rules), vondo won't blindly import duplicates. The matcher compares each row in the CSV against your unreconciled transactions and shows what it found:
 
-- **Confirmed match** — savr is sure this CSV row is the same as an existing transaction. It'll link them and not create a duplicate.
-- **Unmatched** — no existing transaction looks like this row. savr will create a new transaction.
-- **Manual override** — you can confirm or reject any of savr's matches.
+- **Confirmed match** — vondo is sure this CSV row is the same as an existing transaction. It'll link them and not create a duplicate.
+- **Unmatched** — no existing transaction looks like this row. vondo will create a new transaction.
+- **Manual override** — you can confirm or reject any of vondo's matches.
 
 This step takes some of the dread out of "what if I import the same data twice?" The matcher is smart, but you have the final say.
 
@@ -62,7 +62,7 @@ A summary shows:
 - How many existing transactions will be linked (not duplicated)
 - Total inflow and outflow
 
-Click **Import** to commit. savr creates the new transactions, links the matches, and updates the account balance. You're done.
+Click **Import** to commit. vondo creates the new transactions, links the matches, and updates the account balance. You're done.
 
 ---
 
@@ -88,12 +88,12 @@ You start the wizard with **Account = Chase Checking** and upload the file. In S
 
 The preview confirms the first paycheck shows as +$2,400 income, the Whole Foods charge as -$87.43 expense. Looks right.
 
-Step 2 — savr finds no existing transactions to match (this is your first time importing for this account). It'll create all rows as new.
+Step 2 — vondo finds no existing transactions to match (this is your first time importing for this account). It'll create all rows as new.
 
-Step 3 — savr says it'll create 247 transactions totaling $34,820 inflow and $32,108 outflow. You click Import. A few seconds later your Chase Checking account has a year of history.
+Step 3 — vondo says it'll create 247 transactions totaling $34,820 inflow and $32,108 outflow. You click Import. A few seconds later your Chase Checking account has a year of history.
 
 You'll want to spend a few minutes after the import:
-- Categorizing the new transactions (they imported with empty category — savr doesn't guess)
+- Categorizing the new transactions (they imported with empty category — vondo doesn't guess)
 - Cleaning up payee names (see [Payees → merging duplicates](../payees/#delete-a-payee-and-merge-duplicates))
 
 Both are easier to do in bulk than transaction by transaction.
@@ -104,16 +104,16 @@ Both are easier to do in bulk than transaction by transaction.
 
 Just to set expectations:
 
-- **It doesn't auto-categorize.** savr won't guess that "WHOLE FOODS" goes in Groceries — you assign categories yourself. (This is a feature, not a limitation: an over-eager auto-categorizer will get it wrong in subtle ways and make your reports lie.)
+- **It doesn't auto-categorize.** vondo won't guess that "WHOLE FOODS" goes in Groceries — you assign categories yourself. (This is a feature, not a limitation: an over-eager auto-categorizer will get it wrong in subtle ways and make your reports lie.)
 - **It only handles CSV.** If your bank only offers OFX or QIF, you'll need to convert it first (Excel, a CSV converter, or a spreadsheet template).
 - **It imports one account at a time.** No multi-account CSVs.
-- **It's not "live sync" to your bank.** savr is intentionally not a screen-scraper or open-banking aggregator. You decide when to import. You stay in control of what gets recorded.
+- **It's not "live sync" to your bank.** vondo is intentionally not a screen-scraper or open-banking aggregator. You decide when to import. You stay in control of what gets recorded.
 
 ---
 
 ## Exporting your data
 
-Every list view in savr has a CSV export. Click the export button and savr downloads the data as a `.csv` file.
+Every list view in vondo has a CSV export. Click the export button and vondo downloads the data as a `.csv` file.
 
 | Export | What you get |
 |---|---|
@@ -122,7 +122,7 @@ Every list view in savr has a CSV export. Click the export button and savr downl
 | **Categories** | Group, Category, Hidden flag |
 | **Payees** | Name |
 
-The transaction export is the big one. It opens cleanly in any spreadsheet app, and it's the basis for any analysis you want to do that savr's [Reports](../reports/) page doesn't cover.
+The transaction export is the big one. It opens cleanly in any spreadsheet app, and it's the basis for any analysis you want to do that vondo's [Reports](../reports/) page doesn't cover.
 
 > **For example:** Want to see your spending by category broken down quarter by quarter? Export transactions, open in your spreadsheet of choice, pivot table by category and quarter, done. The export is everything you need.
 
@@ -136,16 +136,16 @@ If you ever need a structured export for a specific tool, CSV is also the easies
 
 ## Backups
 
-The transactions export is also your backup strategy. A monthly export of all transactions (and accounts/categories/payees if you want belt and suspenders) is a complete-enough record of your savr account that you could rebuild from it if you ever needed to.
+The transactions export is also your backup strategy. A monthly export of all transactions (and accounts/categories/payees if you want belt and suspenders) is a complete-enough record of your vondo account that you could rebuild from it if you ever needed to.
 
-Save the file somewhere outside savr — your cloud drive, an encrypted folder, anywhere that survives a single device dying. Don't think of it as "if savr disappears" (we're not going anywhere). Think of it as "if my laptop dies the day before I file taxes."
+Save the file somewhere outside vondo — your cloud drive, an encrypted folder, anywhere that survives a single device dying. Don't think of it as "if vondo disappears" (we're not going anywhere). Think of it as "if my laptop dies the day before I file taxes."
 
 ---
 
 ## Tips
 
-- **Save your column mappings the first time.** Once savr knows how your bank's CSV is structured, future imports are nearly one-click.
+- **Save your column mappings the first time.** Once vondo knows how your bank's CSV is structured, future imports are nearly one-click.
 - **Import in chronological order.** If you have years of history, import the oldest year first, then the next, then the next. The opening balance and running totals will line up correctly.
-- **Reconcile after a big import.** Run a [reconciliation](../reconcile/) on the account after importing. Catches the typos and confirms savr matches reality.
-- **Don't import what's already in your recurring rules.** If you've already set up a recurring paycheck and applied it for the last six months, those transactions exist in savr. The matcher should catch the duplicates, but it's worth a glance.
+- **Reconcile after a big import.** Run a [reconciliation](../reconcile/) on the account after importing. Catches the typos and confirms vondo matches reality.
+- **Don't import what's already in your recurring rules.** If you've already set up a recurring paycheck and applied it for the last six months, those transactions exist in vondo. The matcher should catch the duplicates, but it's worth a glance.
 - **Clean up payees and categories *after* the import, not during.** Trying to categorize 247 transactions in the import flow is exhausting. Just import them, then sort it out from the Activity page over a few sessions.

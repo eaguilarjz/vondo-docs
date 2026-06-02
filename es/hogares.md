@@ -8,7 +8,7 @@ nav_order: 12
 
 # Hogares
 
-Un **hogar** es donde vive un presupuesto de savr. Las cuentas, categorías, transacciones, reglas recurrentes, informes — todo está dentro de un hogar. Hasta cinco personas pueden compartir el acceso.
+Un **hogar** es donde vive un presupuesto de vondo. Las cuentas, categorías, transacciones, reglas recurrentes, informes — todo está dentro de un hogar. Hasta cinco personas pueden compartir el acceso.
 
 Si eres la única persona en la cuenta, está bien: simplemente tienes un hogar con un miembro. Pero si alguna vez has querido que tu pareja pueda ver el presupuesto del supermercado sin molestarte, o que dos adultos de la misma familia registren sus propios gastos en un mismo plan compartido, esto es lo que lo hace posible.
 
@@ -43,11 +43,11 @@ Exactamente **un Propietario** por hogar. El Propietario no puede salir — tien
 
 ## Crear un hogar
 
-Si acabas de registrarte, ya tienes uno — savr crea un hogar para ti en tu primer inicio de sesión, lo nombra como tú, elige una **moneda** y una **zona horaria** por defecto a partir de la configuración regional de tu navegador, y empieza la prueba de 90 días. Eres el Propietario. Puedes renombrarlo (y cambiar la moneda y la zona horaria) después.
+Si acabas de registrarte, ya tienes uno — vondo crea un hogar para ti en tu primer inicio de sesión, lo nombra como tú, elige una **moneda** y una **zona horaria** por defecto a partir de la configuración regional de tu navegador, y empieza la prueba de 90 días. Eres el Propietario. Puedes renombrarlo (y cambiar la moneda y la zona horaria) después.
 
 Si eres un usuario sin hogares (por ejemplo, te eliminaron de uno y no eres propietario de ninguno), verás una pantalla de bienvenida al iniciar sesión con dos opciones:
 
-- **Crea tu hogar** — prueba fresca de 90 días, eres el Propietario, puedes invitar a hasta cuatro personas más. Elige un nombre (p. ej. "La familia Aguilar"), confirma la moneda y la zona horaria sugeridas (o cámbialas ahora si savr adivinó mal), listo.
+- **Crea tu hogar** — prueba fresca de 90 días, eres el Propietario, puedes invitar a hasta cuatro personas más. Elige un nombre (p. ej. "La familia Aguilar"), confirma la moneda y la zona horaria sugeridas (o cámbialas ahora si vondo adivinó mal), listo.
 - **Espera una invitación** — si alguien planea agregarte, la pantalla de bienvenida te dice a qué correo esperar la invitación, y se actualiza automáticamente cuando llega una.
 
 > **Atención:** Sólo puedes **ser propietario** de un hogar a la vez. Si ya eres propietario de uno y quieres crear otro, tendrás que salir o eliminar el primero. Pero no hay límite en cuántos hogares puedes **ser miembro**.
@@ -60,7 +60,7 @@ Un hogar tiene una **moneda** y una **zona horaria**, y aplican a cada miembro.
 
 No son una preferencia personal de visualización — son parte de los datos del hogar:
 
-- **La moneda** es la unidad en que están denominadas tus cuentas y el presupuesto. savr no hace conversión de tipo de cambio, así que sólo tiene sentido si todos los que ven el presupuesto ven la misma moneda. Una línea de supermercado de $400 que sea $400 para un miembro y €400 para otro no significaría nada.
+- **La moneda** es la unidad en que están denominadas tus cuentas y el presupuesto. vondo no hace conversión de tipo de cambio, así que sólo tiene sentido si todos los que ven el presupuesto ven la misma moneda. Una línea de supermercado de $400 que sea $400 para un miembro y €400 para otro no significaría nada.
 - **La zona horaria** controla los límites del mes de presupuesto — si una transacción registrada a las 11:30 PM del 31 de enero pertenece a enero o a febrero. Dos miembros en zonas horarias distintas igualmente necesitan ponerse de acuerdo en a qué mes pertenece cada transacción, así que el hogar elige una zona y la usa para todos.
 
 ### Quién las puede cambiar
@@ -86,7 +86,7 @@ Abre **Perfil → Hogares → [nombre del hogar] → Invitar a un nuevo miembro*
 
 1. Escribe el correo electrónico de la persona que quieres invitar.
 2. Haz clic en **Enviar invitación**.
-3. savr le envía un enlace por correo. El enlace es válido por **7 días**.
+3. vondo le envía un enlace por correo. El enlace es válido por **7 días**.
 
 La nueva invitación pendiente aparece en la lista de **Invitaciones pendientes** del hogar. Si no la aceptan a tiempo, la invitación expira — simplemente envía una nueva.
 
@@ -94,21 +94,21 @@ Algunas reglas:
 
 - **Tope de 5 personas.** Miembros + invitaciones pendientes combinadas no pueden exceder 5. Si está lleno, tendrás que eliminar a alguien o revocar una invitación pendiente antes de enviar una nueva.
 - **Una invitación pendiente por correo** a la vez. No puedes enviar duplicados.
-- **Por correo, no por nombre de usuario.** No necesitan tener una cuenta de savr todavía — el enlace de invitación los guía por el registro si hace falta.
+- **Por correo, no por nombre de usuario.** No necesitan tener una cuenta de vondo todavía — el enlace de invitación los guía por el registro si hace falta.
 
-> **Ejemplo concreto:** Estás configurando un hogar con tu pareja. Creas el hogar ("Casa Aguilar"), luego haces clic en **Invitar a un nuevo miembro**, escribes su correo y envías. Reciben un correo titulado *"Estás invitado a Casa Aguilar."* Hacen clic en el enlace, se registran en savr (o inician sesión si ya tienen cuenta), aceptan y eligen cambiarse a Casa Aguilar inmediatamente. Ahora ambos ven el mismo presupuesto.
+> **Ejemplo concreto:** Estás configurando un hogar con tu pareja. Creas el hogar ("Casa Aguilar"), luego haces clic en **Invitar a un nuevo miembro**, escribes su correo y envías. Reciben un correo titulado *"Estás invitado a Casa Aguilar."* Hacen clic en el enlace, se registran en vondo (o inician sesión si ya tienen cuenta), aceptan y eligen cambiarse a Casa Aguilar inmediatamente. Ahora ambos ven el mismo presupuesto.
 
 ---
 
 ## Aceptar una invitación
 
-Cuando haces clic en un enlace de invitación en tu correo, savr abre una página de vista previa que muestra:
+Cuando haces clic en un enlace de invitación en tu correo, vondo abre una página de vista previa que muestra:
 
 - A qué hogar te han invitado
 - Quién te invitó
 - A qué dirección de correo se envió la invitación
 
-Si **no has iniciado sesión**, se te pedirá iniciar sesión o crear una cuenta de savr. Puedes usar cualquier correo — el que recibió la invitación es sólo una pista de enrutamiento; tu cuenta de savr puede usar un correo diferente sin problema.
+Si **no has iniciado sesión**, se te pedirá iniciar sesión o crear una cuenta de vondo. Puedes usar cualquier correo — el que recibió la invitación es sólo una pista de enrutamiento; tu cuenta de vondo puede usar un correo diferente sin problema.
 
 Si **ya iniciaste sesión**, dos botones:
 
@@ -146,7 +146,7 @@ Abre **Perfil → Hogares → [nombre del hogar]** para ver:
 
 Haz clic en **Eliminar** junto al miembro que quieres quitar. Confirma. Pierden acceso al presupuesto de este hogar inmediatamente.
 
-Su cuenta de savr no se ve afectada — conservan sus otros hogares, su perfil, sus sesiones, todo. Sólo este hogar desaparece de su vista.
+Su cuenta de vondo no se ve afectada — conservan sus otros hogares, su perfil, sus sesiones, todo. Sólo este hogar desaparece de su vista.
 
 El Propietario no puede eliminarse a sí mismo; para eso, usa Transferir propiedad o Eliminar hogar más abajo.
 
@@ -188,7 +188,7 @@ Pasos (sólo Propietario):
 
 Algunas condiciones previas:
 
-- **Sin suscripción activa.** Si el hogar tiene un plan de pago, cancélalo desde el portal de facturación primero. savr no eliminará un hogar de pago para prevenir cargos sorpresa.
+- **Sin suscripción activa.** Si el hogar tiene un plan de pago, cancélalo desde el portal de facturación primero. vondo no eliminará un hogar de pago para prevenir cargos sorpresa.
 - **Sólo Propietario.** Los miembros no pueden eliminar; sólo pueden salir.
 
 Los demás miembros del hogar pierden el acceso inmediatamente y no se les cobrará nada.
@@ -203,7 +203,7 @@ Son operaciones **distintas**:
 |---|---|---|
 | **Salir del hogar** | Tu acceso a este hogar específico | Página de Hogares → Salir |
 | **Eliminar el hogar** | El hogar y todo lo que tiene. Tu cuenta de usuario permanece. | Página de Hogares → Eliminar (sólo Propietario) |
-| **Eliminar tu cuenta de savr** | Tu cuenta de usuario misma. Pierdes acceso a todos los hogares en los que estés. Si eres propietario de un hogar, primero tienes que transferirlo o eliminarlo. | Perfil → Zona de Peligro → Eliminar mi cuenta |
+| **Eliminar tu cuenta de vondo** | Tu cuenta de usuario misma. Pierdes acceso a todos los hogares en los que estés. Si eres propietario de un hogar, primero tienes que transferirlo o eliminarlo. | Perfil → Zona de Peligro → Eliminar mi cuenta |
 
 ---
 

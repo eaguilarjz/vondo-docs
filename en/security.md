@@ -8,7 +8,7 @@ nav_order: 15
 
 # Security
 
-Your savr account contains a comprehensive picture of your finances. We take that seriously, and you should too.
+Your vondo account contains a comprehensive picture of your finances. We take that seriously, and you should too.
 
 This page covers everything you can do to keep your account secure: passwords, two-factor authentication, recovery codes, and how sessions work. Most of it is two-minute one-time setup that pays off forever.
 
@@ -18,21 +18,21 @@ You'll find these settings under **Profile → Security**.
 
 ## How you sign in
 
-savr accepts three ways to sign in. You can use any one of them, or mix and match — they all reach the same account.
+vondo accepts three ways to sign in. You can use any one of them, or mix and match — they all reach the same account.
 
 | Method | What you need | Notes |
 |---|---|---|
-| **Email + password** | Your email address and your savr password | The classic. Pair with [MFA](#two-factor-authentication-mfa) for the strongest setup. |
-| **Sign in with Google** | A Google account whose email matches yours in savr | One click. No password to remember. |
-| **Sign in with Microsoft** | A **personal** Microsoft account (Outlook.com, Hotmail, Live, MSN) whose email matches yours in savr | Same idea — one click. Work or school AAD accounts aren't supported. |
+| **Email + password** | Your email address and your vondo password | The classic. Pair with [MFA](#two-factor-authentication-mfa) for the strongest setup. |
+| **Sign in with Google** | A Google account whose email matches yours in vondo | One click. No password to remember. |
+| **Sign in with Microsoft** | A **personal** Microsoft account (Outlook.com, Hotmail, Live, MSN) whose email matches yours in vondo | Same idea — one click. Work or school AAD accounts aren't supported. |
 
 ### How OAuth sign-up works
 
-When you click **Sign in with Google** or **Sign in with Microsoft** on the sign-up screen, savr:
+When you click **Sign in with Google** or **Sign in with Microsoft** on the sign-up screen, vondo:
 
 1. Sends you to the provider to confirm.
 2. Reads the email address from the response.
-3. **Creates a new account** with that email, or **links** the provider to your existing savr account if the email already exists. No duplicate accounts.
+3. **Creates a new account** with that email, or **links** the provider to your existing vondo account if the email already exists. No duplicate accounts.
 
 ### Switching methods later
 
@@ -53,13 +53,13 @@ You're not locked into the method you started with. From **Profile → Security 
 
 Once changed, every signed-in session continues to work, but any signed-out session (a different device, an old browser) will require the new password.
 
-> **Pro tip:** Use a password manager. The strongest password is one you don't have to remember — long, random, unique to savr. 1Password, Bitwarden, Apple's iCloud Keychain, your browser's built-in manager: all fine. Pick one and let it do its job.
+> **Pro tip:** Use a password manager. The strongest password is one you don't have to remember — long, random, unique to vondo. 1Password, Bitwarden, Apple's iCloud Keychain, your browser's built-in manager: all fine. Pick one and let it do its job.
 
 ---
 
 ## Connected accounts
 
-The **Connected accounts** section lists every external sign-in method linked to your savr account — Google, Microsoft, and any future providers.
+The **Connected accounts** section lists every external sign-in method linked to your vondo account — Google, Microsoft, and any future providers.
 
 ### Add a provider
 
@@ -73,7 +73,7 @@ After connecting, the provider becomes another way to sign in. Useful if you wan
 
 Click **Disconnect** next to a provider in the list. The change is immediate — no confirmation dialog.
 
-The one exception: if the provider you're removing is the **only** way you can sign in (an OAuth-only account with no password), savr won't let you. Set a password first via **Forgot password?** on the sign-in page, then come back to remove the provider.
+The one exception: if the provider you're removing is the **only** way you can sign in (an OAuth-only account with no password), vondo won't let you. Set a password first via **Forgot password?** on the sign-in page, then come back to remove the provider.
 
 > **Why connect more than one?** Redundancy. If you lose access to one provider account, the other still works. Pair this with [Recovery codes](#recovery-codes) and you've got real account-recovery resilience.
 
@@ -83,7 +83,7 @@ The one exception: if the provider you're removing is the **only** way you can s
 
 Two-factor authentication adds a second step to sign-in: even if someone learns your password, they can't get in without a code from an authenticator app on your phone. Enabling MFA is the single biggest improvement you can make to account security.
 
-savr supports **TOTP** (time-based one-time passwords) — the same standard used by Google Authenticator, Authy, 1Password, Bitwarden, and most modern password managers.
+vondo supports **TOTP** (time-based one-time passwords) — the same standard used by Google Authenticator, Authy, 1Password, Bitwarden, and most modern password managers.
 
 ### Set up MFA
 
@@ -100,7 +100,7 @@ savr supports **TOTP** (time-based one-time passwords) — the same standard use
    - Click **Verify**.
 
    **Step 3 — Save your recovery codes**
-   - savr generates **8 recovery codes**.
+   - vondo generates **8 recovery codes**.
    - **Download** them as a `.txt` file or copy them to your password manager.
    - These codes are your fallback if you lose access to your authenticator. Keep them somewhere you'll find again — but **not on the same device as your authenticator**.
 
@@ -110,7 +110,7 @@ savr supports **TOTP** (time-based one-time passwords) — the same standard use
 
 ### Sign in with MFA
 
-After entering your email and password on the sign-in page, savr asks for a second factor:
+After entering your email and password on the sign-in page, vondo asks for a second factor:
 
 - Open your authenticator app and enter the current 6-digit code, **or**
 - Click **Use a recovery code** and enter one of the codes you saved during setup.
@@ -158,7 +158,7 @@ You can re-enable it any time. New recovery codes are generated each time you se
 
 ## Sessions
 
-When you sign in to savr, your session is held in two secure cookies:
+When you sign in to vondo, your session is held in two secure cookies:
 
 | Cookie | Lifetime | Purpose |
 |---|---|---|
@@ -177,13 +177,13 @@ In practice this means:
 
 You can be signed in on multiple devices at once — each device has its own pair of cookies. Signing out on one device doesn't sign you out on the others.
 
-> **For example:** You're signed in on your laptop and your phone. You hand the phone to a friend (who doesn't see savr — they're using a different app), then sign out on the laptop. Your phone session is unaffected.
+> **For example:** You're signed in on your laptop and your phone. You hand the phone to a friend (who doesn't see vondo — they're using a different app), then sign out on the laptop. Your phone session is unaffected.
 
 ### Active sessions
 
-**Profile → Security → Active sessions** lists every device currently signed in to your savr account, with:
+**Profile → Security → Active sessions** lists every device currently signed in to your vondo account, with:
 
-- The device's browser or app (e.g. "Chrome on macOS", "Savr iOS")
+- The device's browser or app (e.g. "Chrome on macOS", "Vondo iOS")
 - When it signed in (relative — "3 days ago")
 - When that session's refresh token expires
 - The device you're currently using, flagged as **This device**
@@ -194,7 +194,7 @@ Click **Sign out** next to any row to revoke that session remotely. The device l
 - A phone got lost or stolen
 - You don't recognise a device in the list
 
-If you revoke the device you're currently using, savr asks for confirmation and signs you out on this device too — you'll be asked to sign in again next time the app refreshes its session.
+If you revoke the device you're currently using, vondo asks for confirmation and signs you out on this device too — you'll be asked to sign in again next time the app refreshes its session.
 
 > **Lost a device?** Sign out that device from Active sessions, **and** [change your password](#change-your-password). Sign-out kills the existing session immediately; the new password prevents anyone from signing in again with credentials they may have lifted.
 
@@ -216,14 +216,14 @@ Most users will never see one of these messages. They exist to slow down attacke
 
 ---
 
-## Deleting your savr account
+## Deleting your vondo account
 
-If you want to delete your savr account entirely — not just leave a household, not just cancel a subscription, but remove the user record itself — open **Profile → Danger Zone → Delete my account**.
+If you want to delete your vondo account entirely — not just leave a household, not just cancel a subscription, but remove the user record itself — open **Profile → Danger Zone → Delete my account**.
 
-A few things to know first, because this is the one operation in savr that genuinely can't be undone:
+A few things to know first, because this is the one operation in vondo that genuinely can't be undone:
 
-- **Different from deleting a household.** Your savr account is *you*; a household is the budget(s) you're in. Deleting your account removes you from every household you belong to and erases your user record. Deleting a household removes the budget but leaves your user account intact. See the [Households](../households/#delete-household-vs-delete-account) page for a comparison table.
-- **If you own a household, transfer or delete it first.** savr refuses to delete a user that still owns a paying or trialing household — there'd be a budget with no owner, members locked out, no one able to fix the billing. The Delete button is disabled until you've either [transferred ownership](../households/#transfer-ownership-owner-only) or [deleted the household](../households/#deleting-a-household).
+- **Different from deleting a household.** Your vondo account is *you*; a household is the budget(s) you're in. Deleting your account removes you from every household you belong to and erases your user record. Deleting a household removes the budget but leaves your user account intact. See the [Households](../households/#delete-household-vs-delete-account) page for a comparison table.
+- **If you own a household, transfer or delete it first.** vondo refuses to delete a user that still owns a paying or trialing household — there'd be a budget with no owner, members locked out, no one able to fix the billing. The Delete button is disabled until you've either [transferred ownership](../households/#transfer-ownership-owner-only) or [deleted the household](../households/#deleting-a-household).
 - **Outstanding billing must be settled.** If you have an unpaid invoice on a household you own, settle it before deleting.
 - **Your data goes with you.** Once the account is deleted, your transactions, custom categories, payees, and recurring rules in households you owned (and have deleted) are gone. If you want a copy, [export your data](../import-export/#exporting-your-data) first.
 
@@ -236,10 +236,10 @@ If you're just stepping away for a while and aren't sure, **pause your subscript
 A short list, in order of importance:
 
 1. **Enable MFA.** Almost every account compromise starts with a stolen or reused password. MFA defeats this. (Two minutes. Just do it.)
-2. **Use a password manager.** Generate a unique, long password for savr and let your password manager remember it. Don't reuse a password from another site.
+2. **Use a password manager.** Generate a unique, long password for vondo and let your password manager remember it. Don't reuse a password from another site.
 3. **Save recovery codes somewhere you can actually find them.** A password manager entry, a paper copy in a safe, or both. Don't put them in an email or in a Notes app on the same device as your authenticator.
 4. **Don't store recovery codes on the same device as your authenticator.** If you lose the device, you've lost both — and you lose the safety net.
 5. **Sign out on shared devices.** Don't rely on the "remember me" cookie if anyone else uses that browser.
-6. **Treat the trial-end and renewal emails as security checkpoints too.** They confirm your email is still working and your account is still active. If you stop receiving expected emails from savr, check your spam folder and consider whether your email account has been compromised.
+6. **Treat the trial-end and renewal emails as security checkpoints too.** They confirm your email is still working and your account is still active. If you stop receiving expected emails from vondo, check your spam folder and consider whether your email account has been compromised.
 
 You'll never regret these. You might regret skipping them.

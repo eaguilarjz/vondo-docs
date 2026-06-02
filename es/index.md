@@ -7,11 +7,11 @@ permalink: /es/
 
 > {% include lang-globe.html %} Read this help in [English](../en/)
 
-# Docs de savr
+# Docs de vondo
 
-Bienvenido. savr es una aplicación de presupuesto basada en una idea simple: cada dólar tiene una categoría antes de gastarse, así que cuando llega la cuenta ya sabes exactamente dónde está el dinero. Diseñada para ser el tipo de herramienta que sigues usando seis meses después. Esta documentación cubre todo lo que necesitas para configurar tus cuentas, construir un presupuesto real y aprovechar las funciones de savr con confianza.
+Bienvenido. vondo es una aplicación de presupuesto basada en una idea simple: cada dólar tiene una categoría antes de gastarse, así que cuando llega la cuenta ya sabes exactamente dónde está el dinero. Diseñada para ser el tipo de herramienta que sigues usando seis meses después. Esta documentación cubre todo lo que necesitas para configurar tus cuentas, construir un presupuesto real y aprovechar las funciones de vondo con confianza.
 
-Si apenas empiezas, ve a [Primeros pasos](getting-started/). Si ya conoces savr y solo vienes a buscar algo específico, la tabla de abajo es tu amiga.
+Si apenas empiezas, ve a [Primeros pasos](getting-started/). Si ya conoces vondo y solo vienes a buscar algo específico, la tabla de abajo es tu amiga.
 
 ---
 
@@ -27,7 +27,7 @@ Si apenas empiezas, ve a [Primeros pasos](getting-started/). Si ya conoces savr 
 | [Recurrentes](recurring/) | Cinco frecuencias, divisiones, pagos de deuda recurrentes, aplicar vencimientos |
 | [Beneficiarios](payees/) | Crear, renombrar, fusionar, eliminar con reasignación |
 | [Informes](reports/) | Tendencias mensuales, ahorros netos, gastos por categoría, beneficiarios principales |
-| [Conciliación](reconcile/) | Hacer coincidir savr con tu extracto, encontrar discrepancias |
+| [Conciliación](reconcile/) | Hacer coincidir vondo con tu extracto, encontrar discrepancias |
 | [Importar y Exportar](import-export/) | Asistente de importación CSV, exportaciones de transacciones, cuentas, categorías, beneficiarios |
 | [Perfil y Ajustes](profile/) | Nombre, idioma, tema |
 | [Hogares](hogares/) | Compartir un presupuesto con hasta 5 personas, roles, invitaciones, cambio de hogar, transferir propiedad, moneda, zona horaria |
@@ -47,4 +47,4 @@ Funciona porque te obliga a tomar decisiones de gasto con anticipación, no desp
 
 El primer mes es el más difícil. El décimo mes es automático. La recompensa es llegar a fin de año y saber — con números reales, no con sensaciones — exactamente a dónde se fue tu dinero y cuánto lograste ahorrar.
 
-Para eso es savr. Bienvenido.
+Para eso es vondo. Bienvenido.

@@ -8,7 +8,7 @@ nav_order: 13
 
 # Mobile App
 
-savr ships on iOS and Android as a native cross-platform app. Same account, same data, same budget — just optimized for a phone in your pocket while you're standing in line at the grocery store deciding whether the $7 bag of granola is "Groceries" or "Dining Out."
+vondo ships on iOS and Android as a native cross-platform app. Same account, same data, same budget — just optimized for a phone in your pocket while you're standing in line at the grocery store deciding whether the $7 bag of granola is "Groceries" or "Dining Out."
 
 This page covers everything that's specific to the mobile app: how it's organized, how it stays in sync with the web app, and the small handful of things the mobile app doesn't do (yet).
 
@@ -16,7 +16,7 @@ This page covers everything that's specific to the mobile app: how it's organize
 
 ## Install
 
-Search for **Savr** in the App Store (iOS) or Play Store (Android), install, and sign in with the same account you use on the web. Everything you've already set up — accounts, categories, budgets, recurring rules, saved views, the lot — appears on the phone immediately.
+Search for **Vondo** in the App Store (iOS) or Play Store (Android), install, and sign in with the same account you use on the web. Everything you've already set up — accounts, categories, budgets, recurring rules, saved views, the lot — appears on the phone immediately.
 
 If you haven't signed up yet, you can also create your account from the mobile sign-in screen. See [Getting Started → Create your account](../getting-started/#create-your-account-and-start-your-free-trial) for the flow (the steps are the same on mobile).
 
@@ -59,7 +59,7 @@ The single biggest difference from the web is that **the mobile app keeps workin
 
 > **Worked example — a flight from SFO to JFK:**
 >
-> 1. You take off. The phone flips to airplane mode. savr's offline banner appears at the top.
+> 1. You take off. The phone flips to airplane mode. vondo's offline banner appears at the top.
 > 2. Mid-flight, you remember you owe your roommate $40 for utilities. You record it as a Transfer from your Checking to "Roommate IOUs" — it shows up in your Activity right away, and **Pending Changes** ticks to "1 unsynced change."
 > 3. Boarding the connecting flight, you grab a sandwich and a coffee. Two more transactions go in. Now "3 unsynced changes."
 > 4. You land at JFK and turn off airplane mode. Within a few seconds the offline banner disappears, the Pending Changes count drops to zero, and all three transactions are now on the server. Open the web app in the cab and they're already there.
@@ -153,6 +153,6 @@ Not in this version:
 ## Tips
 
 - **Use the phone for capture, the laptop for setup.** Most people end up using the mobile app to record transactions throughout the day and the web app on Sunday nights for the monthly review.
-- **Pull to refresh on any list screen.** If you think the server has newer data, swipe down — savr fetches a fresh snapshot and reconciles it with whatever's in your pending queue.
+- **Pull to refresh on any list screen.** If you think the server has newer data, swipe down — vondo fetches a fresh snapshot and reconciles it with whatever's in your pending queue.
 - **Don't worry about the offline banner.** It's not an error; it's a status. The app keeps working. Your changes are safe locally and will sync when you're back online.
 - **Sign out before lending a device.** If someone borrows your phone for a flight, sign out first. Signing back in is fast (one tap with Google/Microsoft, or your password + an MFA code if you've set that up).

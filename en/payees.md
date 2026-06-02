@@ -10,7 +10,7 @@ nav_order: 7
 
 Payees are the people, businesses, or services on the other end of a transaction. The grocery store. Your landlord. That subscription service. Your employer (yes — your employer is a "payee" on your incoming paychecks too).
 
-Payees are optional in savr. You can run a fine budget without ever using them. But they make a few things easier — and once you start using them, you'll wonder why you ever didn't.
+Payees are optional in vondo. You can run a fine budget without ever using them. But they make a few things easier — and once you start using them, you'll wonder why you ever didn't.
 
 ---
 
@@ -22,7 +22,7 @@ Payees are most useful for:
 - **Filtering on the Activity page.** Track all the activity with a specific party.
 - **Finding duplicates.** When you see "Whole Foods" with 47 transactions and "WHOLE FOODS MARKET" with 3, those are the same place — merge them.
 
-If neither of those sounds compelling, skip payees. savr won't nag you.
+If neither of those sounds compelling, skip payees. vondo won't nag you.
 
 ---
 
@@ -32,7 +32,7 @@ Two ways:
 
 ### Inline, while creating a transaction
 
-In the transaction dialog's **Payee** field, just type a name. If it doesn't exist, savr creates it automatically when you save the transaction. This is how most people build their payee list — naturally, as they record activity.
+In the transaction dialog's **Payee** field, just type a name. If it doesn't exist, vondo creates it automatically when you save the transaction. This is how most people build their payee list — naturally, as they record activity.
 
 ### From the Payees page
 
@@ -57,7 +57,7 @@ This is how you clean up bank exports that mangled the name. Edit "WHL FDS MKT 2
 Click the delete action on a payee row.
 
 - **If the payee has no transactions**, it's deleted immediately.
-- **If the payee has transactions**, savr opens a **reassign** modal:
+- **If the payee has transactions**, vondo opens a **reassign** modal:
   1. Pick another payee to take over its transactions (or choose **None** to clear the payee field).
   2. Confirm.
 

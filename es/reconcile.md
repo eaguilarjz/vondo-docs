@@ -8,11 +8,11 @@ nav_order: 9
 
 # Conciliación
 
-Conciliar es el acto de decir: "el registro de savr de esta cuenta coincide con la realidad."
+Conciliar es el acto de decir: "el registro de vondo de esta cuenta coincide con la realidad."
 
-Tomas tu extracto del banco (o el "saldo actual" en línea de tu banco), lo comparas con lo que savr cree que debería ser el saldo y resuelves cualquier diferencia. Cuando los números cuadran, marcas como conciliado y sigues con tu vida.
+Tomas tu extracto del banco (o el "saldo actual" en línea de tu banco), lo comparas con lo que vondo cree que debería ser el saldo y resuelves cualquier diferencia. Cuando los números cuadran, marcas como conciliado y sigues con tu vida.
 
-Si nunca has conciliado — no te intimides. savr hace casi todo el trabajo. Tú solo estás haciendo clic en casillas hasta que dos números coincidan.
+Si nunca has conciliado — no te intimides. vondo hace casi todo el trabajo. Tú solo estás haciendo clic en casillas hasta que dos números coincidan.
 
 ---
 
@@ -21,10 +21,10 @@ Si nunca has conciliado — no te intimides. savr hace casi todo el trabajo. Tú
 Tres razones:
 
 1. **Atrapar tus propios errores de captura.** Escribiste $51 en lugar de $15. Pasa. La conciliación los saca a la luz en el momento que rompen la matemática.
-2. **Atrapar errores del banco.** Raros pero reales. Un cargo duplicado, un crédito olvidado, una comisión que no sabías — aparecen cuando el número de savr difiere del banco.
-3. **Construir confianza en tus propios datos.** Cuando el saldo en savr es el saldo real de tu cuenta, dejas de hedgear tus decisiones con "bueno, más o menos."
+2. **Atrapar errores del banco.** Raros pero reales. Un cargo duplicado, un crédito olvidado, una comisión que no sabías — aparecen cuando el número de vondo difiere del banco.
+3. **Construir confianza en tus propios datos.** Cuando el saldo en vondo es el saldo real de tu cuenta, dejas de hedgear tus decisiones con "bueno, más o menos."
 
-La recompensa por gastar dos minutos al mes por cuenta es confianza total en cada número que ves en savr.
+La recompensa por gastar dos minutos al mes por cuenta es confianza total en cada número que ves en vondo.
 
 ---
 
@@ -41,17 +41,17 @@ Arriba:
 - **Fecha del extracto** — la fecha en el extracto del banco (o solo hoy, si usas el saldo en línea en tiempo real)
 - **Saldo del extracto** — el saldo que el banco dice que tenía la cuenta en esa fecha
 
-Ingresa ambos. savr los guarda cuando termines.
+Ingresa ambos. vondo los guarda cuando termines.
 
 ### Paso 2 — Concilia las transacciones que coinciden
 
-Abajo, savr muestra una tabla de cada transacción no conciliada de la cuenta. Haz clic en filas (o usa las casillas) para marcar cuáles aparecen en el extracto.
+Abajo, vondo muestra una tabla de cada transacción no conciliada de la cuenta. Haz clic en filas (o usa las casillas) para marcar cuáles aparecen en el extracto.
 
 Mientras haces clic, tres números se actualizan en la parte inferior de la página:
 
 | Número | Qué es |
 |---|---|
-| **Saldo Conciliado** | Lo que savr cree que debería ser tu saldo después de todas las transacciones que marcaste |
+| **Saldo Conciliado** | Lo que vondo cree que debería ser tu saldo después de todas las transacciones que marcaste |
 | **Saldo del Estado de Cuenta** | Lo que escribiste arriba |
 | **Diferencia** | Saldo del Estado de Cuenta − Saldo Conciliado |
 
@@ -59,7 +59,7 @@ Cuando **Diferencia = $0** (o dentro de medio centavo), el botón **Finalizar** 
 
 ### Paso 3 — Finalizar
 
-Haz clic en **Finalizar**. savr:
+Haz clic en **Finalizar**. vondo:
 
 - Marca cada transacción seleccionada como conciliada y conciliada
 - Registra la fecha y saldo del extracto
@@ -75,11 +75,11 @@ Esta es la parte que hace que conciliar parezca aterrador. Es realmente la parte
 
 Si la **Diferencia** no es cero, algo está mal. O:
 
-- Una transacción está en tu extracto pero no en savr (transacción faltante)
-- Una transacción está en savr pero no en el extracto (transacción extra, o cuenta equivocada)
+- Una transacción está en tu extracto pero no en vondo (transacción faltante)
+- Una transacción está en vondo pero no en el extracto (transacción extra, o cuenta equivocada)
 - Una transacción tiene el monto equivocado en algún lado
 
-savr no auto-sugiere dónde está el problema — eso solo tú puedes resolverlo, porque depende de qué hay en tu extracto. Pero aquí está el flujo:
+vondo no auto-sugiere dónde está el problema — eso solo tú puedes resolverlo, porque depende de qué hay en tu extracto. Pero aquí está el flujo:
 
 1. **Mira el tamaño de la diferencia.** Si son $43.21, probablemente buscas una sola transacción de $43.21.
 2. **Escanea tu extracto por transacciones que no marcaste.** ¿Algo en el extracto pero no en tu pantalla? Esa es la transacción faltante. Agrégala (abre una nueva pestaña y usa la página de Actividad) y regresa.
@@ -115,7 +115,7 @@ Mismo flujo que cuenta corriente. Nota que el saldo de una tarjeta de crédito e
 
 ### Efectivo
 
-El efectivo es difícil de conciliar porque no hay extracto. Mejor práctica: cuenta el efectivo en tu cartera, ingresa eso como el saldo del extracto y marca todas las transacciones que están en savr. Si no cuadra, olvidaste registrar un café por ahí. Agrégalo, finaliza, sigue.
+El efectivo es difícil de conciliar porque no hay extracto. Mejor práctica: cuenta el efectivo en tu cartera, ingresa eso como el saldo del extracto y marca todas las transacciones que están en vondo. Si no cuadra, olvidaste registrar un café por ahí. Agrégalo, finaliza, sigue.
 
 ### Cuentas de inversión
 
@@ -139,5 +139,5 @@ No necesitas mirar el historial seguido. Solo está ahí para el registro.
 
 - **Concilia una cuenta a la vez.** No intentes conciliar cuenta corriente y ahorros al mismo tiempo — termina una antes de empezar la otra.
 - **No fuerces un cuadre.** Si la diferencia es $0.34 y no la encuentras, no des clic en Finalizar de todas formas. El flujo de conciliación ni siquiera te dejará (Finalizar está deshabilitado hasta que la diferencia sea cero) — y eso es una característica. Encuentra el problema real. Casi siempre es una transacción real que necesita agregarse o corregirse.
-- **Una conciliación fallida es información.** Si no puedes llegar a cero, savr te está diciendo "tus registros y la realidad están desincronizados en algún lado." Ese es un problema que vale la pena arreglar ahora, no ignorar.
+- **Una conciliación fallida es información.** Si no puedes llegar a cero, vondo te está diciendo "tus registros y la realidad están desincronizados en algún lado." Ese es un problema que vale la pena arreglar ahora, no ignorar.
 - **La primera vez es la más difícil.** Si estás empezando una conciliación en una cuenta que no se ha conciliado en un año, tomará más de cinco minutos. Es normal. Después de la primera, es rápido.

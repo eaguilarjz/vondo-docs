@@ -8,7 +8,7 @@ nav_order: 14
 
 # Plan y Facturación
 
-savr es un producto por suscripción. Tres planes, una meta directa: mantener las luces encendidas para seguir construyendo cosas que de verdad uses, dándote precios justos y transparentes sin patrones oscuros.
+vondo es un producto por suscripción. Tres planes, una meta directa: mantener las luces encendidas para seguir construyendo cosas que de verdad uses, dándote precios justos y transparentes sin patrones oscuros.
 
 Esta página cubre todo lo relacionado con facturación: la prueba, los planes, cómo subir o cancelar, qué pasa cuando un pago falla y dónde encontrar tus facturas.
 
@@ -16,7 +16,7 @@ Esta página cubre todo lo relacionado con facturación: la prueba, los planes, 
 
 ## Una suscripción por hogar
 
-La suscripción de savr pertenece al **hogar**, no a ti personalmente. Cuando te registras, savr crea un hogar para ti y comienza la prueba de ese hogar. Si después compartes el hogar con tu pareja o un familiar, ellos van sobre la misma suscripción — no hay cargo aparte.
+La suscripción de vondo pertenece al **hogar**, no a ti personalmente. Cuando te registras, vondo crea un hogar para ti y comienza la prueba de ese hogar. Si después compartes el hogar con tu pareja o un familiar, ellos van sobre la misma suscripción — no hay cargo aparte.
 
 Si perteneces a más de un hogar (por ejemplo, uno familiar y uno personal), cada hogar tiene **su propia prueba, plan y facturación**. El Propietario de cada uno lo paga; los demás miembros nunca ven un cargo. Mira [Hogares](../hogares/) para entender cómo funciona la relación entre propiedad y facturación.
 
@@ -32,10 +32,10 @@ Tres meses son suficientes para:
 
 - Configurar tus cuentas y categorías
 - Pasar por tres ciclos completos de presupuesto
-- Ver si savr realmente encaja en tu vida
+- Ver si vondo realmente encaja en tu vida
 - Decidir si vale la pena pagar por él
 
-Unos días antes de que termine la prueba, savr te enviará un correo recordatorio único para que elijas un plan o, si no es para ti, te vayas limpiamente. Preferimos que canceles a que te sientas atrapado.
+Unos días antes de que termine la prueba, vondo te enviará un correo recordatorio único para que elijas un plan o, si no es para ti, te vayas limpiamente. Preferimos que canceles a que te sientas atrapado.
 
 Cuando termina la prueba, tus datos no se eliminan — solo se vuelven de solo lectura hasta que elijas un plan. Suscríbete y todo se reactiva al instante.
 
@@ -51,7 +51,7 @@ Tres opciones, mismas funciones. Elige la cadencia que te funcione:
 | **Trimestral** | Cargado cada tres meses | Un pequeño descuento a cambio de cobros menos frecuentes |
 | **Anual** | Cargado una vez al año | El mejor descuento; el mejor precio por mes |
 
-Los precios exactos aparecen en la [página de precios](https://savr.pro) y en la sección **Perfil → Plan y Facturación** de la app.
+Los precios exactos aparecen en la [página de precios](https://vondo.app) y en la sección **Perfil → Plan y Facturación** de la app.
 
 > **Un producto, un nivel.** Todos los planes obtienen la app completa — todos los tipos de cuenta, categorías ilimitadas, informes, conciliación, importación/exportación CSV, MFA, acceso móvil, ambos idiomas, soporte de tema. Lo único que cambia entre planes es qué tan seguido te cobran y la tarifa por mes que viene con cada cadencia.
 
@@ -61,9 +61,9 @@ Los precios exactos aparecen en la [página de precios](https://savr.pro) y en l
 
 1. Abre **Perfil → Plan y Facturación**.
 2. Haz clic en el plan que quieres.
-3. savr abre el portal seguro de facturación en una nueva pestaña.
+3. vondo abre el portal seguro de facturación en una nueva pestaña.
 4. Ingresa los datos de tu pago y confirma.
-5. Estás de vuelta en savr, completamente suscrito.
+5. Estás de vuelta en vondo, completamente suscrito.
 
 El primer cargo sucede de inmediato. Los cargos futuros suceden automáticamente en la misma fecha de cada ciclo.
 
@@ -84,11 +84,11 @@ Esto evita cualquier matemática de prorrateo a mitad de periodo y deja el rastr
 
 ## Dónde sucede realmente la facturación
 
-savr usa un portal de facturación de terceros (potenciado por **LemonSqueezy**) para procesar pagos. Esto significa:
+vondo usa un portal de facturación de terceros (potenciado por **LemonSqueezy**) para procesar pagos. Esto significa:
 
-- Los datos de tu tarjeta nunca tocan los servidores de savr — viven con el procesador de pagos, que se especializa en esto.
+- Los datos de tu tarjeta nunca tocan los servidores de vondo — viven con el procesador de pagos, que se especializa en esto.
 - Cambios de plan, actualizaciones de método de pago y cancelaciones todos suceden en el mismo portal, accesible desde **Perfil → Plan y Facturación → Administrar Facturación**.
-- Los recibos y facturas vienen de LemonSqueezy por correo y también están disponibles en tu cuenta de savr (ver abajo).
+- Los recibos y facturas vienen de LemonSqueezy por correo y también están disponibles en tu cuenta de vondo (ver abajo).
 
 Si alguna vez has administrado una suscripción SaaS, el portal te resultará familiar.
 
@@ -119,7 +119,7 @@ Si necesitas un descanso — quizás estás de viaje, entre trabajos, o solo qui
 Mientras está pausada:
 
 - **No** se te cobra. Las renovaciones se detienen hasta que reanudes.
-- savr muestra una pantalla de "tu suscripción está en pausa" al iniciar sesión, con un botón **Reanudar suscripción**.
+- vondo muestra una pantalla de "tu suscripción está en pausa" al iniciar sesión, con un botón **Reanudar suscripción**.
 - Todos tus datos se quedan exactamente donde están.
 
 Para reanudar, haz clic en **Reanudar suscripción** desde esa pantalla, o vuelve a abrir el portal de facturación y elige Reanudar. La facturación retoma su cadencia normal y regresas de inmediato.
@@ -140,15 +140,15 @@ Tu suscripción se mantiene activa hasta el final del periodo de facturación ac
 
 Cuando la cancelación toma efecto:
 
-- Tu cuenta de savr se vuelve de solo lectura — aún puedes iniciar sesión, ver y exportar tus datos
+- Tu cuenta de vondo se vuelve de solo lectura — aún puedes iniciar sesión, ver y exportar tus datos
 - No perderás tus datos
 - Puedes volver a suscribirte cuando quieras y retomar donde lo dejaste
 
-> **Pro tip:** Antes de cancelar, [exporta tus transacciones](../import-export/#exportar-tus-datos) como CSV. Aunque savr no elimina tus datos al cancelar, tener una copia local es buena costumbre.
+> **Pro tip:** Antes de cancelar, [exporta tus transacciones](../import-export/#exportar-tus-datos) como CSV. Aunque vondo no elimina tus datos al cancelar, tener una copia local es buena costumbre.
 
 ### Cancelar durante la prueba
 
-Si decides que savr no es para ti durante la prueba, no se requiere acción. La prueba termina automáticamente y, como nunca ingresaste datos de pago, nunca se cobra nada.
+Si decides que vondo no es para ti durante la prueba, no se requiere acción. La prueba termina automáticamente y, como nunca ingresaste datos de pago, nunca se cobra nada.
 
 ---
 
@@ -157,13 +157,13 @@ Si decides que savr no es para ti durante la prueba, no se requiere acción. La 
 A veces una tarjeta expira, se reemplaza o simplemente es declinada. Cuando pasa:
 
 1. El cargo falla. Tu estado de suscripción cambia a **Vencido**.
-2. savr (vía el portal de facturación) automáticamente reintenta el cargo en los siguientes días.
+2. vondo (vía el portal de facturación) automáticamente reintenta el cargo en los siguientes días.
 3. Recibirás un correo pidiendo que actualices tu método de pago.
 4. Si el problema no se resuelve, tu suscripción eventualmente se mueve a **Sin pagar** y el acceso se vuelve de solo lectura.
 
 Para arreglarlo: abre **Perfil → Plan y Facturación → Administrar Facturación** y actualiza tu tarjeta. El siguiente reintento será exitoso y tu suscripción se reactivará.
 
-> **Atención:** Si tienes un saldo pendiente, savr no te dejará eliminar tu cuenta hasta que el saldo se liquide. Esto es para evitar pérdida accidental de datos mientras la facturación está sin resolver. Liquida la cuenta (o contacta soporte si crees que es un error) y la opción de eliminar se reactiva.
+> **Atención:** Si tienes un saldo pendiente, vondo no te dejará eliminar tu cuenta hasta que el saldo se liquide. Esto es para evitar pérdida accidental de datos mientras la facturación está sin resolver. Liquida la cuenta (o contacta soporte si crees que es un error) y la opción de eliminar se reactiva.
 
 ---
 
@@ -185,7 +185,7 @@ Algunos escenarios menos comunes:
 
 ## Consejos
 
-- **Anual es el más barato.** Si confías en que estarás usando savr en un año (la mayoría de la gente lo está después de unos meses), anual ahorra dinero.
+- **Anual es el más barato.** Si confías en que estarás usando vondo en un año (la mayoría de la gente lo está después de unos meses), anual ahorra dinero.
 - **Actualiza tu método de pago antes de que expire.** Una tarea de dos minutos antes de que la tarjeta llegue a su fecha de expiración te ahorra los días incómodos de cargos declinados.
 - **Cancelar ≠ eliminar.** Cancelar detiene la facturación. Tus datos se quedan. Eliminar tu cuenta es una acción separada (irreversible).
 - **Revisa Plan y Facturación una vez por trimestre.** Asegúrate de que tu plan sigue encajando y que tu método de pago está al día. Dos minutos, cuatro veces al año.

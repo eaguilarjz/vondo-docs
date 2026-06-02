@@ -8,7 +8,7 @@ nav_order: 12
 
 # Households
 
-A **household** is where a savr budget lives. The accounts, categories, transactions, recurring rules, reports — all of it sits inside a household. Up to five people can share access.
+A **household** is where a vondo budget lives. The accounts, categories, transactions, recurring rules, reports — all of it sits inside a household. Up to five people can share access.
 
 If you're the only person on the account, that's fine: you just have a household with one member. But if you've ever wanted a partner to see the grocery budget without bothering you, or two adults in the same family to record their own spending into one shared plan, this is what makes it work.
 
@@ -43,11 +43,11 @@ Exactly **one Owner** per household. The Owner can't leave — they have to eith
 
 ## Creating a household
 
-If you've just signed up, you already have one — savr creates a household for you on your first sign-in, names it after you, picks a default **currency** and **timezone** from your browser locale, and starts the 90-day trial. You're the Owner. You can rename it (and change the currency and timezone) later.
+If you've just signed up, you already have one — vondo creates a household for you on your first sign-in, names it after you, picks a default **currency** and **timezone** from your browser locale, and starts the 90-day trial. You're the Owner. You can rename it (and change the currency and timezone) later.
 
 If you're a user without any households (for example, you got removed from one and you don't own any), you'll see a welcome screen on sign-in with two options:
 
-- **Create your household** — fresh 90-day trial, you're the Owner, you can invite up to four other people. Pick a name (e.g. "The Smiths' Budget"), confirm the suggested currency and timezone (or change them now if savr's guess is wrong), done.
+- **Create your household** — fresh 90-day trial, you're the Owner, you can invite up to four other people. Pick a name (e.g. "The Smiths' Budget"), confirm the suggested currency and timezone (or change them now if vondo's guess is wrong), done.
 - **Wait for an invite** — if someone's planning to add you, the welcome screen tells you which email to expect the invitation at, and refreshes automatically when one arrives.
 
 > **Heads up:** You can only **own** one household at a time. If you already own one and want to create a second, you'll need to either leave or delete the first. There's no limit on how many households you can be a **member** of, though.
@@ -60,7 +60,7 @@ A household has one **currency** and one **timezone**, and they apply to every m
 
 This isn't a personal display preference — it's part of the household's data:
 
-- **Currency** is the unit your accounts and budget are denominated in. savr doesn't perform exchange-rate conversion, so it only makes sense if everyone looking at the budget sees the same currency. A $400 grocery line that's $400 to one member and €400 to another would be nonsense.
+- **Currency** is the unit your accounts and budget are denominated in. vondo doesn't perform exchange-rate conversion, so it only makes sense if everyone looking at the budget sees the same currency. A $400 grocery line that's $400 to one member and €400 to another would be nonsense.
 - **Timezone** controls budget-month boundaries — whether a transaction recorded at 11:30 PM on Jan 31 belongs to January or February. Two members in different timezones still need to agree on which month a given transaction lives in, so the household picks one timezone and uses it for everyone.
 
 ### Who can change them
@@ -86,7 +86,7 @@ Open **Profile → Households → [household name] → Invite a new member**.
 
 1. Type the email address of the person you want to invite.
 2. Click **Send invitation**.
-3. savr emails them a link. The link is good for **7 days**.
+3. vondo emails them a link. The link is good for **7 days**.
 
 The new pending invite shows up in the household's **Pending invitations** list. If they don't accept in time, the invite expires — just send a new one.
 
@@ -94,21 +94,21 @@ A few rules:
 
 - **5-person cap.** Members + pending invites combined can't exceed 5. If you're full, you'll need to remove someone or revoke a pending invite before sending a new one.
 - **One pending invite per email** at a time. You can't double-send.
-- **Email-based, not username-based.** They don't need a savr account yet — the invite link guides them through sign-up if needed.
+- **Email-based, not username-based.** They don't need a vondo account yet — the invite link guides them through sign-up if needed.
 
-> **Worked example:** You're setting up a household with your partner. You create the household ("Casa Aguilar"), then click **Invite a new member**, type their email, and send. They get an email titled *"You're invited to Casa Aguilar."* They click the link, sign up for savr (or sign in if they already have an account), accept, and choose to switch to Casa Aguilar immediately. Now both of you see the same budget.
+> **Worked example:** You're setting up a household with your partner. You create the household ("Casa Aguilar"), then click **Invite a new member**, type their email, and send. They get an email titled *"You're invited to Casa Aguilar."* They click the link, sign up for vondo (or sign in if they already have an account), accept, and choose to switch to Casa Aguilar immediately. Now both of you see the same budget.
 
 ---
 
 ## Accepting an invite
 
-When you click an invite link in your email, savr opens a preview page that shows:
+When you click an invite link in your email, vondo opens a preview page that shows:
 
 - Which household you've been invited to
 - Who invited you
 - Which email address the invitation was sent to
 
-If you're **not signed in**, you'll be prompted to sign in or create a savr account. You can use any email address — the one the invite was sent to is just a routing hint; your savr account can use a different email and that's fine.
+If you're **not signed in**, you'll be prompted to sign in or create a vondo account. You can use any email address — the one the invite was sent to is just a routing hint; your vondo account can use a different email and that's fine.
 
 If you're **signed in**, two buttons:
 
@@ -146,7 +146,7 @@ Open **Profile → Households → [household name]** to see:
 
 Click **Remove** next to the member you want to remove. Confirm. They lose access to this household's budget immediately.
 
-Their savr account isn't affected — they keep their other households, their profile, their sessions, everything. Only this household disappears from their view.
+Their vondo account isn't affected — they keep their other households, their profile, their sessions, everything. Only this household disappears from their view.
 
 The Owner can't remove themselves; for that, use Transfer ownership or Delete household below.
 
@@ -188,7 +188,7 @@ Steps (Owner only):
 
 A few preconditions:
 
-- **No active subscription.** If the household is on a paid plan, cancel it from the billing portal first. savr refuses to delete a paying household to prevent surprise billing situations.
+- **No active subscription.** If the household is on a paid plan, cancel it from the billing portal first. vondo refuses to delete a paying household to prevent surprise billing situations.
 - **Owner only.** Members can't delete; they can only leave.
 
 The other members of the household lose access immediately and won't be billed for anything.
@@ -203,7 +203,7 @@ These are **different** operations:
 |---|---|---|
 | **Leave household** | Your access to this one household | Households page → Leave |
 | **Delete household** | The household and everything in it. Your user account stays. | Households page → Delete (Owner only) |
-| **Delete your savr account** | Your user account itself. You lose access to every household you're in. If you own a household, you have to transfer or delete it first. | Profile → Danger Zone → Delete my account |
+| **Delete your vondo account** | Your user account itself. You lose access to every household you're in. If you own a household, you have to transfer or delete it first. | Profile → Danger Zone → Delete my account |
 
 ---
 

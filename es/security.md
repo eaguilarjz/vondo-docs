@@ -8,7 +8,7 @@ nav_order: 15
 
 # Seguridad
 
-Tu cuenta de savr contiene una imagen completa de tus finanzas. Lo tomamos en serio, y tú también deberías.
+Tu cuenta de vondo contiene una imagen completa de tus finanzas. Lo tomamos en serio, y tú también deberías.
 
 Esta página cubre todo lo que puedes hacer para mantener tu cuenta segura: contraseñas, autenticación de dos factores, códigos de recuperación y cómo funcionan las sesiones. La mayoría es configuración única de dos minutos que paga dividendos para siempre.
 
@@ -18,21 +18,21 @@ Encontrarás estos ajustes en **Perfil → Seguridad**.
 
 ## Cómo inicias sesión
 
-savr acepta tres formas de iniciar sesión. Puedes usar cualquiera, o combinarlas — todas llegan a la misma cuenta.
+vondo acepta tres formas de iniciar sesión. Puedes usar cualquiera, o combinarlas — todas llegan a la misma cuenta.
 
 | Método | Lo que necesitas | Notas |
 |---|---|---|
-| **Correo + contraseña** | Tu correo y tu contraseña de savr | El clásico. Combínalo con [MFA](#autenticación-de-dos-factores-mfa) para la configuración más fuerte. |
-| **Continuar con Google** | Una cuenta de Google con un correo que coincida con el tuyo en savr | Un clic. Sin contraseña que recordar. |
-| **Continuar con Microsoft** | Una cuenta **personal** de Microsoft (Outlook.com, Hotmail, Live, MSN) con un correo que coincida con el tuyo en savr | Misma idea — un clic. Las cuentas de trabajo o escuela (AAD) no están soportadas. |
+| **Correo + contraseña** | Tu correo y tu contraseña de vondo | El clásico. Combínalo con [MFA](#autenticación-de-dos-factores-mfa) para la configuración más fuerte. |
+| **Continuar con Google** | Una cuenta de Google con un correo que coincida con el tuyo en vondo | Un clic. Sin contraseña que recordar. |
+| **Continuar con Microsoft** | Una cuenta **personal** de Microsoft (Outlook.com, Hotmail, Live, MSN) con un correo que coincida con el tuyo en vondo | Misma idea — un clic. Las cuentas de trabajo o escuela (AAD) no están soportadas. |
 
 ### Cómo funciona el registro con OAuth
 
-Cuando haces clic en **Continuar con Google** o **Continuar con Microsoft** en la pantalla de registro, savr:
+Cuando haces clic en **Continuar con Google** o **Continuar con Microsoft** en la pantalla de registro, vondo:
 
 1. Te envía al proveedor para confirmar.
 2. Lee el correo de la respuesta.
-3. **Crea una cuenta nueva** con ese correo, o **vincula** el proveedor a tu cuenta de savr existente si el correo ya existe. Sin cuentas duplicadas.
+3. **Crea una cuenta nueva** con ese correo, o **vincula** el proveedor a tu cuenta de vondo existente si el correo ya existe. Sin cuentas duplicadas.
 
 ### Cambiar de método después
 
@@ -53,13 +53,13 @@ No estás atrapado en el método con el que empezaste. Desde **Perfil → Seguri
 
 Una vez cambiada, cada sesión actualmente abierta sigue funcionando, pero cualquier sesión cerrada (otro dispositivo, un navegador viejo) requerirá la nueva contraseña.
 
-> **Pro tip:** Usa un administrador de contraseñas. La contraseña más fuerte es la que no tienes que recordar — larga, aleatoria, única para savr. 1Password, Bitwarden, iCloud Keychain de Apple, el administrador integrado de tu navegador: todos están bien. Elige uno y déjalo hacer su trabajo.
+> **Pro tip:** Usa un administrador de contraseñas. La contraseña más fuerte es la que no tienes que recordar — larga, aleatoria, única para vondo. 1Password, Bitwarden, iCloud Keychain de Apple, el administrador integrado de tu navegador: todos están bien. Elige uno y déjalo hacer su trabajo.
 
 ---
 
 ## Cuentas conectadas
 
-La sección **Cuentas conectadas** lista cada método externo de inicio de sesión vinculado a tu cuenta de savr — Google, Microsoft, y cualquier proveedor futuro.
+La sección **Cuentas conectadas** lista cada método externo de inicio de sesión vinculado a tu cuenta de vondo — Google, Microsoft, y cualquier proveedor futuro.
 
 ### Agregar un proveedor
 
@@ -73,7 +73,7 @@ Después de conectar, el proveedor se vuelve otra forma de iniciar sesión. Úti
 
 Haz clic en **Desconectar** junto al proveedor en la lista. El cambio es inmediato — sin diálogo de confirmación.
 
-La excepción: si el proveedor que estás quitando es la **única** forma de iniciar sesión (una cuenta solo OAuth sin contraseña), savr no te lo permitirá. Establece una contraseña primero vía **¿Olvidaste tu contraseña?** en la pantalla de inicio de sesión, y luego regresa a quitar el proveedor.
+La excepción: si el proveedor que estás quitando es la **única** forma de iniciar sesión (una cuenta solo OAuth sin contraseña), vondo no te lo permitirá. Establece una contraseña primero vía **¿Olvidaste tu contraseña?** en la pantalla de inicio de sesión, y luego regresa a quitar el proveedor.
 
 > **¿Por qué conectar más de uno?** Redundancia. Si pierdes acceso a una cuenta de proveedor, la otra aún funciona. Combínalo con [Códigos de recuperación](#códigos-de-recuperación) y tienes una verdadera resiliencia para recuperar la cuenta.
 
@@ -83,7 +83,7 @@ La excepción: si el proveedor que estás quitando es la **única** forma de ini
 
 La autenticación de dos factores agrega un segundo paso al inicio de sesión: aunque alguien aprenda tu contraseña, no puede entrar sin un código de una aplicación autenticadora en tu teléfono. Activar MFA es la mejora más grande que puedes hacer a la seguridad de tu cuenta.
 
-savr soporta **TOTP** (contraseñas de un solo uso basadas en tiempo) — el mismo estándar que usan Google Authenticator, Authy, 1Password, Bitwarden y la mayoría de los administradores de contraseñas modernos.
+vondo soporta **TOTP** (contraseñas de un solo uso basadas en tiempo) — el mismo estándar que usan Google Authenticator, Authy, 1Password, Bitwarden y la mayoría de los administradores de contraseñas modernos.
 
 ### Configurar MFA
 
@@ -100,7 +100,7 @@ savr soporta **TOTP** (contraseñas de un solo uso basadas en tiempo) — el mis
    - Haz clic en **Verificar**.
 
    **Paso 3 — Guarda tus códigos de recuperación**
-   - savr genera **8 códigos de recuperación**.
+   - vondo genera **8 códigos de recuperación**.
    - **Descárgalos** como archivo `.txt` o cópialos a tu administrador de contraseñas.
    - Estos códigos son tu respaldo si pierdes acceso a tu autenticador. Guárdalos en un lugar donde puedas encontrarlos otra vez — pero **no en el mismo dispositivo que tu autenticador**.
 
@@ -110,7 +110,7 @@ savr soporta **TOTP** (contraseñas de un solo uso basadas en tiempo) — el mis
 
 ### Iniciar sesión con MFA
 
-Después de ingresar tu correo y contraseña en la pantalla de inicio de sesión, savr pide un segundo factor:
+Después de ingresar tu correo y contraseña en la pantalla de inicio de sesión, vondo pide un segundo factor:
 
 - Abre tu aplicación autenticadora e ingresa el código actual de 6 dígitos, **o**
 - Haz clic en **Usar un código de recuperación** e ingresa uno de los códigos que guardaste durante la configuración.
@@ -158,7 +158,7 @@ Puedes reactivarlo en cualquier momento. Se generan códigos de recuperación nu
 
 ## Sesiones
 
-Cuando inicias sesión en savr, tu sesión se mantiene en dos cookies seguras:
+Cuando inicias sesión en vondo, tu sesión se mantiene en dos cookies seguras:
 
 | Cookie | Duración | Propósito |
 |---|---|---|
@@ -177,13 +177,13 @@ En la práctica esto significa:
 
 Puedes tener sesión iniciada en varios dispositivos al mismo tiempo — cada dispositivo tiene su propio par de cookies. Cerrar sesión en un dispositivo no cierra los demás.
 
-> **Por ejemplo:** Estás con sesión iniciada en tu laptop y tu teléfono. Le pasas el teléfono a un amigo (que no ve savr — está usando otra app), luego cierras sesión en la laptop. La sesión en tu teléfono no se afecta.
+> **Por ejemplo:** Estás con sesión iniciada en tu laptop y tu teléfono. Le pasas el teléfono a un amigo (que no ve vondo — está usando otra app), luego cierras sesión en la laptop. La sesión en tu teléfono no se afecta.
 
 ### Sesiones activas
 
-**Perfil → Seguridad → Sesiones activas** lista cada dispositivo actualmente con sesión iniciada en tu cuenta de savr, con:
+**Perfil → Seguridad → Sesiones activas** lista cada dispositivo actualmente con sesión iniciada en tu cuenta de vondo, con:
 
-- El navegador o app del dispositivo (p. ej. "Chrome en macOS", "Savr iOS")
+- El navegador o app del dispositivo (p. ej. "Chrome en macOS", "Vondo iOS")
 - Cuándo inició sesión (en relativo — "hace 3 días")
 - Cuándo expira el token de refresco de esa sesión
 - El dispositivo que estás usando ahora mismo, marcado como **Este dispositivo**
@@ -194,7 +194,7 @@ Haz clic en **Cerrar sesión** junto a cualquier fila para revocar esa sesión a
 - Un teléfono se perdió o te lo robaron
 - No reconoces algún dispositivo en la lista
 
-Si revocas el dispositivo que estás usando ahora, savr te pide confirmación y también cierra sesión en este dispositivo — se te pedirá iniciar sesión otra vez la próxima vez que la app refresque su sesión.
+Si revocas el dispositivo que estás usando ahora, vondo te pide confirmación y también cierra sesión en este dispositivo — se te pedirá iniciar sesión otra vez la próxima vez que la app refresque su sesión.
 
 > **¿Perdiste un dispositivo?** Cierra esa sesión desde Sesiones activas, **y** [cambia tu contraseña](#cambia-tu-contraseña). Cerrar sesión mata la sesión existente al instante; la nueva contraseña evita que alguien vuelva a entrar con credenciales que pueda haber tomado.
 
@@ -216,14 +216,14 @@ La mayoría de los usuarios nunca verán uno de estos mensajes. Existen para fre
 
 ---
 
-## Eliminar tu cuenta de savr
+## Eliminar tu cuenta de vondo
 
-Si quieres eliminar tu cuenta de savr por completo — no sólo salir de un hogar, no sólo cancelar una suscripción, sino borrar el registro de usuario mismo — abre **Perfil → Zona de Peligro → Eliminar mi cuenta**.
+Si quieres eliminar tu cuenta de vondo por completo — no sólo salir de un hogar, no sólo cancelar una suscripción, sino borrar el registro de usuario mismo — abre **Perfil → Zona de Peligro → Eliminar mi cuenta**.
 
-Algunas cosas que debes saber primero, porque esta es la única operación en savr que de verdad no se puede deshacer:
+Algunas cosas que debes saber primero, porque esta es la única operación en vondo que de verdad no se puede deshacer:
 
-- **Diferente a eliminar un hogar.** Tu cuenta de savr eres *tú*; un hogar es el presupuesto (o los presupuestos) en los que estás. Eliminar tu cuenta te quita de cada hogar al que perteneces y borra tu registro de usuario. Eliminar un hogar borra el presupuesto pero deja intacta tu cuenta de usuario. Mira la página de [Hogares](../hogares/#eliminar-hogar-vs-eliminar-cuenta) para una tabla comparativa.
-- **Si eres propietario de un hogar, transfiérelo o elimínalo primero.** savr no permite eliminar a un usuario que sigue siendo propietario de un hogar de pago o en prueba — quedaría un presupuesto sin propietario, miembros bloqueados, nadie capaz de arreglar la facturación. El botón Eliminar permanece deshabilitado hasta que hayas [transferido la propiedad](../hogares/#transferir-la-propiedad-sólo-propietario) o [eliminado el hogar](../hogares/#eliminar-un-hogar).
+- **Diferente a eliminar un hogar.** Tu cuenta de vondo eres *tú*; un hogar es el presupuesto (o los presupuestos) en los que estás. Eliminar tu cuenta te quita de cada hogar al que perteneces y borra tu registro de usuario. Eliminar un hogar borra el presupuesto pero deja intacta tu cuenta de usuario. Mira la página de [Hogares](../hogares/#eliminar-hogar-vs-eliminar-cuenta) para una tabla comparativa.
+- **Si eres propietario de un hogar, transfiérelo o elimínalo primero.** vondo no permite eliminar a un usuario que sigue siendo propietario de un hogar de pago o en prueba — quedaría un presupuesto sin propietario, miembros bloqueados, nadie capaz de arreglar la facturación. El botón Eliminar permanece deshabilitado hasta que hayas [transferido la propiedad](../hogares/#transferir-la-propiedad-sólo-propietario) o [eliminado el hogar](../hogares/#eliminar-un-hogar).
 - **Las facturas pendientes deben pagarse.** Si tienes una factura impaga en un hogar del que eres propietario, salda el saldo antes de eliminar.
 - **Tus datos se van contigo.** Una vez eliminada la cuenta, tus transacciones, categorías personalizadas, beneficiarios y reglas recurrentes en los hogares que eras propietario (y eliminaste) desaparecen. Si quieres una copia, [exporta tus datos](../import-export/#exportar-tus-datos) primero.
 
@@ -236,10 +236,10 @@ Si sólo te alejas por un tiempo y no estás seguro, **pausa tu suscripción** m
 Una lista corta, en orden de importancia:
 
 1. **Activa MFA.** Casi todo compromiso de cuenta empieza con una contraseña robada o reutilizada. MFA lo derrota. (Dos minutos. Solo hazlo.)
-2. **Usa un administrador de contraseñas.** Genera una contraseña única y larga para savr y deja que tu administrador la recuerde. No reutilices una contraseña de otro sitio.
+2. **Usa un administrador de contraseñas.** Genera una contraseña única y larga para vondo y deja que tu administrador la recuerde. No reutilices una contraseña de otro sitio.
 3. **Guarda los códigos de recuperación donde realmente los puedas encontrar.** Una entrada en tu administrador de contraseñas, una copia en papel en una caja fuerte, o ambas. No los pongas en un correo o en una app de Notas en el mismo dispositivo que tu autenticador.
 4. **No guardes los códigos de recuperación en el mismo dispositivo que tu autenticador.** Si pierdes el dispositivo, perdiste ambos — y pierdes la red de seguridad.
 5. **Cierra sesión en dispositivos compartidos.** No confíes en la cookie de "recordar" si alguien más usa ese navegador.
-6. **Trata los correos de fin de prueba y renovación como puntos de control de seguridad también.** Confirman que tu correo sigue funcionando y tu cuenta sigue activa. Si dejas de recibir los correos esperados de savr, revisa tu carpeta de spam y considera si tu cuenta de correo ha sido comprometida.
+6. **Trata los correos de fin de prueba y renovación como puntos de control de seguridad también.** Confirman que tu correo sigue funcionando y tu cuenta sigue activa. Si dejas de recibir los correos esperados de vondo, revisa tu carpeta de spam y considera si tu cuenta de correo ha sido comprometida.
 
 Nunca te arrepentirás de estos. Podrías arrepentirte de saltártelos.

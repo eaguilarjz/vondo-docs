@@ -19,7 +19,7 @@ Every Expense and Credit transaction lives in a category, and every category liv
 Categories are the unit you assign money to on the Budget page, and the unit your spending gets summed against. Picking the right level of granularity is a balance:
 
 - **Too few categories** → you can't see where money is actually going. "Misc: $1,247" is not insight.
-- **Too many** → maintenance becomes a chore, you stop using savr, you go back to wondering where your money went.
+- **Too many** → maintenance becomes a chore, you stop using vondo, you go back to wondering where your money went.
 
 A solid starting point: one category per recurring bill (rent, utilities, phone), one for each major variable expense (groceries, transportation, dining), and a few for goals and quality of life. About 15–25 total. Adjust over time.
 
@@ -68,23 +68,23 @@ Drag a group's header up or down. The order applies everywhere groups are shown 
 
 ### Delete a group
 
-To delete a group, every category inside it has to be deleted or moved out first. savr will warn you if a group still has categories in it.
+To delete a group, every category inside it has to be deleted or moved out first. vondo will warn you if a group still has categories in it.
 
 ---
 
 ## The Credit Card Payments group
 
-There's one group savr manages for you: the **Credit Card Payments** group (or **Pagos de tarjeta de crédito** in Spanish — the default name follows the language you're using when you add your first credit card).
+There's one group vondo manages for you: the **Credit Card Payments** group (or **Pagos de tarjeta de crédito** in Spanish — the default name follows the language you're using when you add your first credit card).
 
-It's created automatically the first time you add a credit-card account, and every CC payment category you ever create lives inside it. This is what powers savr's [credit-card auto-flow](../accounts/#credit-cards): when you charge a budgeted expense to a card, savr moves the matching amount into the card's payment category — which always lives in this group.
+It's created automatically the first time you add a credit-card account, and every CC payment category you ever create lives inside it. This is what powers vondo's [credit-card auto-flow](../accounts/#credit-cards): when you charge a budgeted expense to a card, vondo moves the matching amount into the card's payment category — which always lives in this group.
 
-Because savr depends on this group being a clean, predictable home for payment categories, it carries a few rules other groups don't:
+Because vondo depends on this group being a clean, predictable home for payment categories, it carries a few rules other groups don't:
 
 | Rule | What it means |
 |---|---|
 | **One per household** | The group is created once. Adding a second, third, or fifth credit card reuses it — every card's payment category lands in the same place. |
-| **Can't be deleted while CC accounts exist** | You'd orphan the linked payment categories. To delete the group, first delete every credit card on the household; once the group is empty you can delete it. (savr will mint a fresh one if you add a CC later.) |
-| **Can't add regular categories to it** | If you try to drop "Groceries" or "Vacation" into it from the Categories page, savr refuses. The group is reserved for the auto-created payment categories. |
+| **Can't be deleted while CC accounts exist** | You'd orphan the linked payment categories. To delete the group, first delete every credit card on the household; once the group is empty you can delete it. (vondo will mint a fresh one if you add a CC later.) |
+| **Can't add regular categories to it** | If you try to drop "Groceries" or "Vacation" into it from the Categories page, vondo refuses. The group is reserved for the auto-created payment categories. |
 | **Can't move CC payment categories out** | The card's payment category has to stay in this group — moving it elsewhere would break the auto-flow that fills it. |
 | **Renaming is allowed** | You can rename the group itself (e.g. from "Credit Card Payments" to "Pay Off My Cards"). The system identity is independent of the visible name, so the rules above still apply after a rename. |
 
@@ -119,12 +119,12 @@ Drag categories within a group to change their order. The order persists across 
 
 If the category has no transactions, you can delete it directly.
 
-If the category **has transactions**, savr opens a **reassign** modal:
+If the category **has transactions**, vondo opens a **reassign** modal:
 
 1. Pick another category to receive all the existing transactions.
 2. Confirm.
 
-savr moves every transaction to the new category and then deletes the old one. Your history stays intact — no spending data is lost, it just moves homes.
+vondo moves every transaction to the new category and then deletes the old one. Your history stays intact — no spending data is lost, it just moves homes.
 
 > **Common scenario:** You have separate categories for "Coffee" and "Dining Out" and realize you don't actually want to track them separately. Delete "Coffee" and reassign its 47 transactions to "Dining Out." Done. The Coffee category is gone but the spending is preserved.
 

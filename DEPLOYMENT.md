@@ -1,6 +1,6 @@
-# Deploying savr Docs to GitHub Pages
+# Deploying vondo Docs to GitHub Pages
 
-The docs site lives at the root of the repository and is served via GitHub Pages at the custom domain `docs.savr.pro`. Language detection is handled client-side with a small JavaScript redirect in `index.html`.
+The docs site lives at the root of the repository and is served via GitHub Pages at the custom domain `docs.vondo.app`. Language detection is handled client-side with a small JavaScript redirect in `index.html`.
 
 ---
 
@@ -13,15 +13,15 @@ The docs site lives at the root of the repository and is served via GitHub Pages
    - **Branch**: `main`
    - **Folder**: `/ (root)`
 4. Click **Save**.
-5. Under **Custom domain**, enter `docs.savr.pro` and save. The repo's `CNAME` file at the root must contain the same value.
+5. Under **Custom domain**, enter `docs.vondo.app` and save. The repo's `CNAME` file at the root must contain the same value.
 
 GitHub will build and publish the site. After a minute or two it will be available at:
 
 ```
-https://docs.savr.pro/
+https://docs.vondo.app/
 ```
 
-The default Pages URL `https://eaguilarjz.github.io/savr-docs/` will 301-redirect to the custom domain.
+The default Pages URL `https://eaguilarjz.github.io/vondo-docs/` will 301-redirect to the custom domain.
 
 ---
 

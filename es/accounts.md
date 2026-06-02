@@ -8,7 +8,7 @@ nav_order: 3
 
 # Cuentas
 
-Las cuentas en savr reflejan los lugares reales donde vive tu dinero: cuentas bancarias, tarjetas de crédito, el efectivo de tu cartera, tu portafolio de inversión, el préstamo que se va achicando lentamente. Cada transacción pertenece a una cuenta y el saldo de cada cuenta se actualiza en el momento que registras actividad — así los totales en savr se mantienen en sintonía con la realidad.
+Las cuentas en vondo reflejan los lugares reales donde vive tu dinero: cuentas bancarias, tarjetas de crédito, el efectivo de tu cartera, tu portafolio de inversión, el préstamo que se va achicando lentamente. Cada transacción pertenece a una cuenta y el saldo de cada cuenta se actualiza en el momento que registras actividad — así los totales en vondo se mantienen en sintonía con la realidad.
 
 Configúralas una vez. Mantenlas con dos minutos por semana.
 
@@ -16,7 +16,7 @@ Configúralas una vez. Mantenlas con dos minutos por semana.
 
 ## Tipos de cuenta
 
-savr soporta seis tipos. El tipo importa porque controla cómo se agrupa la cuenta en la página, cómo se interpreta su saldo y qué funciones aparecen.
+vondo soporta seis tipos. El tipo importa porque controla cómo se agrupa la cuenta en la página, cómo se interpreta su saldo y qué funciones aparecen.
 
 | Tipo | Úsalo para | Notas |
 |---|---|---|
@@ -35,21 +35,21 @@ savr soporta seis tipos. El tipo importa porque controla cómo se agrupa la cuen
 
 1. Abre **Cuentas** y haz clic en **Agregar Cuenta**.
 2. Ingresa:
-   - **Nombre** — cómo aparece en todo savr (p. ej. "Chase Corriente")
+   - **Nombre** — cómo aparece en todo vondo (p. ej. "Chase Corriente")
    - **Tipo** — elige uno de los seis
    - **Saldo inicial** — lo que tiene la cuenta ahora mismo
 3. Para préstamos, completa los campos específicos.
 4. Haz clic en **Guardar**.
 
-savr crea automáticamente una transacción de **Saldo Inicial** igual al monto que ingresaste. Está marcada de forma especial: establece el saldo de la cuenta pero no afecta tu presupuesto ni el gasto de las categorías.
+vondo crea automáticamente una transacción de **Saldo Inicial** igual al monto que ingresaste. Está marcada de forma especial: establece el saldo de la cuenta pero no afecta tu presupuesto ni el gasto de las categorías.
 
-> **Por ejemplo:** Agregaste una cuenta corriente con saldo inicial de $2,847.13. savr crea una transacción con esa fecha, marcada como Saldo Inicial, con ese monto. Tu cuenta muestra $2,847.13. Tu presupuesto no se afecta — ese dinero simplemente existe, listo para ser asignado.
+> **Por ejemplo:** Agregaste una cuenta corriente con saldo inicial de $2,847.13. vondo crea una transacción con esa fecha, marcada como Saldo Inicial, con ese monto. Tu cuenta muestra $2,847.13. Tu presupuesto no se afecta — ese dinero simplemente existe, listo para ser asignado.
 
 ---
 
 ## Cuentas de préstamo
 
-Las cuentas de préstamo son donde savr se gana su sueldo. Te dan un lugar para llevar el control del saldo del capital, la tasa de interés y el pago para que la matemática se mantenga honesta cada mes.
+Las cuentas de préstamo son donde vondo se gana su sueldo. Te dan un lugar para llevar el control del saldo del capital, la tasa de interés y el pago para que la matemática se mantenga honesta cada mes.
 
 Al crear o editar un préstamo, puedes configurar:
 
@@ -59,7 +59,7 @@ Al crear o editar un préstamo, puedes configurar:
 | **Pago mensual** | El pago periódico esperado — se usa como valor por defecto al registrar pagos. |
 | **Categoría de pago vinculada** | La categoría donde se cargan los intereses y comisiones del préstamo cuando registras un pago. |
 
-Al crear un préstamo, puedes vincularlo a una **categoría existente** o pedir a savr que **cree una categoría nueva** (y opcionalmente la coloque en un grupo nuevo, como "Deuda"). De cualquier forma, los intereses caen en tu presupuesto como cualquier otro gasto — visibles, reales, planeados.
+Al crear un préstamo, puedes vincularlo a una **categoría existente** o pedir a vondo que **cree una categoría nueva** (y opcionalmente la coloque en un grupo nuevo, como "Deuda"). De cualquier forma, los intereses caen en tu presupuesto como cualquier otro gasto — visibles, reales, planeados.
 
 Para registrar pagos de préstamo con desglose de capital, intereses y comisiones, consulta [Pagos de deuda](../actividad/#pagos-de-deuda). Para pagos mensuales que se ejecutan en calendario, consulta [Pagos de deuda recurrentes](../recurring/#pagos-de-deuda-recurrentes).
 
@@ -69,17 +69,17 @@ Para registrar pagos de préstamo con desglose de capital, intereses y comisione
 
 ## Tarjetas de crédito
 
-Las tarjetas de crédito en savr funcionan distinto a la mayoría de las apps de presupuesto, y la diferencia es el punto entero: **el dinero se aparta solo para pagar la tarjeta conforme gastas, así que nunca te sorprende la cuenta.**
+Las tarjetas de crédito en vondo funcionan distinto a la mayoría de las apps de presupuesto, y la diferencia es el punto entero: **el dinero se aparta solo para pagar la tarjeta conforme gastas, así que nunca te sorprende la cuenta.**
 
 Esta sección explica exactamente cómo funciona.
 
-### La categoría de pago — el superpoder silencioso de savr
+### La categoría de pago — el superpoder silencioso de vondo
 
-Cuando creas una cuenta de tarjeta de crédito, savr crea automáticamente una **categoría de pago vinculada** para ella. Se llama `Pago de <nombre de tu tarjeta>` (p. ej. "Pago de Chase Sapphire") y vive en un grupo gestionado por el sistema llamado **Pagos de tarjeta de crédito** — los usuarios en inglés lo ven como "Credit Card Payments" (el nombre por defecto del grupo sigue tu idioma en el momento en que agregas la primera tarjeta). El grupo se crea la primera vez que agregas una tarjeta de crédito al hogar; cada tarjeta posterior reutiliza el mismo grupo, así que todas tus categorías de pago de tarjetas viven juntas.
+Cuando creas una cuenta de tarjeta de crédito, vondo crea automáticamente una **categoría de pago vinculada** para ella. Se llama `Pago de <nombre de tu tarjeta>` (p. ej. "Pago de Chase Sapphire") y vive en un grupo gestionado por el sistema llamado **Pagos de tarjeta de crédito** — los usuarios en inglés lo ven como "Credit Card Payments" (el nombre por defecto del grupo sigue tu idioma en el momento en que agregas la primera tarjeta). El grupo se crea la primera vez que agregas una tarjeta de crédito al hogar; cada tarjeta posterior reutiliza el mismo grupo, así que todas tus categorías de pago de tarjetas viven juntas.
 
-El grupo Pagos de tarjeta de crédito es especial — savr lo gestiona automáticamente. No puedes eliminarlo mientras tenga tarjetas vinculadas, no puedes meter categorías ajenas en él y no puedes sacar categorías de pago de tarjetas hacia otros grupos. La explicación y la lista completa de restricciones están en [Categorías → El grupo Pagos de tarjeta de crédito](../categories/#el-grupo-pagos-de-tarjeta-de-crédito).
+El grupo Pagos de tarjeta de crédito es especial — vondo lo gestiona automáticamente. No puedes eliminarlo mientras tenga tarjetas vinculadas, no puedes meter categorías ajenas en él y no puedes sacar categorías de pago de tarjetas hacia otros grupos. La explicación y la lista completa de restricciones están en [Categorías → El grupo Pagos de tarjeta de crédito](../categories/#el-grupo-pagos-de-tarjeta-de-crédito).
 
-Esa categoría de pago es el truco. Cada vez que cargas un gasto presupuestado a la tarjeta, savr mueve automáticamente ese dinero a la categoría de pago — así que los fondos para pagar la tarjeta ya están *apartados* para cuando llegue el estado de cuenta.
+Esa categoría de pago es el truco. Cada vez que cargas un gasto presupuestado a la tarjeta, vondo mueve automáticamente ese dinero a la categoría de pago — así que los fondos para pagar la tarjeta ya están *apartados* para cuando llegue el estado de cuenta.
 
 ### Un ejemplo trabajado
 
@@ -116,7 +116,7 @@ Una transacción tipo **Crédito** en la tarjeta (un reembolso) revierte todo li
 
 ### ¿Y si efectivo y tarjeta caen en la misma categoría?
 
-savr camina las transacciones en orden cronológico y "cubre" el gasto con tarjeta solo hasta el punto en que el presupuesto de la categoría se acaba. Si presupuestaste $200 para Comida y gastas $100 en efectivo el día 5 y luego $150 con la tarjeta el día 10, los primeros $100 del cargo a la tarjeta caben en lo que queda del presupuesto ($100) y fluyen a la categoría de pago. Los otros $50 se convierten en sobregiro.
+vondo camina las transacciones en orden cronológico y "cubre" el gasto con tarjeta solo hasta el punto en que el presupuesto de la categoría se acaba. Si presupuestaste $200 para Comida y gastas $100 en efectivo el día 5 y luego $150 con la tarjeta el día 10, los primeros $100 del cargo a la tarjeta caben en lo que queda del presupuesto ($100) y fluyen a la categoría de pago. Los otros $50 se convierten en sobregiro.
 
 ### Caso límite de varias tarjetas
 
@@ -130,7 +130,7 @@ Para pagos automáticos mensuales, configura una [Transferencia recurrente](../r
 
 ### Límite de crédito (opcional)
 
-Al crear o editar una cuenta de tarjeta de crédito, puedes establecer un **Límite de crédito**. Es un valor de referencia, no un tope duro — savr no bloquea transacciones cuando lo cruzas — pero el límite aparece en la página de detalle de la cuenta junto a tu saldo actual para que veas el margen de un vistazo.
+Al crear o editar una cuenta de tarjeta de crédito, puedes establecer un **Límite de crédito**. Es un valor de referencia, no un tope duro — vondo no bloquea transacciones cuando lo cruzas — pero el límite aparece en la página de detalle de la cuenta junto a tu saldo actual para que veas el margen de un vistazo.
 
 Déjalo en blanco si no te interesa. Agrégalo después desde el editor de la cuenta cuando quieras.
 
@@ -182,9 +182,9 @@ Cerrar es casi siempre lo que quieres. Eliminar es para cuando creaste una cuent
 
 ## Conciliación
 
-La mayoría de las cuentas tienen un botón **Conciliar** que te lleva paso a paso a hacer coincidir savr con el extracto de tu banco. Es el movimiento que detecta errores de captura, transacciones perdidas y el ocasional cobro doble del banco.
+La mayoría de las cuentas tienen un botón **Conciliar** que te lleva paso a paso a hacer coincidir vondo con el extracto de tu banco. Es el movimiento que detecta errores de captura, transacciones perdidas y el ocasional cobro doble del banco.
 
-Si el saldo de la cuenta en savr empieza a separarse de la realidad, corre una conciliación. Es la forma más limpia de ponerte al día.
+Si el saldo de la cuenta en vondo empieza a separarse de la realidad, corre una conciliación. Es la forma más limpia de ponerte al día.
 
 > **Atención:** Las cuentas de préstamo no tienen botón Conciliar. Los prestamistas no emiten el tipo de extracto compensado/no compensado que asume el flujo de conciliación. Para un préstamo, lo correcto es mantener el saldo del capital al día con entradas precisas de [Pago de Deuda](../actividad/#pagos-de-deuda) y actualizar el saldo inicial una vez al año si el número del prestamista se aleja del tuyo.
 
@@ -194,7 +194,7 @@ Si el saldo de la cuenta en savr empieza a separarse de la realidad, corre una c
 
 ## Importación CSV
 
-¿Tienes un año de transacciones en un CSV de tu banco? No las captures todas a mano. savr tiene un asistente de importación de tres pasos que maneja lo complicado (formatos de fecha, convenciones de signo, mapeo de columnas) por ti.
+¿Tienes un año de transacciones en un CSV de tu banco? No las captures todas a mano. vondo tiene un asistente de importación de tres pasos que maneja lo complicado (formatos de fecha, convenciones de signo, mapeo de columnas) por ti.
 
 → Guía completa: [Importar y Exportar](../import-export/)
 
@@ -212,7 +212,7 @@ Haz clic en cualquier encabezado de grupo para colapsarlo. Úsalo para enfocarte
 
 ### Reordenar cuentas
 
-savr permite arrastrar y soltar en dos niveles:
+vondo permite arrastrar y soltar en dos niveles:
 
 - **Dentro de un grupo** — arrastra cuentas individuales para cambiar su orden
 - **Entre grupos** — arrastra el encabezado del grupo para cambiar el orden de los tipos
@@ -245,4 +245,4 @@ Las transferencias entre dos cuentas registran un par enlazado: un débito y un 
 
 Para tarjetas de crédito, el saldo refleja lo que debes. Un saldo positivo significa que tienes un monto pendiente. Cuando registras un pago, transfiere dinero desde una cuenta corriente a la cuenta de tarjeta — el saldo de la tarjeta baja, el de cuenta corriente baja, y tu patrimonio neto general no cambia.
 
-> **Escenario común:** Tu Chase Sapphire muestra un saldo de $843.21. La pagas transfiriendo $843.21 desde Cuenta corriente. Ahora la Sapphire muestra $0 y Cuenta corriente tiene $843.21 menos. La transferencia es una acción en savr, dos transacciones enlazadas, cero matemática de tu lado.
+> **Escenario común:** Tu Chase Sapphire muestra un saldo de $843.21. La pagas transfiriendo $843.21 desde Cuenta corriente. Ahora la Sapphire muestra $0 y Cuenta corriente tiene $843.21 menos. La transferencia es una acción en vondo, dos transacciones enlazadas, cero matemática de tu lado.

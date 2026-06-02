@@ -8,11 +8,11 @@ nav_order: 9
 
 # Reconciliation
 
-Reconciliation is the act of saying: "savr's record of this account matches reality."
+Reconciliation is the act of saying: "vondo's record of this account matches reality."
 
-You take your bank statement (or your bank's online "current balance"), compare it to what savr thinks the balance should be, and sort out any differences. When the math agrees, you mark it reconciled and move on with your life.
+You take your bank statement (or your bank's online "current balance"), compare it to what vondo thinks the balance should be, and sort out any differences. When the math agrees, you mark it reconciled and move on with your life.
 
-If you've never reconciled before — don't be intimidated. savr does almost all of the work. You're just clicking checkboxes until two numbers match.
+If you've never reconciled before — don't be intimidated. vondo does almost all of the work. You're just clicking checkboxes until two numbers match.
 
 ---
 
@@ -21,10 +21,10 @@ If you've never reconciled before — don't be intimidated. savr does almost all
 Three reasons:
 
 1. **Catch your own typos.** You wrote $51 instead of $15. It happens. Reconciliation surfaces these the moment they break the math.
-2. **Catch your bank's mistakes.** Rare but real. A duplicate charge, a missed credit, a fee you didn't know about — these show up when savr's number disagrees with your bank's.
-3. **Build trust in your own data.** When the balance in savr is the actual balance in your account, you stop hedging your decisions with "well, give or take a few hundred."
+2. **Catch your bank's mistakes.** Rare but real. A duplicate charge, a missed credit, a fee you didn't know about — these show up when vondo's number disagrees with your bank's.
+3. **Build trust in your own data.** When the balance in vondo is the actual balance in your account, you stop hedging your decisions with "well, give or take a few hundred."
 
-The reward for spending two minutes a month per account is total confidence in every number you see in savr.
+The reward for spending two minutes a month per account is total confidence in every number you see in vondo.
 
 ---
 
@@ -41,17 +41,17 @@ At the top:
 - **Statement date** — the date on the bank statement (or just today, if you're using a real-time online balance)
 - **Statement balance** — the balance your bank says the account had on that date
 
-Enter both. savr stores them when you finish.
+Enter both. vondo stores them when you finish.
 
 ### Step 2 — Clear the matching transactions
 
-Below, savr shows you a table of every unreconciled transaction in the account. Click rows (or use the checkboxes) to mark which ones appear on the statement.
+Below, vondo shows you a table of every unreconciled transaction in the account. Click rows (or use the checkboxes) to mark which ones appear on the statement.
 
 As you click, three numbers update at the bottom of the page:
 
 | Number | What it is |
 |---|---|
-| **Cleared Balance** | What savr thinks your balance should be after all the transactions you've checked |
+| **Cleared Balance** | What vondo thinks your balance should be after all the transactions you've checked |
 | **Statement Balance** | What you typed at the top |
 | **Difference** | Statement Balance − Cleared Balance |
 
@@ -59,7 +59,7 @@ When **Difference = $0** (or within half a cent), the **Finish** button activate
 
 ### Step 3 — Finish
 
-Click **Finish**. savr:
+Click **Finish**. vondo:
 
 - Marks every checked transaction as cleared and reconciled
 - Records the reconciliation date and statement balance
@@ -75,18 +75,18 @@ This is the part that makes reconciliation feel scary. It's actually the part wh
 
 If the **Difference** isn't zero, something is wrong. Either:
 
-- A transaction is in your statement but not in savr (missing transaction)
-- A transaction is in savr but not on the statement (extra transaction, or wrong account)
+- A transaction is in your statement but not in vondo (missing transaction)
+- A transaction is in vondo but not on the statement (extra transaction, or wrong account)
 - A transaction has the wrong amount somewhere
 
-savr doesn't auto-suggest where the issue is — that's a problem only you can solve, because it depends on what's on your statement. But here's the workflow:
+vondo doesn't auto-suggest where the issue is — that's a problem only you can solve, because it depends on what's on your statement. But here's the workflow:
 
 1. **Look at the size of the difference.** If it's $43.21, you're probably looking for a single transaction worth $43.21.
 2. **Scan your statement for transactions you haven't checked off.** Anything on the statement but not on your screen? That's a missing transaction. Add it (open a new tab and use the Activity page) and come back.
 3. **Scan your checked transactions for ones not on the statement.** Anything checked but not on the statement? Either it hasn't posted yet (uncheck it and try again next month) or it doesn't belong here (delete it or fix it).
 4. **Watch for sign errors and amount typos.** A $51 charge entered as $15 will produce a $36 difference. A debit entered as a credit will produce a difference equal to twice the amount (because it's wrong by both -$X and +$X).
 
-> **Common scenario:** You expected the reconciliation to balance and it's off by $25. Looking at the bank statement, you spot a $25 ATM withdrawal you forgot to enter into savr. Open a new tab, add the transaction, return to the reconciliation page (it'll be there waiting), check the new transaction, and the difference goes to zero. Click Finish.
+> **Common scenario:** You expected the reconciliation to balance and it's off by $25. Looking at the bank statement, you spot a $25 ATM withdrawal you forgot to enter into vondo. Open a new tab, add the transaction, return to the reconciliation page (it'll be there waiting), check the new transaction, and the difference goes to zero. Click Finish.
 
 ---
 
@@ -115,7 +115,7 @@ Same flow as checking. Note that the balance on a credit card is what you owe (a
 
 ### Cash
 
-Cash is a pain to reconcile because there's no statement. Best practice: count the cash in your wallet, enter that as the statement balance, and check off all the transactions that are in savr. If it doesn't balance, you forgot to record a coffee somewhere. Add it, finish, move on.
+Cash is a pain to reconcile because there's no statement. Best practice: count the cash in your wallet, enter that as the statement balance, and check off all the transactions that are in vondo. If it doesn't balance, you forgot to record a coffee somewhere. Add it, finish, move on.
 
 ### Investment accounts
 
@@ -139,5 +139,5 @@ You don't need to look at history often. It's just there for the record.
 
 - **Reconcile one account at a time.** Don't try to reconcile checking and savings simultaneously — finish one before starting the other.
 - **Don't force a balance.** If the difference is $0.34 and you can't find it, do not just click Finish anyway. The reconciliation flow won't even let you (Finish is disabled until the difference is zero) — and that's a feature. Find the actual issue. It's almost always a real transaction that needs to be added or corrected.
-- **A failed reconciliation is information.** If you can't get to zero, savr is telling you "your records and reality are out of sync somewhere." That's a problem worth fixing now, not ignoring.
+- **A failed reconciliation is information.** If you can't get to zero, vondo is telling you "your records and reality are out of sync somewhere." That's a problem worth fixing now, not ignoring.
 - **The first time is the hardest.** If you're starting reconciliation on an account that hasn't been reconciled in a year, it'll take longer than five minutes. That's normal. After the first one, it's quick.

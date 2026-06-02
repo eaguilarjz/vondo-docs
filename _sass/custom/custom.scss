@@ -7,12 +7,12 @@
 // ---------------------------------------------------------------------
 @import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500&display=swap');
 
-$savr-font-body: 'Geist', ui-sans-serif, system-ui, -apple-system,
+$vondo-font-body: 'Geist', ui-sans-serif, system-ui, -apple-system,
                  BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
                  Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
                  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
-$savr-font-mono: 'Geist Mono', ui-monospace, SFMono-Regular, "SF Mono",
+$vondo-font-mono: 'Geist Mono', ui-monospace, SFMono-Regular, "SF Mono",
                  Menlo, Monaco, Consolas, "Liberation Mono",
                  "Courier New", monospace;
 
@@ -22,7 +22,7 @@ body,
 .nav-list .nav-list-item .nav-list-link,
 .search-input,
 .btn {
-  font-family: $savr-font-body;
+  font-family: $vondo-font-body;
 }
 
 code,
@@ -30,7 +30,7 @@ pre,
 .highlight,
 kbd,
 samp {
-  font-family: $savr-font-mono;
+  font-family: $vondo-font-mono;
 }
 
 // Geist has confident display weights; a subtle negative letter-spacing
@@ -49,18 +49,18 @@ samp {
 // states, or the search box, so we set those here.
 // ---------------------------------------------------------------------
 
-$savr-sidebar-bg: #0369a1;       // brand-700, matches $sidebar-color
-$savr-sidebar-text: #ffffff;
-$savr-sidebar-text-muted: rgba(255, 255, 255, 0.92);
-$savr-sidebar-hover: rgba(255, 255, 255, 0.12);
-$savr-sidebar-active: rgba(255, 255, 255, 0.20);
+$vondo-sidebar-bg: #0369a1;       // brand-700, matches $sidebar-color
+$vondo-sidebar-text: #ffffff;
+$vondo-sidebar-text-muted: rgba(255, 255, 255, 0.92);
+$vondo-sidebar-hover: rgba(255, 255, 255, 0.12);
+$vondo-sidebar-active: rgba(255, 255, 255, 0.20);
 
 .side-bar {
-  color: $savr-sidebar-text;
+  color: $vondo-sidebar-text;
 
   .site-title,
   .site-title:hover {
-    color: $savr-sidebar-text;
+    color: $vondo-sidebar-text;
     background-image: none;
   }
 
@@ -79,32 +79,32 @@ $savr-sidebar-active: rgba(255, 255, 255, 0.20);
 
   // Top-level group labels (English / Español) and all child links
   .nav-list .nav-list-item .nav-list-link {
-    color: $savr-sidebar-text-muted;
+    color: $vondo-sidebar-text-muted;
 
     &:hover {
-      color: $savr-sidebar-text;
+      color: $vondo-sidebar-text;
       background-image: linear-gradient(
-        $savr-sidebar-hover 0%,
-        $savr-sidebar-hover 100%
+        $vondo-sidebar-hover 0%,
+        $vondo-sidebar-hover 100%
       );
     }
 
     &.active {
-      color: $savr-sidebar-text;
+      color: $vondo-sidebar-text;
       font-weight: 600;
       background-image: linear-gradient(
-        $savr-sidebar-active 0%,
-        $savr-sidebar-active 100%
+        $vondo-sidebar-active 0%,
+        $vondo-sidebar-active 100%
       );
     }
   }
 
   .nav-list-expander {
-    color: $savr-sidebar-text-muted;
+    color: $vondo-sidebar-text-muted;
 
     &:hover {
-      color: $savr-sidebar-text;
-      background-color: $savr-sidebar-hover;
+      color: $vondo-sidebar-text;
+      background-color: $vondo-sidebar-hover;
     }
 
     svg {

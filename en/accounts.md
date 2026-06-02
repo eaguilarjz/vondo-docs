@@ -8,7 +8,7 @@ nav_order: 3
 
 # Accounts
 
-Accounts in savr mirror the real-world places your money lives: bank accounts, credit cards, the cash in your wallet, your investment portfolio, the loan that's slowly shrinking. Each transaction belongs to an account, and every account's balance updates the moment you record activity — so the totals you see in savr stay in sync with reality.
+Accounts in vondo mirror the real-world places your money lives: bank accounts, credit cards, the cash in your wallet, your investment portfolio, the loan that's slowly shrinking. Each transaction belongs to an account, and every account's balance updates the moment you record activity — so the totals you see in vondo stay in sync with reality.
 
 Set them up once. Maintain them with two minutes a week.
 
@@ -16,7 +16,7 @@ Set them up once. Maintain them with two minutes a week.
 
 ## Account types
 
-savr supports six types. The type matters because it controls how the account is grouped on the page, how its balance is interpreted, and which features show up.
+vondo supports six types. The type matters because it controls how the account is grouped on the page, how its balance is interpreted, and which features show up.
 
 | Type | Use it for | Notes |
 |---|---|---|
@@ -35,21 +35,21 @@ savr supports six types. The type matters because it controls how the account is
 
 1. Open **Accounts** and click **Add Account**.
 2. Enter:
-   - **Name** — how it shows up everywhere in savr (e.g. "Chase Checking")
+   - **Name** — how it shows up everywhere in vondo (e.g. "Chase Checking")
    - **Type** — pick one of the six
    - **Opening balance** — what's in the account right now
 3. For loans, fill in the loan-specific fields.
 4. Click **Save**.
 
-savr automatically creates an **Opening Balance** transaction equal to your starting amount. It marks this transaction specially: it sets the account balance but doesn't affect your budget or category spending.
+vondo automatically creates an **Opening Balance** transaction equal to your starting amount. It marks this transaction specially: it sets the account balance but doesn't affect your budget or category spending.
 
-> **For example:** You added a checking account with an opening balance of $2,847.13. savr creates a single transaction dated today, marked as Opening Balance, with that amount. Your account shows $2,847.13. Your budget is unaffected — that money just exists, ready to be allocated.
+> **For example:** You added a checking account with an opening balance of $2,847.13. vondo creates a single transaction dated today, marked as Opening Balance, with that amount. Your account shows $2,847.13. Your budget is unaffected — that money just exists, ready to be allocated.
 
 ---
 
 ## Loan accounts
 
-Loan accounts are where savr earns its keep. They give you a place to track the principal balance, the interest rate, and the payment so the math stays honest each month.
+Loan accounts are where vondo earns its keep. They give you a place to track the principal balance, the interest rate, and the payment so the math stays honest each month.
 
 When creating or editing a loan, you can set:
 
@@ -59,7 +59,7 @@ When creating or editing a loan, you can set:
 | **Monthly payment** | The expected periodic payment — used as a default when you record payments. |
 | **Linked payment category** | The category where loan interest and fees post when you record a payment. |
 
-When you create a loan, you can either link to an **existing category** or have savr **create a new category** for it (and optionally place that category in a new group, like "Debt"). Either way, interest charges land in your budget like any other expense — visible, real, planned for.
+When you create a loan, you can either link to an **existing category** or have vondo **create a new category** for it (and optionally place that category in a new group, like "Debt"). Either way, interest charges land in your budget like any other expense — visible, real, planned for.
 
 For how to record loan payments with separate principal, interest, and fees amounts, see [Debt payments](../activity/#debt-payments). For monthly payments that fire on schedule, see [Recurring debt payments](../recurring/#recurring-debt-payments).
 
@@ -69,17 +69,17 @@ For how to record loan payments with separate principal, interest, and fees amou
 
 ## Credit cards
 
-Credit cards in savr work differently from most budgeting apps, and the difference is the whole point: **money sets itself aside to pay the card as you spend, so you're never surprised by the bill.**
+Credit cards in vondo work differently from most budgeting apps, and the difference is the whole point: **money sets itself aside to pay the card as you spend, so you're never surprised by the bill.**
 
 This section explains exactly how that works.
 
-### The payment category — savr's quiet superpower
+### The payment category — vondo's quiet superpower
 
-When you create a credit-card account, savr automatically creates a **linked payment category** for it. It's named `<your card's name> Payment` (e.g. "Chase Sapphire Payment") and lives in a system-managed group called **Credit Card Payments** — Spanish users see "Pagos de tarjeta de crédito" (the group's default name follows your language at the moment the first card is added). The group is created the first time you add a credit card to a household; every subsequent card reuses the same group, so all your CC payment categories sit together.
+When you create a credit-card account, vondo automatically creates a **linked payment category** for it. It's named `<your card's name> Payment` (e.g. "Chase Sapphire Payment") and lives in a system-managed group called **Credit Card Payments** — Spanish users see "Pagos de tarjeta de crédito" (the group's default name follows your language at the moment the first card is added). The group is created the first time you add a credit card to a household; every subsequent card reuses the same group, so all your CC payment categories sit together.
 
-The Credit Card Payments group is special — savr manages it automatically. You can't delete it while it has cards attached, you can't drop unrelated categories into it, and you can't move CC payment categories out of it. The reasoning and the full list of constraints live in [Categories → The Credit Card Payments group](../categories/#the-credit-card-payments-group).
+The Credit Card Payments group is special — vondo manages it automatically. You can't delete it while it has cards attached, you can't drop unrelated categories into it, and you can't move CC payment categories out of it. The reasoning and the full list of constraints live in [Categories → The Credit Card Payments group](../categories/#the-credit-card-payments-group).
 
-That payment category is the trick. Whenever you charge a budgeted expense to the card, savr automatically moves that money into the payment category — so the funds to pay the card off are *already set aside* by the time the statement arrives.
+That payment category is the trick. Whenever you charge a budgeted expense to the card, vondo automatically moves that money into the payment category — so the funds to pay the card off are *already set aside* by the time the statement arrives.
 
 ### A worked example
 
@@ -116,7 +116,7 @@ A **Credit** transaction on the card (a refund) reverses everything cleanly: the
 
 ### What if cash and card hit the same category?
 
-savr walks transactions in chronological order and "covers" card spending only up to the point where the category's budget pool runs dry. If you've budgeted $200 for Groceries and spend $100 in cash on the 5th and then $150 on the card on the 10th, the first $100 of the card charge fits within what's left of the pool ($100) and flows to the payment category. The other $50 becomes overspending.
+vondo walks transactions in chronological order and "covers" card spending only up to the point where the category's budget pool runs dry. If you've budgeted $200 for Groceries and spend $100 in cash on the 5th and then $150 on the card on the 10th, the first $100 of the card charge fits within what's left of the pool ($100) and flows to the payment category. The other $50 becomes overspending.
 
 ### Multi-card edge case
 
@@ -130,7 +130,7 @@ For automated monthly payments, set up a [Recurring Transfer](../recurring/#crea
 
 ### Credit limit (optional)
 
-When you create or edit a credit-card account, you can set a **Credit Limit**. It's a reference value, not a hard cap — savr doesn't block transactions when you cross it — but the limit shows on the account detail page next to your current balance so you can see headroom at a glance.
+When you create or edit a credit-card account, you can set a **Credit Limit**. It's a reference value, not a hard cap — vondo doesn't block transactions when you cross it — but the limit shows on the account detail page next to your current balance so you can see headroom at a glance.
 
 Leave it blank if you don't want to bother. Add it later from the account editor whenever you decide to.
 
@@ -182,9 +182,9 @@ Closing is almost always what you want. Deletion is for when you created an acco
 
 ## Reconciliation
 
-Most accounts have a **Reconcile** button that walks you through matching savr to your bank's statement. This is the move that catches typos, missed transactions, and the occasional double-charge from your bank.
+Most accounts have a **Reconcile** button that walks you through matching vondo to your bank's statement. This is the move that catches typos, missed transactions, and the occasional double-charge from your bank.
 
-If your account balance in savr starts to drift from reality, run a reconciliation. It's the cleanest way to catch up.
+If your account balance in vondo starts to drift from reality, run a reconciliation. It's the cleanest way to catch up.
 
 > **Heads up:** Loan accounts don't have a Reconcile button. Lenders don't issue the kind of cleared/uncleared statement that the reconciliation flow assumes. For a loan, the right move is to keep the principal balance in sync via accurate [Debt Payment](../activity/#debt-payments) entries, and update the opening balance once a year if your lender's number drifts from yours.
 
@@ -194,7 +194,7 @@ If your account balance in savr starts to drift from reality, run a reconciliati
 
 ## CSV import
 
-Got a year of transactions sitting in a CSV from your bank? Don't type them all in. savr has a three-step import wizard that handles the gnarly stuff (date formats, sign conventions, header mapping) for you.
+Got a year of transactions sitting in a CSV from your bank? Don't type them all in. vondo has a three-step import wizard that handles the gnarly stuff (date formats, sign conventions, header mapping) for you.
 
 → Full guide: [Import & Export](../import-export/)
 
@@ -212,7 +212,7 @@ Click any group header to collapse it. Use this to focus on the accounts you're 
 
 ### Reorder accounts
 
-savr supports drag-and-drop on two levels:
+vondo supports drag-and-drop on two levels:
 
 - **Within a group** — drag individual accounts to change their order
 - **Across groups** — drag the group header to change the order of types
@@ -245,4 +245,4 @@ Transfers between two accounts post a paired entry: one debit, one credit. Both 
 
 For credit card accounts, the balance reflects what you owe. A positive balance means you have an outstanding amount to pay. When you record a payment, transfer money from a checking account to the credit card account — the credit card balance goes down, the checking balance goes down, and your overall net worth is unchanged.
 
-> **Common scenario:** Your Chase Sapphire shows a balance of $843.21. You pay it off by transferring $843.21 from Checking. Now Sapphire shows $0 and Checking shows $843.21 less. The transfer is one savr action, two linked transactions, zero math on your end.
+> **Common scenario:** Your Chase Sapphire shows a balance of $843.21. You pay it off by transferring $843.21 from Checking. Now Sapphire shows $0 and Checking shows $843.21 less. The transfer is one vondo action, two linked transactions, zero math on your end.

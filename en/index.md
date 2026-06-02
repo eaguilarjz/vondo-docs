@@ -7,9 +7,9 @@ permalink: /en/
 
 > {% include lang-globe.html %} Lee esta documentación en [Español](../es/)
 
-# savr Docs
+# vondo Docs
 
-Welcome. savr is a budgeting app built on one simple idea: every dollar gets a category before you spend it, so when the bill arrives you already know exactly where the money is. It's designed to be the kind of tool you actually keep using six months in. These docs cover everything you need to set up your accounts, build a working budget, and use savr's features confidently.
+Welcome. vondo is a budgeting app built on one simple idea: every dollar gets a category before you spend it, so when the bill arrives you already know exactly where the money is. It's designed to be the kind of tool you actually keep using six months in. These docs cover everything you need to set up your accounts, build a working budget, and use vondo's features confidently.
 
 If you're just getting started, head to [Getting Started](getting-started/). If you've been here before and just need to look something up, the table below is your friend.
 
@@ -27,7 +27,7 @@ If you're just getting started, head to [Getting Started](getting-started/). If 
 | [Recurring](recurring/) | Five frequencies, splits, recurring debt payments, applying due items |
 | [Payees](payees/) | Creating, renaming, merging, deleting with reassignment |
 | [Reports](reports/) | Monthly trends, net savings, expenses by category, top payees |
-| [Reconciliation](reconcile/) | Matching savr to your bank statement, finding discrepancies |
+| [Reconciliation](reconcile/) | Matching vondo to your bank statement, finding discrepancies |
 | [Import & Export](import-export/) | CSV import wizard, exports for transactions, accounts, categories, payees |
 | [Profile & Settings](profile/) | Display name, language, theme |
 | [Households](households/) | Sharing a budget with up to 5 people, roles, invites, switching, transferring ownership, currency, timezone |
@@ -47,4 +47,4 @@ It works because it forces you to make spending decisions in advance, not after 
 
 The first month is the hardest. The tenth month is automatic. The reward is showing up at the end of the year and knowing — with real numbers, not vibes — exactly where your money went and exactly how much got saved.
 
-That's what savr is for. Welcome aboard.
+That's what vondo is for. Welcome aboard.

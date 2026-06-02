@@ -19,7 +19,7 @@ Cada transacción de Gasto y Crédito vive en una categoría, y cada categoría 
 Las categorías son la unidad con la que asignas dinero en la página de Presupuesto y la unidad sobre la que se suma el gasto. Elegir el nivel correcto de granularidad es un balance:
 
 - **Muy pocas categorías** → no puedes ver realmente a dónde va el dinero. "Otros: $1,247" no es información.
-- **Demasiadas** → el mantenimiento se vuelve una tarea, dejas de usar savr, vuelves a preguntarte a dónde se fue el dinero.
+- **Demasiadas** → el mantenimiento se vuelve una tarea, dejas de usar vondo, vuelves a preguntarte a dónde se fue el dinero.
 
 Un punto de partida sólido: una categoría por cada cuenta recurrente (renta, servicios, teléfono), una para cada gasto variable importante (comida, transporte, restaurantes), y unas cuantas para metas y calidad de vida. Como 15–25 en total. Ajusta con el tiempo.
 
@@ -68,23 +68,23 @@ Arrastra el encabezado de un grupo hacia arriba o abajo. El orden aplica en todo
 
 ### Eliminar un grupo
 
-Para eliminar un grupo, todas las categorías dentro deben eliminarse o moverse fuera primero. savr te avisará si el grupo aún contiene categorías.
+Para eliminar un grupo, todas las categorías dentro deben eliminarse o moverse fuera primero. vondo te avisará si el grupo aún contiene categorías.
 
 ---
 
 ## El grupo Pagos de tarjeta de crédito
 
-Hay un grupo que savr gestiona por ti: el grupo **Pagos de tarjeta de crédito** (o **Credit Card Payments** en inglés — el nombre por defecto sigue el idioma que estés usando cuando agregas tu primera tarjeta de crédito).
+Hay un grupo que vondo gestiona por ti: el grupo **Pagos de tarjeta de crédito** (o **Credit Card Payments** en inglés — el nombre por defecto sigue el idioma que estés usando cuando agregas tu primera tarjeta de crédito).
 
-Se crea automáticamente la primera vez que agregas una cuenta de tarjeta de crédito, y cada categoría de pago de tarjeta que crees vive dentro de él. Esto es lo que da vida al [autoflujo de tarjetas de crédito](../accounts/#tarjetas-de-crédito) de savr: cuando cargas un gasto presupuestado a una tarjeta, savr mueve el monto correspondiente a la categoría de pago de esa tarjeta — que siempre vive en este grupo.
+Se crea automáticamente la primera vez que agregas una cuenta de tarjeta de crédito, y cada categoría de pago de tarjeta que crees vive dentro de él. Esto es lo que da vida al [autoflujo de tarjetas de crédito](../accounts/#tarjetas-de-crédito) de vondo: cuando cargas un gasto presupuestado a una tarjeta, vondo mueve el monto correspondiente a la categoría de pago de esa tarjeta — que siempre vive en este grupo.
 
-Como savr depende de que este grupo sea un hogar limpio y predecible para las categorías de pago, tiene algunas reglas que los demás grupos no tienen:
+Como vondo depende de que este grupo sea un hogar limpio y predecible para las categorías de pago, tiene algunas reglas que los demás grupos no tienen:
 
 | Regla | Qué significa |
 |---|---|
 | **Uno por hogar** | El grupo se crea una sola vez. Agregar una segunda, tercera o quinta tarjeta de crédito lo reutiliza — la categoría de pago de cada tarjeta cae en el mismo lugar. |
-| **No se puede eliminar mientras existan tarjetas** | Dejarías huérfanas las categorías de pago vinculadas. Para eliminar el grupo, elimina primero todas las tarjetas del hogar; cuando el grupo quede vacío, podrás eliminarlo. (savr creará uno nuevo si agregas una tarjeta después.) |
-| **No se pueden agregar categorías regulares** | Si intentas meter "Comida" o "Vacaciones" en él desde la página de Categorías, savr lo rechaza. El grupo está reservado para las categorías de pago autogeneradas. |
+| **No se puede eliminar mientras existan tarjetas** | Dejarías huérfanas las categorías de pago vinculadas. Para eliminar el grupo, elimina primero todas las tarjetas del hogar; cuando el grupo quede vacío, podrás eliminarlo. (vondo creará uno nuevo si agregas una tarjeta después.) |
+| **No se pueden agregar categorías regulares** | Si intentas meter "Comida" o "Vacaciones" en él desde la página de Categorías, vondo lo rechaza. El grupo está reservado para las categorías de pago autogeneradas. |
 | **No se pueden sacar categorías de pago** | La categoría de pago de una tarjeta tiene que quedarse en este grupo — moverla a otro lado rompería el autoflujo que la alimenta. |
 | **Renombrarlo está permitido** | Puedes renombrar el grupo (p. ej. de "Pagos de tarjeta de crédito" a "Liquidar mis tarjetas"). La identidad de sistema es independiente del nombre visible, así que las reglas anteriores siguen aplicando tras un renombrado. |
 
@@ -119,12 +119,12 @@ Arrastra categorías dentro de un grupo para cambiar su orden. El orden persiste
 
 Si la categoría no tiene transacciones, puedes eliminarla directamente.
 
-Si la categoría **tiene transacciones**, savr abre un modal de **reasignación**:
+Si la categoría **tiene transacciones**, vondo abre un modal de **reasignación**:
 
 1. Elige otra categoría que reciba todas las transacciones existentes.
 2. Confirma.
 
-savr mueve cada transacción a la nueva categoría y luego elimina la antigua. Tu historial se mantiene intacto — no se pierde ningún dato de gasto, solo cambia de hogar.
+vondo mueve cada transacción a la nueva categoría y luego elimina la antigua. Tu historial se mantiene intacto — no se pierde ningún dato de gasto, solo cambia de hogar.
 
 > **Escenario común:** Tienes categorías separadas para "Café" y "Restaurantes" y te das cuenta de que en realidad no quieres seguirlas por separado. Eliminas "Café" y reasignas sus 47 transacciones a "Restaurantes". Listo. La categoría Café desaparece pero el gasto se preserva.
 

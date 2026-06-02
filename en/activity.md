@@ -12,7 +12,7 @@ redirect_from:
 
 Your **Activity** page is the receipts of your financial life. Every dollar that moves — in, out, or sideways between your own accounts — gets an entry here.
 
-savr uses these entries to drive everything else: account balances, category spending, the budget, the reports. Get them right and the rest takes care of itself.
+vondo uses these entries to drive everything else: account balances, category spending, the budget, the reports. Get them right and the rest takes care of itself.
 
 You can manage activity from the **Activity** page or directly from any account's detail view. Both work the same way.
 
@@ -50,7 +50,7 @@ Picking the right type matters. Here's the cheat sheet:
 2. Fill in:
    - **Type** — Income, Expense, Transfer, or Credit
    - **Account** — which account this affects. The dropdown shows each account's **current balance** next to its name, so you can tell at a glance which one has the funds.
-   - **Amount** — always positive; the type tells savr the direction. **You can type math expressions** here: `30+12.50`, `100/4`, `(15+8)*2` — savr evaluates them when you tab away. Useful for splitting a check or applying a percentage on the fly.
+   - **Amount** — always positive; the type tells vondo the direction. **You can type math expressions** here: `30+12.50`, `100/4`, `(15+8)*2` — vondo evaluates them when you tab away. Useful for splitting a check or applying a percentage on the fly.
    - **Date** — defaults to today
    - **Category** — required for Expense and Credit. The dropdown shows each category's **Available** balance next to its name, so you can pick one that has room without leaving the form. Credit-card payment categories are intentionally **hidden from this picker** — they're filled automatically by the [CC auto-flow](../accounts/#credit-cards), not picked as a spending destination.
    - **Payee** — optional, but useful for spending analysis
@@ -60,9 +60,9 @@ Picking the right type matters. Here's the cheat sheet:
 
 ### Transfers
 
-For a Transfer, savr asks for both the **from** account and the **to** account. It creates a linked pair of transactions — one debit, one credit — that always move together. Edit one, the other updates. Delete one, the other goes too.
+For a Transfer, vondo asks for both the **from** account and the **to** account. It creates a linked pair of transactions — one debit, one credit — that always move together. Edit one, the other updates. Delete one, the other goes too.
 
-> **For example:** You move $500 from Checking to Savings. savr records:
+> **For example:** You move $500 from Checking to Savings. vondo records:
 > - Checking: -$500 (Transfer to Savings)
 > - Savings: +$500 (Transfer from Checking)
 > 
@@ -83,9 +83,9 @@ To split:
    - **Memo** (optional)
 3. The total of the splits has to match the transaction's total.
 
-> **Worked example:** Target run, $87.43 total. Of that, $54 was groceries and $33.43 was household stuff (cleaning supplies, light bulb, that thing for the cat). One transaction, two splits, two categories. savr shows the right amount in each category's spending.
+> **Worked example:** Target run, $87.43 total. Of that, $54 was groceries and $33.43 was household stuff (cleaning supplies, light bulb, that thing for the cat). One transaction, two splits, two categories. vondo shows the right amount in each category's spending.
 
-You can have as many splits as you need. Remove a split by deleting its row — if only one remains, savr converts the transaction back to a normal (non-split) transaction.
+You can have as many splits as you need. Remove a split by deleting its row — if only one remains, vondo converts the transaction back to a normal (non-split) transaction.
 
 ---
 
@@ -115,7 +115,7 @@ Your checking balance drops by the total payment, the loan balance drops by the 
 > - Mortgage loan balance: -$983
 > - Mortgage Interest category Spent: +$264 (interest + fees)
 > 
-> Next month the principal goes up a bit and the interest goes down. savr captures this faithfully without you having to redo the math.
+> Next month the principal goes up a bit and the interest goes down. vondo captures this faithfully without you having to redo the math.
 
 For payments that happen on a schedule, see [Recurring debt payments](../recurring/#recurring-debt-payments).
 
@@ -127,7 +127,7 @@ Each transaction has a **cleared** flag. It's a simple way to mark transactions 
 
 Two common workflows:
 
-- Reconcile against a statement once a month, marking each line cleared as you go. (savr's [Reconciliation](../reconcile/) flow does this automatically — recommended.)
+- Reconcile against a statement once a month, marking each line cleared as you go. (vondo's [Reconciliation](../reconcile/) flow does this automatically — recommended.)
 - Leave recently entered transactions uncleared until they post on your bank's side.
 
 The cleared flag is informational only — it doesn't change balance calculations.
@@ -240,7 +240,7 @@ The current sort is reflected in the URL, so a sorted view can be bookmarked or 
 
 ## Pagination
 
-Long transaction lists load in pages of 50. As you scroll near the bottom, savr fetches the next batch automatically. There's no "next page" button — just keep scrolling.
+Long transaction lists load in pages of 50. As you scroll near the bottom, vondo fetches the next batch automatically. There's no "next page" button — just keep scrolling.
 
 For very large queries, set a date range filter rather than scrolling through everything.
 
@@ -248,7 +248,7 @@ For very large queries, set a date range filter rather than scrolling through ev
 
 ## Recurring transaction links
 
-Transactions created from a [recurring rule](../recurring/) keep a reference to the rule that produced them. So you can trace any transaction back to its template, and savr can keep your recurring schedule accurate.
+Transactions created from a [recurring rule](../recurring/) keep a reference to the rule that produced them. So you can trace any transaction back to its template, and vondo can keep your recurring schedule accurate.
 
 Edits to a transaction created by a recurring rule don't change the rule itself — only that one occurrence. (Want to change the rule? Edit it directly on the Recurring page.)
 
@@ -258,7 +258,7 @@ Edits to a transaction created by a recurring rule don't change the rule itself 
 
 Got a CSV from your bank? Don't type a year of transactions by hand.
 
-The [Import & Export](../import-export/) page covers savr's three-step CSV import wizard, including how to map columns from any bank's export format and how to avoid duplicates against transactions you've already entered.
+The [Import & Export](../import-export/) page covers vondo's three-step CSV import wizard, including how to map columns from any bank's export format and how to avoid duplicates against transactions you've already entered.
 
 ---
 

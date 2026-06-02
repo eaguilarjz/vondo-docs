@@ -10,7 +10,7 @@ nav_order: 6
 
 Most of your financial life is repeats. Rent on the 1st. Spotify on the 12th. Paycheck every other Friday. Recurring transactions are templates that fire on a schedule, so you don't retype the same things 50 times a year.
 
-Each recurring rule keeps track of when it should next fire. When that day comes, savr is ready to apply the rule and create a real transaction in the underlying account.
+Each recurring rule keeps track of when it should next fire. When that day comes, vondo is ready to apply the rule and create a real transaction in the underlying account.
 
 ---
 
@@ -87,7 +87,7 @@ For loan payments, set the type to **Debt Payment** and provide:
 - **Interest** — amount posted as expense in the payment category
 - **Fees** — amount posted as expense in the payment category
 
-Each time the rule fires, savr creates a paired entry that drops the loan balance by the principal and posts interest + fees as spending in the linked category.
+Each time the rule fires, vondo creates a paired entry that drops the loan balance by the principal and posts interest + fees as spending in the linked category.
 
 This is the cleanest way to track an amortizing loan. The principal portion grows automatically each month, the interest typically shrinks, and you don't have to recalculate the breakdown manually. Set it once, apply each month, watch the loan balance trend toward zero.
 
@@ -107,7 +107,7 @@ A rule is **due** when its next date is today or in the past. Until you apply it
 4. By default everything is ticked — meaning "apply all of these now." Untick any rule you want to defer; it stays on the due list for next time.
 5. Click **Apply N** to fire only the ticked rules.
 
-For each rule applied, savr:
+For each rule applied, vondo:
 
 - Creates a real transaction with the rule's details
 - Stamps the transaction with a reference back to the recurring rule
@@ -150,5 +150,5 @@ Click **Delete** in the editor. Deleting a recurring rule does **not** delete th
 - **Set realistic next dates.** If your paycheck always lands on Fridays, pick the next Friday as the start date so the cadence is right from day one.
 - **Review before applying.** Use Apply Due as a checkpoint, not a fire-and-forget. The two-second review catches the price hikes that everyone else doesn't notice for six months.
 - **Use end dates for finite obligations.** A 12-month gym membership, a 36-month auto loan — set the end date and the rule retires itself when it should.
-- **Pair with targets.** A recurring expense category with a Monthly target equal to the recurring amount is the savr equivalent of "set it and forget it."
+- **Pair with targets.** A recurring expense category with a Monthly target equal to the recurring amount is the vondo equivalent of "set it and forget it."
 - **It's okay to skip.** If a recurring rule is due but you actually didn't get charged this month (the gym was closed for renovations, your roommate forgot to send the rent transfer), don't apply it. Bump the next date forward manually instead.

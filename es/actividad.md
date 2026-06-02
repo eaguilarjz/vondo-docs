@@ -13,7 +13,7 @@ redirect_from:
 
 Tu página de **Actividad** es el registro de tu vida financiera. Cada dólar que se mueve — entra, sale, o se mueve lateralmente entre tus cuentas — recibe una entrada aquí.
 
-savr usa estas entradas para mover todo lo demás: saldos de cuenta, gasto de categorías, el presupuesto, los informes. Si las haces bien, el resto se cuida solo.
+vondo usa estas entradas para mover todo lo demás: saldos de cuenta, gasto de categorías, el presupuesto, los informes. Si las haces bien, el resto se cuida solo.
 
 Puedes administrar la actividad desde la página **Actividad** o directamente desde la vista de detalle de cualquier cuenta. Ambas funcionan igual.
 
@@ -51,7 +51,7 @@ Elegir el tipo correcto importa. Aquí está la chuleta:
 2. Llena:
    - **Tipo** — Ingreso, Gasto, Transferencia o Crédito
    - **Cuenta** — qué cuenta afecta. El menú desplegable muestra el **saldo actual** de cada cuenta junto a su nombre, así sabes de un vistazo cuál tiene fondos.
-   - **Monto** — siempre positivo; el tipo le dice a savr la dirección. **Puedes escribir expresiones matemáticas** aquí: `30+12.50`, `100/4`, `(15+8)*2` — savr las evalúa cuando sales del campo. Útil para dividir una cuenta o aplicar un porcentaje sobre la marcha.
+   - **Monto** — siempre positivo; el tipo le dice a vondo la dirección. **Puedes escribir expresiones matemáticas** aquí: `30+12.50`, `100/4`, `(15+8)*2` — vondo las evalúa cuando sales del campo. Útil para dividir una cuenta o aplicar un porcentaje sobre la marcha.
    - **Fecha** — por defecto hoy
    - **Categoría** — requerida para Gasto y Crédito. El menú desplegable muestra el saldo **Disponible** de cada categoría junto a su nombre, así puedes elegir una con espacio sin salir del formulario. Las categorías de pago de tarjeta de crédito se **ocultan intencionalmente** de este selector — se llenan automáticamente por el [autoflujo de tarjetas](../accounts/#tarjetas-de-crédito), no se eligen como destino de gasto.
    - **Beneficiario** — opcional, pero útil para análisis de gasto
@@ -61,9 +61,9 @@ Elegir el tipo correcto importa. Aquí está la chuleta:
 
 ### Transferencias
 
-Para una Transferencia, savr pide tanto la cuenta **origen** como la cuenta **destino**. Crea un par enlazado de transacciones — un débito y un crédito — que siempre se mueven juntas. Si editas una, la otra se actualiza. Si eliminas una, la otra se va también.
+Para una Transferencia, vondo pide tanto la cuenta **origen** como la cuenta **destino**. Crea un par enlazado de transacciones — un débito y un crédito — que siempre se mueven juntas. Si editas una, la otra se actualiza. Si eliminas una, la otra se va también.
 
-> **Por ejemplo:** Mueves $500 de Cuenta corriente a Ahorro. savr registra:
+> **Por ejemplo:** Mueves $500 de Cuenta corriente a Ahorro. vondo registra:
 > - Cuenta corriente: -$500 (Transferencia a Ahorro)
 > - Ahorro: +$500 (Transferencia desde Cuenta corriente)
 > 
@@ -84,9 +84,9 @@ Para dividir:
    - **Memo** (opcional)
 3. La suma de las divisiones debe coincidir con el monto total de la transacción.
 
-> **Ejemplo trabajado:** Visita a Target, $87.43 total. De eso, $54 fueron comida y $33.43 artículos de hogar (productos de limpieza, foco, esa cosa para el gato). Una transacción, dos divisiones, dos categorías. savr muestra el monto correcto en cada categoría.
+> **Ejemplo trabajado:** Visita a Target, $87.43 total. De eso, $54 fueron comida y $33.43 artículos de hogar (productos de limpieza, foco, esa cosa para el gato). Una transacción, dos divisiones, dos categorías. vondo muestra el monto correcto en cada categoría.
 
-Puedes tener tantas divisiones como necesites. Quita una división eliminando su fila — si solo queda una, savr convierte la transacción de regreso a una transacción normal (no dividida).
+Puedes tener tantas divisiones como necesites. Quita una división eliminando su fila — si solo queda una, vondo convierte la transacción de regreso a una transacción normal (no dividida).
 
 ---
 
@@ -116,7 +116,7 @@ Tu saldo de cuenta corriente baja por el pago total, el saldo del préstamo baja
 > - Saldo de la hipoteca: -$983
 > - Categoría Intereses Hipoteca, Gastado: +$264 (intereses + comisiones)
 > 
-> El siguiente mes el capital sube un poquito y los intereses bajan. savr captura esto fielmente sin que rehagas la matemática.
+> El siguiente mes el capital sube un poquito y los intereses bajan. vondo captura esto fielmente sin que rehagas la matemática.
 
 Para pagos en calendario, consulta [Pagos de deuda recurrentes](../recurring/#pagos-de-deuda-recurrentes).
 
@@ -128,7 +128,7 @@ Cada transacción tiene una bandera de **compensada**. Es una forma simple de ma
 
 Dos flujos comunes:
 
-- Concilia contra un extracto una vez al mes, marcando cada línea conforme avanzas. (El flujo de [Conciliación](../reconcile/) de savr lo hace automáticamente — recomendado.)
+- Concilia contra un extracto una vez al mes, marcando cada línea conforme avanzas. (El flujo de [Conciliación](../reconcile/) de vondo lo hace automáticamente — recomendado.)
 - Deja las transacciones recientes sin compensar hasta que se publiquen del lado del banco.
 
 La bandera de compensada es solo informativa — no cambia los cálculos de saldo.
@@ -241,7 +241,7 @@ El orden actual se refleja en la URL, así que una vista ordenada se puede marca
 
 ## Paginación
 
-Las listas largas de transacciones se cargan en páginas de 50. Conforme te acercas al final, savr trae el siguiente lote automáticamente. No hay botón de "siguiente página" — solo sigue desplazándote.
+Las listas largas de transacciones se cargan en páginas de 50. Conforme te acercas al final, vondo trae el siguiente lote automáticamente. No hay botón de "siguiente página" — solo sigue desplazándote.
 
 Para consultas muy grandes, configura un filtro de rango de fechas en lugar de desplazarte por todo.
 
@@ -249,7 +249,7 @@ Para consultas muy grandes, configura un filtro de rango de fechas en lugar de d
 
 ## Vínculos a transacciones recurrentes
 
-Las transacciones creadas desde una [regla recurrente](../recurring/) mantienen una referencia a la regla que las generó. Así que puedes rastrear cualquier transacción hasta su plantilla y savr puede mantener tu calendario recurrente preciso.
+Las transacciones creadas desde una [regla recurrente](../recurring/) mantienen una referencia a la regla que las generó. Así que puedes rastrear cualquier transacción hasta su plantilla y vondo puede mantener tu calendario recurrente preciso.
 
 Editar una transacción creada por una regla recurrente no cambia la regla misma — solo esa ocurrencia. (¿Quieres cambiar la regla? Edítala directamente en la página de Recurrentes.)
 
@@ -259,7 +259,7 @@ Editar una transacción creada por una regla recurrente no cambia la regla misma
 
 ¿Tienes un CSV de tu banco? No captures un año de transacciones a mano.
 
-La página de [Importar y Exportar](../import-export/) cubre el asistente de importación CSV de tres pasos de savr, incluyendo cómo mapear columnas de cualquier formato de exportación bancaria y cómo evitar duplicados contra transacciones que ya capturaste.
+La página de [Importar y Exportar](../import-export/) cubre el asistente de importación CSV de tres pasos de vondo, incluyendo cómo mapear columnas de cualquier formato de exportación bancaria y cómo evitar duplicados contra transacciones que ya capturaste.
 
 ---
 

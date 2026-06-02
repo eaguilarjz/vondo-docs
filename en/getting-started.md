@@ -6,13 +6,13 @@ nav_order: 1
 
 > {% include lang-globe.html %} Lee esta página en [Español](../../es/getting-started/)
 
-# Getting Started with savr
+# Getting Started with vondo
 
-Hi. Welcome to savr.
+Hi. Welcome to vondo.
 
-If you've ever opened your banking app at the end of the month and thought "wait, where did my money actually *go*?" — you're in the right place. savr works on one simple idea: every dollar you bring in gets sorted into a category before you spend it. Rent, groceries, savings, that subscription you forgot about. By the time you're done, every dollar has a destination, and you know exactly what you've got to spend on what.
+If you've ever opened your banking app at the end of the month and thought "wait, where did my money actually *go*?" — you're in the right place. vondo works on one simple idea: every dollar you bring in gets sorted into a category before you spend it. Rent, groceries, savings, that subscription you forgot about. By the time you're done, every dollar has a destination, and you know exactly what you've got to spend on what.
 
-Most budgeting tools tell you what you spent. savr helps you decide what you're *going* to spend. That's the difference, and it's why people stop dreading their budget and start kind of enjoying it.
+Most budgeting tools tell you what you spent. vondo helps you decide what you're *going* to spend. That's the difference, and it's why people stop dreading their budget and start kind of enjoying it.
 
 This guide walks you through creating an account, setting up your first month, and pointing at the rest of the help pages.
 
@@ -20,9 +20,9 @@ This guide walks you through creating an account, setting up your first month, a
 
 ## Create your account (and start your free trial)
 
-Every new savr account gets a **90-day free trial** — same length whether you sign up with email or with Google/Microsoft. No credit card required up front, no surprise charges. Use it to get your bearings. Pick a paid plan when you're ready, or don't — savr will remind you near the end.
+Every new vondo account gets a **90-day free trial** — same length whether you sign up with email or with Google/Microsoft. No credit card required up front, no surprise charges. Use it to get your bearings. Pick a paid plan when you're ready, or don't — vondo will remind you near the end.
 
-When you sign up, savr automatically creates a **household** for you, named after you, and makes you the Owner. If you ever want to share the budget with a partner or family member, you can invite them from **Profile → Households** later. Up to five people total per household. See [Households](../households/) for the full picture.
+When you sign up, vondo automatically creates a **household** for you, named after you, and makes you the Owner. If you ever want to share the budget with a partner or family member, you can invite them from **Profile → Households** later. Up to five people total per household. See [Households](../households/) for the full picture.
 
 You've got three ways to sign up. Pick whichever feels easiest:
 
@@ -34,7 +34,7 @@ On the sign-up screen, click **Continue with Google** or **Continue with Microso
 
 1. Open the app and click **Sign up**.
 2. Enter your email and click **Continue**.
-3. Check your inbox for a verification link from savr. Click it.
+3. Check your inbox for a verification link from vondo. Click it.
    - Don't see it within a minute? Check your spam folder.
    - The link expires after 15 minutes. If it does, just request another one — no harm done.
 4. On the completion page, set your **display name**, choose a **password** (8 characters minimum), and accept the **Terms of Service**.
@@ -50,11 +50,11 @@ For two-factor authentication, trusted devices, and how to connect Google or Mic
 
 ## The onboarding wizard
 
-The first time you sign in, savr greets you with a short setup wizard. It walks you through three things:
+The first time you sign in, vondo greets you with a short setup wizard. It walks you through three things:
 
 1. **Welcome** — a quick reminder of how the budget works.
 2. **Add your accounts** — up to 5 accounts to start (you can always add more later). Pick a name, type, and current balance for each.
-3. **Pick a category template** — savr can pre-build your category list using one of three templates:
+3. **Pick a category template** — vondo can pre-build your category list using one of three templates:
 
 | Template | What you get | Good for |
 |---|---|---|
@@ -69,7 +69,7 @@ Want to skip the wizard and set things up manually? Click **Skip** at any point.
 
 ---
 
-## How budgeting in savr works (in 90 seconds)
+## How budgeting in vondo works (in 90 seconds)
 
 Here's the whole concept:
 
@@ -79,7 +79,7 @@ That's it. No spreadsheets, no envelopes, no fancy formulas — just the simple 
 
 It works like this:
 
-1. Money comes in (paycheck, refund, whatever). savr puts it in a bucket called **Ready to Assign**.
+1. Money comes in (paycheck, refund, whatever). vondo puts it in a bucket called **Ready to Assign**.
 2. You go to the Budget page and decide where each dollar should live: rent, groceries, gas, savings.
 3. As you spend, the categories deplete. When **Ready to Assign** hits zero, every dollar is accounted for.
 4. Spend more in one category than planned? No problem — move money from another. Your overall budget stays balanced.
@@ -105,9 +105,9 @@ Here's the order I'd recommend the first time. Each step links to the deeper gui
 
 Open **Accounts → Add Account** and create one entry for each real account you have: checking, savings, credit cards, cash, investments, loans. Enter today's balance as the **opening balance**.
 
-> **For example:** Your checking account shows $2,847.13 right now? Type that. savr creates an "Opening Balance" entry that doesn't affect your budget — it just tells savr where you're starting from.
+> **For example:** Your checking account shows $2,847.13 right now? Type that. vondo creates an "Opening Balance" entry that doesn't affect your budget — it just tells vondo where you're starting from.
 
-savr supports six account types, and they each behave a little differently. Loan accounts in particular have some tricks worth knowing — [check the Accounts page](../accounts/) when you set those up.
+vondo supports six account types, and they each behave a little differently. Loan accounts in particular have some tricks worth knowing — [check the Accounts page](../accounts/) when you set those up.
 
 ### 2. Build your category list
 
@@ -147,7 +147,7 @@ Got recurring expenses? Set up [Recurring Transactions](../recurring/) so they f
 
 ### 5. Live with it for a week
 
-Spend like normal. Check savr daily or every few days. Two things will happen:
+Spend like normal. Check vondo daily or every few days. Two things will happen:
 
 - **You'll overspend in a category.** Totally fine. Move money from another category to cover it. The budget rebalances. No drama.
 - **You'll discover a category you forgot.** Add it. Move money to it. Done.
@@ -162,9 +162,9 @@ This is where the addiction starts. It feels good to know.
 
 ---
 
-## Using savr on your phone
+## Using vondo on your phone
 
-savr is fully responsive — every page works on a phone, tablet, or desktop. On mobile:
+vondo is fully responsive — every page works on a phone, tablet, or desktop. On mobile:
 
 - The sidebar is hidden by default. Tap the **☰** icon in the top-left to open it.
 - Tap your avatar (top-right) for the user menu.
@@ -178,7 +178,7 @@ Most people do their initial setup on a laptop and then check in from their phon
 
 Made a mistake? You can take it back.
 
-savr has system-wide **undo and redo** for almost every change you make — creating a transaction, editing a budget allocation, deleting a category, reassigning a payee, all of it. The history goes back **50 actions**. Use it freely.
+vondo has system-wide **undo and redo** for almost every change you make — creating a transaction, editing a budget allocation, deleting a category, reassigning a payee, all of it. The history goes back **50 actions**. Use it freely.
 
 | Shortcut | What it does |
 |---|---|
@@ -189,11 +189,11 @@ On mobile, the same controls live as ↶ and ↷ icons in the top bar.
 
 A few details worth knowing:
 
-- **Undo can navigate.** If you undo something on a different page than the one you're on, savr jumps you back to where the change happened so you can see what reverted.
+- **Undo can navigate.** If you undo something on a different page than the one you're on, vondo jumps you back to where the change happened so you can see what reverted.
 - **Doing something new clears the redo stack.** Standard editor behavior — once you take a fresh action, the future you'd just undid is gone.
 - **A few things are permanent.** Password changes, OAuth provider linking, and account deletion don't go on the undo stack. Everything else does.
 
-> **Why this matters:** Budget apps usually have a "delete forever" feel that makes people cautious — they hesitate, double-check, leave half-done categorizations because they're afraid to be wrong. savr removes that friction. Click around. If something turns out wrong, ⌘Z gets you back. Faster decisions, fewer regrets.
+> **Why this matters:** Budget apps usually have a "delete forever" feel that makes people cautious — they hesitate, double-check, leave half-done categorizations because they're afraid to be wrong. vondo removes that friction. Click around. If something turns out wrong, ⌘Z gets you back. Faster decisions, fewer regrets.
 
 ---
 
@@ -208,7 +208,7 @@ A few details worth knowing:
 | [Recurring](../recurring/) | Scheduled transactions, frequencies, applying due items |
 | [Payees](../payees/) | Creating, renaming, merging, deleting |
 | [Reports](../reports/) | Monthly trends, category breakdowns, top payees |
-| [Reconciliation](../reconcile/) | Matching savr to your bank statement, finding discrepancies |
+| [Reconciliation](../reconcile/) | Matching vondo to your bank statement, finding discrepancies |
 | [Import & Export](../import-export/) | CSV import wizard, exports for transactions/accounts/categories/payees |
 | [Profile & Settings](../profile/) | Display name, language, theme |
 | [Households](../households/) | Sharing a budget with up to 5 people, roles, invites, switching, transferring ownership, currency, timezone |

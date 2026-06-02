@@ -10,7 +10,7 @@ nav_order: 6
 
 La mayor parte de tu vida financiera son repeticiones. Renta el día 1. Spotify el día 12. Sueldo cada quince días. Las transacciones recurrentes son plantillas que se ejecutan en un calendario, así no recapturas las mismas cosas 50 veces al año.
 
-Cada regla recurrente lleva el control de cuándo debe ejecutarse la siguiente vez. Cuando llega el día, savr está lista para aplicar la regla y crear una transacción real en la cuenta correspondiente.
+Cada regla recurrente lleva el control de cuándo debe ejecutarse la siguiente vez. Cuando llega el día, vondo está lista para aplicar la regla y crear una transacción real en la cuenta correspondiente.
 
 ---
 
@@ -87,7 +87,7 @@ Para pagos de préstamos, configura el tipo como **Pago de Deuda** y proporciona
 - **Interés** — monto registrado como gasto en la categoría de pago
 - **Comisiones** — monto registrado como gasto en la categoría de pago
 
-Cada vez que la regla se ejecuta, savr crea una entrada pareada que baja el saldo del préstamo por el capital y registra intereses + comisiones como gasto en la categoría vinculada.
+Cada vez que la regla se ejecuta, vondo crea una entrada pareada que baja el saldo del préstamo por el capital y registra intereses + comisiones como gasto en la categoría vinculada.
 
 Es la forma más limpia de seguir un préstamo amortizado. La porción del capital crece automáticamente cada mes, los intereses suelen reducirse, y no tienes que recalcular el desglose manualmente. Configúralo una vez, aplícalo cada mes, observa el saldo del préstamo encaminarse a cero.
 
@@ -107,7 +107,7 @@ Una regla está **vencida** cuando su siguiente fecha es hoy o anterior. Hasta q
 4. Por defecto todo está marcado — significa "aplicar todas ahora." Desmarca cualquier regla que quieras posponer; se queda en la lista de vencidas para la próxima vez.
 5. Haz clic en **Aplicar N** para ejecutar solo las marcadas.
 
-Por cada regla aplicada, savr:
+Por cada regla aplicada, vondo:
 
 - Crea una transacción real con los detalles de la regla
 - Sella la transacción con una referencia de regreso a la regla recurrente
@@ -150,5 +150,5 @@ Haz clic en **Eliminar** dentro del editor. Eliminar una regla recurrente **no**
 - **Configura las siguientes fechas con realismo.** Si tu sueldo siempre cae en viernes, elige el siguiente viernes como fecha de inicio para que la cadencia sea correcta desde el día uno.
 - **Revisa antes de aplicar.** Usa Aplicar Vencidas como un punto de revisión, no como algo que olvidas. La revisión de dos segundos atrapa los aumentos de precio que todos los demás no notan por seis meses.
 - **Usa fechas de fin para obligaciones finitas.** Una membresía de gimnasio de 12 meses, un crédito automotriz de 36 meses — configura la fecha de fin y la regla se retira sola cuando deba.
-- **Combina con objetivos.** Una categoría de gasto recurrente con un objetivo Mensual igual al monto recurrente es el equivalente en savr a "configúralo y olvídate."
+- **Combina con objetivos.** Una categoría de gasto recurrente con un objetivo Mensual igual al monto recurrente es el equivalente en vondo a "configúralo y olvídate."
 - **Está bien saltar.** Si una regla está vencida pero no te cobraron este mes (el gimnasio cerró por remodelación, tu roomie olvidó mandarte la renta), no la apliques. Avanza manualmente la siguiente fecha en su lugar.

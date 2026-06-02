@@ -8,7 +8,7 @@ nav_order: 11
 
 # Profile & Settings
 
-The Profile page is where you manage your personal information and how savr looks and behaves. Open it from your avatar in the sidebar (desktop) or top menu (mobile).
+The Profile page is where you manage your personal information and how vondo looks and behaves. Open it from your avatar in the sidebar (desktop) or top menu (mobile).
 
 This page covers the everyday personal stuff. For:
 
@@ -22,7 +22,7 @@ This page covers the everyday personal stuff. For:
 
 ### Display name
 
-Your display name appears on the profile page and anywhere savr greets you. Edit it in the **Display name** field and click **Save**. There are no rules — first name, full name, nickname, all work.
+Your display name appears on the profile page and anywhere vondo greets you. Edit it in the **Display name** field and click **Save**. There are no rules — first name, full name, nickname, all work.
 
 ### Email address
 
@@ -60,13 +60,13 @@ Pick the appearance of the app:
 
 ## Legal
 
-The **Terms of Service** are accessible from the Profile page. savr tracks the version of the terms you accepted and when. If the terms ever update, you'll be asked to review and accept the new version before continuing.
+The **Terms of Service** are accessible from the Profile page. vondo tracks the version of the terms you accepted and when. If the terms ever update, you'll be asked to review and accept the new version before continuing.
 
 ---
 
 ## Sign out
 
-Use **Sign out** from the user menu to end your session. On your next sign-in, savr will ask for your email, password, and (if enabled) your two-factor code.
+Use **Sign out** from the user menu to end your session. On your next sign-in, vondo will ask for your email, password, and (if enabled) your two-factor code.
 
 For details on what happens to your session — token lifetimes, refresh, multiple devices — see [Security → Sessions](../security/#sessions).
 

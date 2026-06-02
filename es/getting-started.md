@@ -6,13 +6,13 @@ nav_order: 1
 
 > {% include lang-globe.html %} Read this page in [English](../../en/getting-started/)
 
-# Primeros pasos con savr
+# Primeros pasos con vondo
 
-Hola. Bienvenido a savr.
+Hola. Bienvenido a vondo.
 
-Si alguna vez abriste tu app del banco a fin de mes y pensaste "espera, ¿a *dónde* se me fue exactamente el dinero?" — estás en el lugar correcto. savr funciona con una idea simple: cada dólar que entra se acomoda en una categoría antes de gastarse. Renta, comida, ahorros, esa suscripción que olvidaste cancelar. Para cuando terminas, cada dólar tiene un destino y tú sabes exactamente con cuánto cuentas para cada cosa.
+Si alguna vez abriste tu app del banco a fin de mes y pensaste "espera, ¿a *dónde* se me fue exactamente el dinero?" — estás en el lugar correcto. vondo funciona con una idea simple: cada dólar que entra se acomoda en una categoría antes de gastarse. Renta, comida, ahorros, esa suscripción que olvidaste cancelar. Para cuando terminas, cada dólar tiene un destino y tú sabes exactamente con cuánto cuentas para cada cosa.
 
-La mayoría de las herramientas de presupuesto te dicen qué *gastaste*. savr te ayuda a decidir qué *vas* a gastar. Esa es la diferencia, y es por eso que la gente deja de odiar su presupuesto y empieza, sin darse cuenta, a disfrutarlo un poco.
+La mayoría de las herramientas de presupuesto te dicen qué *gastaste*. vondo te ayuda a decidir qué *vas* a gastar. Esa es la diferencia, y es por eso que la gente deja de odiar su presupuesto y empieza, sin darse cuenta, a disfrutarlo un poco.
 
 Esta guía te lleva paso a paso por crear tu cuenta, configurar tu primer mes y conocer el resto de la ayuda.
 
@@ -20,9 +20,9 @@ Esta guía te lleva paso a paso por crear tu cuenta, configurar tu primer mes y 
 
 ## Crea tu cuenta (y empieza tu prueba gratuita)
 
-Cada cuenta nueva en savr recibe **90 días de prueba gratuita** — la misma duración tanto si te registras con correo como si lo haces con Google o Microsoft. No se requiere tarjeta de crédito al inicio, sin cargos sorpresa. Úsalos para conocer la herramienta. Elige un plan cuando estés listo, o no — savr te recordará cerca del final.
+Cada cuenta nueva en vondo recibe **90 días de prueba gratuita** — la misma duración tanto si te registras con correo como si lo haces con Google o Microsoft. No se requiere tarjeta de crédito al inicio, sin cargos sorpresa. Úsalos para conocer la herramienta. Elige un plan cuando estés listo, o no — vondo te recordará cerca del final.
 
-Al registrarte, savr crea automáticamente un **hogar** para ti, lo nombra contigo y te hace el Propietario. Si en algún momento quieres compartir el presupuesto con tu pareja o un familiar, podrás invitarlos desde **Perfil → Hogares** después. Hasta cinco personas en total por hogar. Consulta [Hogares](../hogares/) para la foto completa.
+Al registrarte, vondo crea automáticamente un **hogar** para ti, lo nombra contigo y te hace el Propietario. Si en algún momento quieres compartir el presupuesto con tu pareja o un familiar, podrás invitarlos desde **Perfil → Hogares** después. Hasta cinco personas en total por hogar. Consulta [Hogares](../hogares/) para la foto completa.
 
 Tienes tres formas de registrarte. Elige la que se sienta más fácil:
 
@@ -34,7 +34,7 @@ En la pantalla de registro, haz clic en **Continuar con Google** o **Continuar c
 
 1. Abre la aplicación y haz clic en **Registrarse**.
 2. Ingresa tu correo y haz clic en **Continuar**.
-3. Revisa tu bandeja de entrada para encontrar el enlace de verificación de savr. Haz clic.
+3. Revisa tu bandeja de entrada para encontrar el enlace de verificación de vondo. Haz clic.
    - ¿No lo ves en un minuto? Revisa la carpeta de spam.
    - El enlace expira en 15 minutos. Si pasa, solo solicita otro — sin drama.
 4. En la pantalla de finalización, configura tu **nombre**, elige una **contraseña** (mínimo 8 caracteres) y acepta los **Términos de Servicio**.
@@ -50,11 +50,11 @@ Para autenticación de dos factores, dispositivos de confianza, y cómo conectar
 
 ## El asistente de configuración
 
-La primera vez que inicias sesión, savr te recibe con un breve asistente de configuración. Te lleva por tres cosas:
+La primera vez que inicias sesión, vondo te recibe con un breve asistente de configuración. Te lleva por tres cosas:
 
 1. **Bienvenida** — un recordatorio rápido de cómo funciona el presupuesto.
 2. **Agrega tus cuentas** — hasta 5 cuentas para empezar (siempre puedes agregar más después). Elige nombre, tipo y saldo actual de cada una.
-3. **Elige una plantilla de categorías** — savr puede pre-armar tu lista de categorías usando una de tres plantillas:
+3. **Elige una plantilla de categorías** — vondo puede pre-armar tu lista de categorías usando una de tres plantillas:
 
 | Plantilla | Lo que obtienes | Buena para |
 |---|---|---|
@@ -69,7 +69,7 @@ Puedes editar, renombrar o eliminar cualquier cosa que cree la plantilla. No lo 
 
 ---
 
-## Cómo funciona el presupuesto en savr (en 90 segundos)
+## Cómo funciona el presupuesto en vondo (en 90 segundos)
 
 Aquí está todo el concepto:
 
@@ -79,7 +79,7 @@ Eso es todo. Sin hojas de cálculo, sin sobres, sin fórmulas elegantes — solo
 
 Funciona así:
 
-1. Llega dinero (sueldo, reembolso, lo que sea). savr lo pone en una cubeta llamada **Por asignar**.
+1. Llega dinero (sueldo, reembolso, lo que sea). vondo lo pone en una cubeta llamada **Por asignar**.
 2. Vas a la página de Presupuesto y decides a dónde debe ir cada dólar: renta, comida, gasolina, ahorros.
 3. Conforme gastas, las categorías bajan. Cuando **Por asignar** llega a cero, cada dólar queda contabilizado.
 4. ¿Gastaste más en una categoría de lo planeado? Sin problema — mueves dinero de otra. Tu presupuesto general sigue balanceado.
@@ -105,9 +105,9 @@ Aquí está el orden que recomendaría la primera vez. Cada paso enlaza a la gu�
 
 Abre **Cuentas → Agregar Cuenta** y crea una entrada por cada cuenta real que tengas: cuenta corriente, ahorros, tarjetas de crédito, efectivo, inversiones, préstamos. Ingresa el saldo de hoy como el **saldo inicial**.
 
-> **Por ejemplo:** ¿Tu cuenta corriente muestra $2,847.13 ahora mismo? Eso escribes. savr crea una entrada de "Saldo Inicial" que no afecta tu presupuesto — solo le dice a savr desde dónde estás empezando.
+> **Por ejemplo:** ¿Tu cuenta corriente muestra $2,847.13 ahora mismo? Eso escribes. vondo crea una entrada de "Saldo Inicial" que no afecta tu presupuesto — solo le dice a vondo desde dónde estás empezando.
 
-savr soporta seis tipos de cuenta y cada uno se comporta un poco distinto. Las cuentas de préstamo en particular tienen detalles que vale la pena conocer — [revisa la página de Cuentas](../accounts/) cuando configures las tuyas.
+vondo soporta seis tipos de cuenta y cada uno se comporta un poco distinto. Las cuentas de préstamo en particular tienen detalles que vale la pena conocer — [revisa la página de Cuentas](../accounts/) cuando configures las tuyas.
 
 ### 2. Construye tu lista de categorías
 
@@ -147,7 +147,7 @@ El número en la parte superior — **Por asignar** — es todo lo que has ganad
 
 ### 5. Vive con él una semana
 
-Gasta como siempre. Revisa savr a diario o cada par de días. Pasarán dos cosas:
+Gasta como siempre. Revisa vondo a diario o cada par de días. Pasarán dos cosas:
 
 - **Te excederás en una categoría.** Totalmente normal. Mueve dinero de otra para cubrirla. El presupuesto se rebalancea. Sin drama.
 - **Descubrirás una categoría que olvidaste.** Agrégala. Mueve dinero. Listo.
@@ -162,9 +162,9 @@ Aquí empieza la adicción. Saber se siente bien.
 
 ---
 
-## Usar savr en tu teléfono
+## Usar vondo en tu teléfono
 
-savr es completamente responsivo — cada página funciona en teléfono, tablet o computadora. En móvil:
+vondo es completamente responsivo — cada página funciona en teléfono, tablet o computadora. En móvil:
 
 - La barra lateral está oculta por defecto. Toca el ícono **☰** arriba a la izquierda para abrirla.
 - Toca tu avatar (arriba a la derecha) para el menú de usuario.
@@ -178,7 +178,7 @@ La mayoría de la gente hace la configuración inicial en una laptop y luego rev
 
 ¿Te equivocaste? Lo puedes regresar.
 
-savr tiene **deshacer y rehacer** a nivel de sistema para casi cada cambio que haces — crear una transacción, editar una asignación de presupuesto, eliminar una categoría, reasignar un beneficiario, todo. El historial llega hasta **50 acciones**. Úsalo libremente.
+vondo tiene **deshacer y rehacer** a nivel de sistema para casi cada cambio que haces — crear una transacción, editar una asignación de presupuesto, eliminar una categoría, reasignar un beneficiario, todo. El historial llega hasta **50 acciones**. Úsalo libremente.
 
 | Atajo | Qué hace |
 |---|---|
@@ -189,11 +189,11 @@ En móvil, los mismos controles viven como íconos ↶ y ↷ en la barra superio
 
 Algunos detalles que vale saber:
 
-- **Deshacer puede navegar.** Si deshaces algo en una página distinta a donde estás, savr te lleva de vuelta a donde ocurrió el cambio para que veas qué se revirtió.
+- **Deshacer puede navegar.** Si deshaces algo en una página distinta a donde estás, vondo te lleva de vuelta a donde ocurrió el cambio para que veas qué se revirtió.
 - **Hacer algo nuevo limpia la pila de rehacer.** Comportamiento estándar de editor — una vez que tomas una acción nueva, el futuro que ibas a rehacer se va.
 - **Algunas cosas son permanentes.** Cambios de contraseña, vincular proveedores OAuth y eliminar la cuenta no entran a la pila de deshacer. Todo lo demás sí.
 
-> **Por qué importa:** Las apps de presupuesto suelen tener un aire de "borrar para siempre" que pone cautelosa a la gente — duda, revisa dos veces, deja categorizaciones a medias por miedo a equivocarse. savr quita esa fricción. Haz clic libremente. Si algo sale mal, ⌘Z te regresa. Decisiones más rápidas, menos arrepentimientos.
+> **Por qué importa:** Las apps de presupuesto suelen tener un aire de "borrar para siempre" que pone cautelosa a la gente — duda, revisa dos veces, deja categorizaciones a medias por miedo a equivocarse. vondo quita esa fricción. Haz clic libremente. Si algo sale mal, ⌘Z te regresa. Decisiones más rápidas, menos arrepentimientos.
 
 ---
 
@@ -208,7 +208,7 @@ Algunos detalles que vale saber:
 | [Recurrentes](../recurring/) | Transacciones programadas, frecuencias, aplicar vencimientos |
 | [Beneficiarios](../payees/) | Crear, renombrar, fusionar, eliminar |
 | [Informes](../reports/) | Tendencias mensuales, gastos por categoría, beneficiarios principales |
-| [Conciliación](../reconcile/) | Hacer coincidir savr con tu extracto, encontrar discrepancias |
+| [Conciliación](../reconcile/) | Hacer coincidir vondo con tu extracto, encontrar discrepancias |
 | [Importar y Exportar](../import-export/) | Asistente de importación CSV, exportaciones |
 | [Perfil y Ajustes](../profile/) | Nombre, idioma, tema |
 | [Hogares](../hogares/) | Compartir un presupuesto con hasta 5 personas, roles, invitaciones, cambio de hogar, transferir propiedad, moneda, zona horaria |

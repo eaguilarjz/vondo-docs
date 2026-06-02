@@ -83,7 +83,7 @@ Net Worth is the line you actually want to see going up. Income vs. Expenses tel
 > - **Debts coming down faster than assets are growing.** Paying off a loan moves Net Worth up the same as saving an equivalent amount; this chart shows both at once.
 > - **A big one-time event** (paid off a car, bought a house, got a tax refund) shows as a step change. Useful for seeing what those events actually meant in context.
 
-> **Heads up:** Net Worth always shows your whole portfolio. The **Account** and **Category** filters apply to the other four charts but **don't change Net Worth** — a filtered view of net worth doesn't really mean anything, so savr just shows the full picture.
+> **Heads up:** Net Worth always shows your whole portfolio. The **Account** and **Category** filters apply to the other four charts but **don't change Net Worth** — a filtered view of net worth doesn't really mean anything, so vondo just shows the full picture.
 
 ---
 

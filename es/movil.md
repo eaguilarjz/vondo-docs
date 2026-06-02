@@ -8,7 +8,7 @@ nav_order: 13
 
 # App Móvil
 
-savr está disponible en iOS y Android como una app nativa multiplataforma. Misma cuenta, mismos datos, mismo presupuesto — solo optimizada para un teléfono en tu bolsillo mientras estás formado en la fila del super decidiendo si la bolsa de granola de $7 es "Comida" o "Restaurantes."
+vondo está disponible en iOS y Android como una app nativa multiplataforma. Misma cuenta, mismos datos, mismo presupuesto — solo optimizada para un teléfono en tu bolsillo mientras estás formado en la fila del super decidiendo si la bolsa de granola de $7 es "Comida" o "Restaurantes."
 
 Esta página cubre todo lo que es específico de la app móvil: cómo está organizada, cómo se mantiene sincronizada con la web, y el puñado de cosas que la móvil aún no hace.
 
@@ -16,7 +16,7 @@ Esta página cubre todo lo que es específico de la app móvil: cómo está orga
 
 ## Instalación
 
-Busca **Savr** en la App Store (iOS) o Play Store (Android), instala y entra con la misma cuenta que usas en la web. Todo lo que ya configuraste — cuentas, categorías, presupuestos, reglas recurrentes, vistas guardadas, todo — aparece en el teléfono de inmediato.
+Busca **Vondo** en la App Store (iOS) o Play Store (Android), instala y entra con la misma cuenta que usas en la web. Todo lo que ya configuraste — cuentas, categorías, presupuestos, reglas recurrentes, vistas guardadas, todo — aparece en el teléfono de inmediato.
 
 Si aún no te has registrado, también puedes crear tu cuenta desde la pantalla de inicio de sesión móvil. Consulta [Primeros pasos → Crea tu cuenta](../getting-started/#crea-tu-cuenta-y-empieza-tu-prueba-gratuita) para el flujo (los pasos son los mismos en móvil).
 
@@ -59,7 +59,7 @@ La mayor diferencia con la web es que **la app móvil sigue funcionando cuando s
 
 > **Ejemplo trabajado — un vuelo de CDMX a Nueva York:**
 >
-> 1. Despegas. El teléfono entra en modo avión. Aparece el banner de offline de savr arriba.
+> 1. Despegas. El teléfono entra en modo avión. Aparece el banner de offline de vondo arriba.
 > 2. A media altura recuerdas que le debes $40 a tu roomie por los servicios. Lo registras como una Transferencia de tu Cuenta corriente a "Préstamos a roomie" — aparece en tu Actividad al instante y **Cambios pendientes** sube a "1 cambio sin sincronizar."
 > 3. Subiéndote a un vuelo de conexión te compras un sándwich y un café. Dos transacciones más entran. Ahora "3 cambios sin sincronizar."
 > 4. Aterrizas en NY y apagas el modo avión. En unos segundos el banner desaparece, el contador de Cambios pendientes baja a cero, y las tres transacciones ya están en el servidor. Abres la app web en el Uber y ahí están.
@@ -153,6 +153,6 @@ No están en esta versión:
 ## Consejos
 
 - **Usa el teléfono para capturar, la laptop para configurar.** La mayoría de la gente termina usando la móvil para registrar transacciones durante el día y la web los domingos en la noche para la revisión mensual.
-- **Pull-to-refresh en cualquier pantalla de lista.** Si crees que el servidor tiene datos más nuevos, desliza hacia abajo — savr trae una foto fresca y la reconcilia con lo que tengas en la cola de pendientes.
+- **Pull-to-refresh en cualquier pantalla de lista.** Si crees que el servidor tiene datos más nuevos, desliza hacia abajo — vondo trae una foto fresca y la reconcilia con lo que tengas en la cola de pendientes.
 - **No te preocupes por el banner de offline.** No es un error; es un estado. La app sigue funcionando. Tus cambios están seguros localmente y se sincronizarán cuando vuelvas a estar en línea.
 - **Cierra sesión antes de prestar el dispositivo.** Si alguien te pide tu teléfono para un vuelo, cierra sesión primero. Volver a entrar es rápido (un toque con Google/Microsoft, o tu contraseña + un código MFA si lo tienes activado).

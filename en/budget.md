@@ -8,7 +8,7 @@ nav_order: 2
 
 # Budget
 
-The Budget page is the heart of savr. It's where you make decisions instead of reacting to them.
+The Budget page is the heart of vondo. It's where you make decisions instead of reacting to them.
 
 Every month, you take what you have and decide where each dollar should go. Rent. Groceries. Savings. The dentist appointment you've been putting off. By the time you're done, every dollar is assigned to a category, and you know — with actual numbers, not vibes — what's available for what.
 
@@ -156,7 +156,7 @@ When a household is in [read-only mode](../billing/#what-happens-when) (trial en
 
 ## Quick-fill strategies
 
-savr can fill out your budget for you. Open the **Quick-fill** menu on the Budget page and pick one of six strategies:
+vondo can fill out your budget for you. Open the **Quick-fill** menu on the Budget page and pick one of six strategies:
 
 | Strategy | What it does | When to reach for it |
 |---|---|---|
@@ -184,13 +184,13 @@ This is most people's "set it and forget it" workflow once they've been at it a 
 
 ### Single-category Quick-fill
 
-Each category also has its own Quick-fill action — useful when you just want to fill in one spot. savr suggests an amount based on the target (or your previous spending if there's no target).
+Each category also has its own Quick-fill action — useful when you just want to fill in one spot. vondo suggests an amount based on the target (or your previous spending if there's no target).
 
 ---
 
 ## Targets (a.k.a. goals)
 
-A target tells savr "this is how much I want to budget for this category." Once a target is set, savr can:
+A target tells vondo "this is how much I want to budget for this category." Once a target is set, vondo can:
 
 - Show you a status (on track, underfunded, unfunded) at a glance
 - Power Fill by Targets for one-click monthly funding
@@ -207,9 +207,9 @@ A target tells savr "this is how much I want to budget for this category." Once 
 
 > **For example:**
 > - Rent — Monthly target of $1,400, due on the 1st.
-> - Groceries — Weekly target of $125 (savr knows that's ~$540/month).
+> - Groceries — Weekly target of $125 (vondo knows that's ~$540/month).
 > - Car insurance — Yearly target of $720, due in October.
-> - Vacation — Custom target of $2,400 by next August. savr suggests ~$200/month.
+> - Vacation — Custom target of $2,400 by next August. vondo suggests ~$200/month.
 
 ### Setting a target
 

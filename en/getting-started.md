@@ -20,15 +20,17 @@ This guide walks you through creating an account, setting up your first month, a
 
 ## Create your account (and start your free trial)
 
-Every new vondo account gets a **90-day free trial** — same length whether you sign up with email or with Google/Microsoft. No credit card required up front, no surprise charges. Use it to get your bearings. Pick a paid plan when you're ready, or don't — vondo will remind you near the end.
+Every new vondo account gets a **90-day free trial** — same length whether you sign up with email or with Google, Microsoft, or Apple. No credit card required up front, no surprise charges. Use it to get your bearings. Pick a paid plan when you're ready, or don't — vondo will remind you near the end.
 
 When you sign up, vondo automatically creates a **household** for you, named after you, and makes you the Owner. If you ever want to share the budget with a partner or family member, you can invite them from **Profile → Households** later. Up to five people total per household. See [Households](../households/) for the full picture.
 
-You've got three ways to sign up. Pick whichever feels easiest:
+You've got four ways to sign up. Pick whichever feels easiest:
 
-### Option A — Sign up with Google or Microsoft (fastest)
+### Option A — Sign up with Google, Microsoft, or Apple (fastest)
 
-On the sign-up screen, click **Continue with Google** or **Continue with Microsoft**. Confirm on the provider's screen, and you're in. No password to set, no email to verify, no waiting. (You can always [add a password later](../security/#change-your-password) if you want one.)
+On the sign-up screen, click **Continue with Google**, **Continue with Microsoft**, or **Continue with Apple**. Confirm on the provider's screen, and you're in. No password to set, no email to verify, no waiting. (You can always [add a password later](../security/#change-your-password) if you want one.)
+
+> **Using Sign in with Apple?** At Apple's consent screen you can choose **Hide My Email** — vondo works fine with the private relay address Apple generates for you.
 
 ### Option B — Sign up with email and password
 
@@ -44,7 +46,7 @@ On the sign-up screen, click **Continue with Google** or **Continue with Microso
 
 **Forgot your password?** From the sign-in screen, click **Forgot password?** and enter your email. You'll get a reset link valid for one hour. Open it and pick a new password.
 
-For two-factor authentication, trusted devices, and how to connect Google or Microsoft to an existing account, jump to the [Security](../security/) page when you're ready.
+For two-factor authentication, trusted devices, and how to connect Google, Microsoft, or Apple to an existing account, jump to the [Security](../security/) page when you're ready.
 
 ---
 

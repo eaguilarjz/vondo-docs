@@ -14,7 +14,7 @@ This page covers the everyday personal stuff. For:
 
 - **Plans, trial, billing, invoices** → [Plans & Billing](../billing/)
 - **Sharing your budget, inviting members, switching between budgets** → [Households](../households/)
-- **Password change, two-factor authentication, recovery codes, trusted devices, connected Google/Microsoft accounts** → [Security](../security/)
+- **Password change, two-factor authentication, recovery codes, trusted devices, connected Google, Microsoft, and Apple accounts** → [Security](../security/)
 
 ---
 
@@ -84,7 +84,7 @@ A few things sometimes expected on a profile page that live elsewhere:
 | **Currency** | [Households → Currency and timezone](../households/#currency-and-timezone) |
 | **Timezone** | [Households → Currency and timezone](../households/#currency-and-timezone) |
 | **Password change** | [Security → Change your password](../security/#change-your-password) |
-| **Sign-in options (Google, Microsoft)** | [Security → How you sign in](../security/#how-you-sign-in) |
+| **Sign-in options (Google, Microsoft, Apple)** | [Security → How you sign in](../security/#how-you-sign-in) |
 | **Connected accounts** | [Security → Connected accounts](../security/#connected-accounts) |
 | **Two-factor authentication** | [Security → Two-Factor Authentication](../security/#two-factor-authentication-mfa) |
 | **Trusted devices for MFA** | [Security → Trusted devices](../security/#trusted-devices) |

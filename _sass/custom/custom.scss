@@ -44,12 +44,12 @@ samp {
 }
 
 // ---------------------------------------------------------------------
-// Sidebar — sky-blue with white text. just-the-docs exposes $sidebar-color
+// Sidebar — green with white text. just-the-docs exposes $sidebar-color
 // and $nav-child-link-color but not the colors of headings, hover/active
 // states, or the search box, so we set those here.
 // ---------------------------------------------------------------------
 
-$vondo-sidebar-bg: #0369a1;       // brand-700, matches $sidebar-color
+$vondo-sidebar-bg: #15803d;       // brand-700, matches $sidebar-color
 $vondo-sidebar-text: #ffffff;
 $vondo-sidebar-text-muted: rgba(255, 255, 255, 0.92);
 $vondo-sidebar-hover: rgba(255, 255, 255, 0.12);
@@ -124,16 +124,16 @@ $vondo-sidebar-active: rgba(255, 255, 255, 0.20);
     }
 
     .search-input {
-      color: #0c4a6e; // brand-900
+      color: #14532d; // brand-900
       background-color: transparent;
 
       &::placeholder {
-        color: rgba(12, 74, 110, 0.55);
+        color: rgba(20, 83, 45, 0.55);
       }
     }
 
     .search-label .search-icon {
-      color: rgba(12, 74, 110, 0.6);
+      color: rgba(20, 83, 45, 0.6);
     }
   }
 }
@@ -156,17 +156,17 @@ $vondo-sidebar-active: rgba(255, 255, 255, 0.20);
   color: #ea580c; // accent-600
 }
 
-// Blockquote callouts — tinted sky to match brand "Heads up" tone.
+// Blockquote callouts — tinted green to match brand "Heads up" tone.
 .main-content blockquote {
-  background-color: rgba(14, 165, 233, 0.06); // brand-500 @ 6%
-  border-left: 4px solid #0ea5e9;             // brand-500
+  background-color: rgba(34, 197, 94, 0.06); // brand-500 @ 6%
+  border-left: 4px solid #22c55e;             // brand-500
   padding: 0.75rem 1rem;
   border-radius: 4px;
 }
 
 // ---------------------------------------------------------------------
 // Dark mode — automatically applied when the visitor's OS is set
-// to dark. The sidebar already uses brand sky; the content area
+// to dark. The sidebar already uses brand green; the content area
 // flips to warm-dark stone surfaces with brand-aligned accents.
 // ---------------------------------------------------------------------
 
@@ -179,7 +179,7 @@ $vondo-sidebar-active: rgba(255, 255, 255, 0.20);
   // text on dark bg both eye-strains the reader AND flattens the
   // visual hierarchy (h2 stops popping when body is just as bright).
   // Pattern lifted from GitHub / Vercel / Linear: soft stone-200 for
-  // running text, bright sky-50 reserved for headings + strong.
+  // running text, bright green-50 reserved for headings + strong.
   body {
     background-color: #1c1917;   // stone-900 (warm dark)
     color: #e7e5e4;              // stone-200 — soft, not glaring
@@ -187,7 +187,7 @@ $vondo-sidebar-active: rgba(255, 255, 255, 0.20);
 
   // Sidebar — go a touch darker than the light-mode brand-700.
   .side-bar {
-    background-color: #0c4a6e;   // brand-900
+    background-color: #14532d;   // brand-900
   }
 
   // Main content area
@@ -195,7 +195,7 @@ $vondo-sidebar-active: rgba(255, 255, 255, 0.20);
     color: #e7e5e4;              // stone-200 — paired with bright headings below
 
     h1, h2, h3, h4, h5, h6 {
-      color: #f0f9ff;            // brand-50 — bright sky on dark; pops against the dimmer body
+      color: #f0fdf4;            // brand-50 — bright green-tint on dark; pops against the dimmer body
     }
 
     a:not(.btn) {
@@ -207,7 +207,7 @@ $vondo-sidebar-active: rgba(255, 255, 255, 0.20);
     }
 
     strong {
-      color: #f0f9ff;            // matches headings — same "elevated" emphasis tier
+      color: #f0fdf4;            // matches headings — same "elevated" emphasis tier
     }
 
     code {
@@ -228,7 +228,7 @@ $vondo-sidebar-active: rgba(255, 255, 255, 0.20);
     table {
       th {
         background-color: #292524; // stone-800
-        color: #f0f9ff;
+        color: #f0fdf4;
         border-color: #57534e;     // stone-600 — visible against stone-800 th bg
       }
 
@@ -244,8 +244,8 @@ $vondo-sidebar-active: rgba(255, 255, 255, 0.20);
     }
 
     blockquote {
-      background-color: rgba(14, 165, 233, 0.10); // brand-500 @ 10%
-      border-left-color: #0ea5e9;                 // brand-500
+      background-color: rgba(34, 197, 94, 0.10); // brand-500 @ 10%
+      border-left-color: #22c55e;                 // brand-500
       color: #e7e5e4;
     }
 
@@ -276,7 +276,7 @@ $vondo-sidebar-active: rgba(255, 255, 255, 0.20);
       }
 
       .search-result-title {
-        color: #f0f9ff;
+        color: #f0fdf4;
       }
     }
   }

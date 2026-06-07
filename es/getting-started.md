@@ -20,15 +20,17 @@ Esta guía te lleva paso a paso por crear tu cuenta, configurar tu primer mes y 
 
 ## Crea tu cuenta (y empieza tu prueba gratuita)
 
-Cada cuenta nueva en vondo recibe **90 días de prueba gratuita** — la misma duración tanto si te registras con correo como si lo haces con Google o Microsoft. No se requiere tarjeta de crédito al inicio, sin cargos sorpresa. Úsalos para conocer la herramienta. Elige un plan cuando estés listo, o no — vondo te recordará cerca del final.
+Cada cuenta nueva en vondo recibe **90 días de prueba gratuita** — la misma duración tanto si te registras con correo como si lo haces con Google, Microsoft o Apple. No se requiere tarjeta de crédito al inicio, sin cargos sorpresa. Úsalos para conocer la herramienta. Elige un plan cuando estés listo, o no — vondo te recordará cerca del final.
 
 Al registrarte, vondo crea automáticamente un **hogar** para ti, lo nombra contigo y te hace el Propietario. Si en algún momento quieres compartir el presupuesto con tu pareja o un familiar, podrás invitarlos desde **Perfil → Hogares** después. Hasta cinco personas en total por hogar. Consulta [Hogares](../hogares/) para la foto completa.
 
-Tienes tres formas de registrarte. Elige la que se sienta más fácil:
+Tienes cuatro formas de registrarte. Elige la que se sienta más fácil:
 
-### Opción A — Regístrate con Google o Microsoft (la más rápida)
+### Opción A — Regístrate con Google, Microsoft o Apple (la más rápida)
 
-En la pantalla de registro, haz clic en **Continuar con Google** o **Continuar con Microsoft**. Confirma en la pantalla del proveedor y ya estás dentro. Sin contraseña que configurar, sin correo que verificar, sin esperar. (Siempre puedes [agregar una contraseña después](../security/#cambia-tu-contraseña) si quieres una.)
+En la pantalla de registro, haz clic en **Continuar con Google**, **Continuar con Microsoft** o **Continuar con Apple**. Confirma en la pantalla del proveedor y ya estás dentro. Sin contraseña que configurar, sin correo que verificar, sin esperar. (Siempre puedes [agregar una contraseña después](../security/#cambia-tu-contraseña) si quieres una.)
+
+> **¿Usas Iniciar sesión con Apple?** En la pantalla de consentimiento de Apple puedes elegir **Ocultar mi correo** — vondo funciona sin problema con la dirección de relay privada que Apple genera para ti.
 
 ### Opción B — Regístrate con correo y contraseña
 
@@ -44,7 +46,7 @@ En la pantalla de registro, haz clic en **Continuar con Google** o **Continuar c
 
 **¿Olvidaste tu contraseña?** Desde la pantalla de inicio de sesión, haz clic en **¿Olvidaste tu contraseña?** e ingresa tu correo. Recibirás un enlace de recuperación válido por una hora. Ábrelo y elige una nueva.
 
-Para autenticación de dos factores, dispositivos de confianza, y cómo conectar Google o Microsoft a una cuenta existente, salta a la página [Seguridad](../security/) cuando estés listo.
+Para autenticación de dos factores, dispositivos de confianza, y cómo conectar Google, Microsoft o Apple a una cuenta existente, salta a la página [Seguridad](../security/) cuando estés listo.
 
 ---
 

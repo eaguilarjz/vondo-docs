@@ -1,14 +1,15 @@
 // vondo brand color overrides on top of the light theme.
 //
 // Palette mirrors apps/web/src/index.css and apps/mobile/src/shared/theme.ts:
-//   brand-500 #0ea5e9 (sky)         — primary accent
-//   brand-600 #0284c7 (sky-600)     — links, pressed states, splash brand
-//   brand-700 #0369a1 (sky-700)     — sidebar background, wordmark
-//   brand-900 #0c4a6e (sky-900)     — darkest brand shade
+//   brand-500 #22c55e (green)       — primary brand accent
+//   brand-600 #16a34a (green-600)   — primary CTAs, pressed states, splash brand
+//   brand-700 #15803d (green-700)   — sidebar background, wordmark
+//   brand-900 #14532d (green-900)   — darkest brand shade
+//   accent-600 #ea580c (orange)     — links + interactive accents (unchanged)
 //   neutral-50 #fef9f3              — warm cream body background (light mode)
 //   neutral-900 #1c1917             — warm-dark body text (stone-900)
 
-// Links use the warm-orange ACCENT palette, not brand sky. Pairs
+// Links use the warm-orange ACCENT palette, not brand green. Pairs
 // with the cream surface and creates a clear "interactive vs body"
 // signal (orange on cream reads instantly as "click me"). accent-600
 // #ea580c clears WCAG AA (4.6:1) against the cream background; the
@@ -16,17 +17,17 @@
 // chrome so the visual hierarchy stays "brand = identity, accent =
 // action."
 $link-color: #ea580c;                 // accent-600
-$btn-primary-color: #0284c7;          // brand-600 — primary CTAs stay brand-sky
-$body-heading-color: #0c4a6e;         // brand-900 — slightly tinted for warmth
+$btn-primary-color: #16a34a;          // brand-600 — primary CTAs stay brand-green
+$body-heading-color: #14532d;         // brand-900 — slightly tinted for warmth
 $body-text-color: #1c1917;            // stone-900 (warm dark)
 $body-background-color: #fef9f3;      // warm cream
 $content-background: #ffffff;
 $border-color: #e7e5e4;               // stone-200
 
-// Sky sidebar with white text. Fine-grained text/active-state
+// Green sidebar with white text. Fine-grained text/active-state
 // overrides live in _sass/custom/custom.scss because just-the-docs
 // doesn't expose those as SCSS variables.
-$sidebar-color: #0369a1;                          // brand-700
+$sidebar-color: #15803d;                          // brand-700
 $nav-child-link-color: rgba(255, 255, 255, 0.92); // child nav items in sidebar
 
 // Code highlight + table-of-contents accent inherits from $link-color

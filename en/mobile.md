@@ -82,7 +82,7 @@ If a change fails (typically because the server rejects it — e.g. you edited a
 
 ## Sign-in and security on mobile
 
-The mobile app uses the same authentication system as the web: email + password, Continue with Google, and Continue with Microsoft. After sign-in, the same [two-factor authentication](../security/#two-factor-authentication-mfa) and [trusted-device](../security/#trusted-devices) flow apply.
+The mobile app uses the same authentication system as the web: email + password, Continue with Google, Continue with Microsoft, and Continue with Apple. After sign-in, the same [two-factor authentication](../security/#two-factor-authentication-mfa) and [trusted-device](../security/#trusted-devices) flow apply.
 
 A couple of mobile-specific notes:
 
@@ -155,4 +155,4 @@ Not in this version:
 - **Use the phone for capture, the laptop for setup.** Most people end up using the mobile app to record transactions throughout the day and the web app on Sunday nights for the monthly review.
 - **Pull to refresh on any list screen.** If you think the server has newer data, swipe down — vondo fetches a fresh snapshot and reconciles it with whatever's in your pending queue.
 - **Don't worry about the offline banner.** It's not an error; it's a status. The app keeps working. Your changes are safe locally and will sync when you're back online.
-- **Sign out before lending a device.** If someone borrows your phone for a flight, sign out first. Signing back in is fast (one tap with Google/Microsoft, or your password + an MFA code if you've set that up).
+- **Sign out before lending a device.** If someone borrows your phone for a flight, sign out first. Signing back in is fast (one tap with a Google, Microsoft, or Apple account, or your password + an MFA code if you've set that up).

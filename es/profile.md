@@ -14,7 +14,7 @@ Esta página cubre los temas personales del día a día. Para:
 
 - **Planes, prueba, facturación, facturas** → [Plan y Facturación](../billing/)
 - **Compartir tu presupuesto, invitar miembros, cambiar entre presupuestos** → [Hogares](../hogares/)
-- **Cambio de contraseña, autenticación de dos factores, códigos de recuperación, dispositivos de confianza, cuentas conectadas de Google/Microsoft** → [Seguridad](../security/)
+- **Cambio de contraseña, autenticación de dos factores, códigos de recuperación, dispositivos de confianza, cuentas conectadas de Google, Microsoft y Apple** → [Seguridad](../security/)
 
 ---
 
@@ -84,7 +84,7 @@ Algunas cosas que a veces se esperan en una página de perfil viven en otro lado
 | **Moneda** | [Hogares → Moneda y zona horaria](../hogares/#moneda-y-zona-horaria) |
 | **Zona horaria** | [Hogares → Moneda y zona horaria](../hogares/#moneda-y-zona-horaria) |
 | **Cambio de contraseña** | [Seguridad → Cambia tu contraseña](../security/#cambia-tu-contraseña) |
-| **Opciones de inicio de sesión (Google, Microsoft)** | [Seguridad → Cómo inicias sesión](../security/#cómo-inicias-sesión) |
+| **Opciones de inicio de sesión (Google, Microsoft, Apple)** | [Seguridad → Cómo inicias sesión](../security/#cómo-inicias-sesión) |
 | **Cuentas conectadas** | [Seguridad → Cuentas conectadas](../security/#cuentas-conectadas) |
 | **Autenticación de dos factores** | [Seguridad → Autenticación de dos factores](../security/#autenticación-de-dos-factores-mfa) |
 | **Dispositivos de confianza para MFA** | [Seguridad → Dispositivos de confianza](../security/#dispositivos-de-confianza) |

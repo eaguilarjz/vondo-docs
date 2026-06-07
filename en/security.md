@@ -18,17 +18,18 @@ You'll find these settings under **Profile → Security**.
 
 ## How you sign in
 
-vondo accepts three ways to sign in. You can use any one of them, or mix and match — they all reach the same account.
+vondo accepts four ways to sign in. You can use any one of them, or mix and match — they all reach the same account.
 
 | Method | What you need | Notes |
 |---|---|---|
 | **Email + password** | Your email address and your vondo password | The classic. Pair with [MFA](#two-factor-authentication-mfa) for the strongest setup. |
 | **Sign in with Google** | A Google account whose email matches yours in vondo | One click. No password to remember. |
 | **Sign in with Microsoft** | A **personal** Microsoft account (Outlook.com, Hotmail, Live, MSN) whose email matches yours in vondo | Same idea — one click. Work or school AAD accounts aren't supported. |
+| **Sign in with Apple** | An Apple ID whose email matches yours in vondo | One click. You can use Apple's **Hide My Email** to keep your real address private. |
 
 ### How OAuth sign-up works
 
-When you click **Sign in with Google** or **Sign in with Microsoft** on the sign-up screen, vondo:
+When you click **Sign in with Google**, **Sign in with Microsoft**, or **Sign in with Apple** on the sign-up screen, vondo:
 
 1. Sends you to the provider to confirm.
 2. Reads the email address from the response.
@@ -38,8 +39,8 @@ When you click **Sign in with Google** or **Sign in with Microsoft** on the sign
 
 You're not locked into the method you started with. From **Profile → Security → Connected accounts**, you can:
 
-- Add Google or Microsoft to an email/password account (now you have both options at sign-in).
-- Remove Google or Microsoft from an account that has at least one other way in.
+- Add Google, Microsoft, or Apple to an email/password account (now you have more than one way in at sign-in).
+- Remove Google, Microsoft, or Apple from an account that has at least one other way in.
 - An account with **only OAuth** (no password) can't unlink its last provider — set a password first via **Forgot password?**, then come back and unlink.
 
 ---
@@ -59,13 +60,13 @@ Once changed, every signed-in session continues to work, but any signed-out sess
 
 ## Connected accounts
 
-The **Connected accounts** section lists every external sign-in method linked to your vondo account — Google, Microsoft, and any future providers.
+The **Connected accounts** section lists every external sign-in method linked to your vondo account — Google, Microsoft, Apple, and any future providers.
 
 ### Add a provider
 
 1. Open **Profile → Security → Connected accounts**.
 2. Click **Connect** next to the provider.
-3. You're handed off to Google/Microsoft to confirm. Once you're back, the provider is listed with the email address it used.
+3. You're handed off to the provider to confirm. Once you're back, the provider is listed with the email address it used.
 
 After connecting, the provider becomes another way to sign in. Useful if you want a fast click-through option *and* a password as backup.
 
@@ -75,7 +76,7 @@ Click **Disconnect** next to a provider in the list. The change is immediate —
 
 The one exception: if the provider you're removing is the **only** way you can sign in (an OAuth-only account with no password), vondo won't let you. Set a password first via **Forgot password?** on the sign-in page, then come back to remove the provider.
 
-> **Why connect more than one?** Redundancy. If you lose access to one provider account, the other still works. Pair this with [Recovery codes](#recovery-codes) and you've got real account-recovery resilience.
+> **Why connect more than one?** Redundancy. If you lose access to one provider account, another still works. Pair this with [Recovery codes](#recovery-codes) and you've got real account-recovery resilience.
 
 ---
 

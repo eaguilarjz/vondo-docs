@@ -18,17 +18,18 @@ Encontrarás estos ajustes en **Perfil → Seguridad**.
 
 ## Cómo inicias sesión
 
-vondo acepta tres formas de iniciar sesión. Puedes usar cualquiera, o combinarlas — todas llegan a la misma cuenta.
+vondo acepta cuatro formas de iniciar sesión. Puedes usar cualquiera, o combinarlas — todas llegan a la misma cuenta.
 
 | Método | Lo que necesitas | Notas |
 |---|---|---|
 | **Correo + contraseña** | Tu correo y tu contraseña de vondo | El clásico. Combínalo con [MFA](#autenticación-de-dos-factores-mfa) para la configuración más fuerte. |
 | **Continuar con Google** | Una cuenta de Google con un correo que coincida con el tuyo en vondo | Un clic. Sin contraseña que recordar. |
 | **Continuar con Microsoft** | Una cuenta **personal** de Microsoft (Outlook.com, Hotmail, Live, MSN) con un correo que coincida con el tuyo en vondo | Misma idea — un clic. Las cuentas de trabajo o escuela (AAD) no están soportadas. |
+| **Continuar con Apple** | Un Apple ID con un correo que coincida con el tuyo en vondo | Un clic. Puedes usar **Ocultar mi correo** de Apple para mantener tu dirección real privada. |
 
 ### Cómo funciona el registro con OAuth
 
-Cuando haces clic en **Continuar con Google** o **Continuar con Microsoft** en la pantalla de registro, vondo:
+Cuando haces clic en **Continuar con Google**, **Continuar con Microsoft** o **Continuar con Apple** en la pantalla de registro, vondo:
 
 1. Te envía al proveedor para confirmar.
 2. Lee el correo de la respuesta.
@@ -38,8 +39,8 @@ Cuando haces clic en **Continuar con Google** o **Continuar con Microsoft** en l
 
 No estás atrapado en el método con el que empezaste. Desde **Perfil → Seguridad → Cuentas conectadas**, puedes:
 
-- Agregar Google o Microsoft a una cuenta de correo/contraseña (ahora tienes ambas opciones al iniciar sesión).
-- Quitar Google o Microsoft de una cuenta que tenga al menos otra forma de entrar.
+- Agregar Google, Microsoft o Apple a una cuenta de correo/contraseña (ahora tienes más de una forma de entrar al iniciar sesión).
+- Quitar Google, Microsoft o Apple de una cuenta que tenga al menos otra forma de entrar.
 - Una cuenta con **solo OAuth** (sin contraseña) no puede desvincular su último proveedor — establece una contraseña primero vía **¿Olvidaste tu contraseña?** y luego regresa a desvincular.
 
 ---
@@ -59,13 +60,13 @@ Una vez cambiada, cada sesión actualmente abierta sigue funcionando, pero cualq
 
 ## Cuentas conectadas
 
-La sección **Cuentas conectadas** lista cada método externo de inicio de sesión vinculado a tu cuenta de vondo — Google, Microsoft, y cualquier proveedor futuro.
+La sección **Cuentas conectadas** lista cada método externo de inicio de sesión vinculado a tu cuenta de vondo — Google, Microsoft, Apple, y cualquier proveedor futuro.
 
 ### Agregar un proveedor
 
 1. Abre **Perfil → Seguridad → Cuentas conectadas**.
 2. Haz clic en **Conectar** junto al proveedor.
-3. Te llevamos a Google/Microsoft a confirmar. Cuando regreses, el proveedor aparece listado con el correo que usó.
+3. Te llevamos al proveedor a confirmar. Cuando regreses, el proveedor aparece listado con el correo que usó.
 
 Después de conectar, el proveedor se vuelve otra forma de iniciar sesión. Útil si quieres una opción rápida de un clic *y* una contraseña como respaldo.
 
@@ -75,7 +76,7 @@ Haz clic en **Desconectar** junto al proveedor en la lista. El cambio es inmedia
 
 La excepción: si el proveedor que estás quitando es la **única** forma de iniciar sesión (una cuenta solo OAuth sin contraseña), vondo no te lo permitirá. Establece una contraseña primero vía **¿Olvidaste tu contraseña?** en la pantalla de inicio de sesión, y luego regresa a quitar el proveedor.
 
-> **¿Por qué conectar más de uno?** Redundancia. Si pierdes acceso a una cuenta de proveedor, la otra aún funciona. Combínalo con [Códigos de recuperación](#códigos-de-recuperación) y tienes una verdadera resiliencia para recuperar la cuenta.
+> **¿Por qué conectar más de uno?** Redundancia. Si pierdes acceso a una cuenta de proveedor, otra aún funciona. Combínalo con [Códigos de recuperación](#códigos-de-recuperación) y tienes una verdadera resiliencia para recuperar la cuenta.
 
 ---
 

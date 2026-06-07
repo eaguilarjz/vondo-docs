@@ -82,7 +82,7 @@ Si un cambio falla (típicamente porque el servidor lo rechaza — p. ej. editas
 
 ## Inicio de sesión y seguridad en móvil
 
-La app móvil usa el mismo sistema de autenticación que la web: correo + contraseña, Continuar con Google, y Continuar con Microsoft. Después de iniciar sesión, aplican los mismos flujos de [autenticación de dos factores](../security/#autenticación-de-dos-factores-mfa) y [dispositivos de confianza](../security/#dispositivos-de-confianza).
+La app móvil usa el mismo sistema de autenticación que la web: correo + contraseña, Continuar con Google, Continuar con Microsoft, y Continuar con Apple. Después de iniciar sesión, aplican los mismos flujos de [autenticación de dos factores](../security/#autenticación-de-dos-factores-mfa) y [dispositivos de confianza](../security/#dispositivos-de-confianza).
 
 Un par de notas específicas de móvil:
 
@@ -155,4 +155,4 @@ No están en esta versión:
 - **Usa el teléfono para capturar, la laptop para configurar.** La mayoría de la gente termina usando la móvil para registrar transacciones durante el día y la web los domingos en la noche para la revisión mensual.
 - **Pull-to-refresh en cualquier pantalla de lista.** Si crees que el servidor tiene datos más nuevos, desliza hacia abajo — vondo trae una foto fresca y la reconcilia con lo que tengas en la cola de pendientes.
 - **No te preocupes por el banner de offline.** No es un error; es un estado. La app sigue funcionando. Tus cambios están seguros localmente y se sincronizarán cuando vuelvas a estar en línea.
-- **Cierra sesión antes de prestar el dispositivo.** Si alguien te pide tu teléfono para un vuelo, cierra sesión primero. Volver a entrar es rápido (un toque con Google/Microsoft, o tu contraseña + un código MFA si lo tienes activado).
+- **Cierra sesión antes de prestar el dispositivo.** Si alguien te pide tu teléfono para un vuelo, cierra sesión primero. Volver a entrar es rápido (un toque con una cuenta de Google, Microsoft o Apple, o tu contraseña + un código MFA si lo tienes activado).

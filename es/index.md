@@ -19,7 +19,7 @@ Si apenas empiezas, ve a [Primeros pasos](getting-started/). Si ya conoces vondo
 
 | Guía | Qué cubre |
 |---|---|
-| [Primeros pasos](getting-started/) | Registro, prueba gratuita de 90 días, asistente de configuración, conceptos clave, primer mes |
+| [Primeros pasos](getting-started/) | Registro, prueba gratuita de 45 días, asistente de configuración, conceptos clave, primer mes |
 | [Presupuesto](budget/) | Asignar dinero, Por asignar, estrategias de llenado rápido, objetivos, mover dinero |
 | [Cuentas](accounts/) | Seis tipos de cuenta, préstamos con seguimiento de interés, cerrar/reabrir, reordenar |
 | [Actividad](actividad/) | Ingreso, Gasto, Transferencia, Crédito, divisiones, pagos de deuda, filtros |

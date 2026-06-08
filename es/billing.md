@@ -24,14 +24,14 @@ Para abreviar, el resto de esta página dice "tu suscripción" — léelo como "
 
 ---
 
-## La prueba gratuita de 90 días
+## La prueba gratuita de 45 días
 
-Cada hogar nuevo empieza con **90 días de prueba gratuita**. No se requiere tarjeta de crédito.
+Cada hogar nuevo empieza con **45 días de prueba gratuita**. No se requiere tarjeta de crédito.
 
-Tres meses son suficientes para:
+Seis semanas son suficientes para:
 
 - Configurar tus cuentas y categorías
-- Pasar por tres ciclos completos de presupuesto
+- Pasar por un ciclo completo de presupuesto
 - Ver si vondo realmente encaja en tu vida
 - Decidir si vale la pena pagar por él
 

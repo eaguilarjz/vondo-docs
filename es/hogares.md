@@ -43,11 +43,11 @@ Exactamente **un Propietario** por hogar. El Propietario no puede salir — tien
 
 ## Crear un hogar
 
-Si acabas de registrarte, ya tienes uno — vondo crea un hogar para ti en tu primer inicio de sesión, lo nombra como tú, elige una **moneda** y una **zona horaria** por defecto a partir de la configuración regional de tu navegador, y empieza la prueba de 90 días. Eres el Propietario. Puedes renombrarlo (y cambiar la moneda y la zona horaria) después.
+Si acabas de registrarte, ya tienes uno — vondo crea un hogar para ti en tu primer inicio de sesión, lo nombra como tú, elige una **moneda** y una **zona horaria** por defecto a partir de la configuración regional de tu navegador, y empieza la prueba de 45 días. Eres el Propietario. Puedes renombrarlo (y cambiar la moneda y la zona horaria) después.
 
 Si eres un usuario sin hogares (por ejemplo, te eliminaron de uno y no eres propietario de ninguno), verás una pantalla de bienvenida al iniciar sesión con dos opciones:
 
-- **Crea tu hogar** — prueba fresca de 90 días, eres el Propietario, puedes invitar a hasta cuatro personas más. Elige un nombre (p. ej. "La familia Aguilar"), confirma la moneda y la zona horaria sugeridas (o cámbialas ahora si vondo adivinó mal), listo.
+- **Crea tu hogar** — prueba fresca de 45 días, eres el Propietario, puedes invitar a hasta cuatro personas más. Elige un nombre (p. ej. "La familia Aguilar"), confirma la moneda y la zona horaria sugeridas (o cámbialas ahora si vondo adivinó mal), listo.
 - **Espera una invitación** — si alguien planea agregarte, la pantalla de bienvenida te dice a qué correo esperar la invitación, y se actualiza automáticamente cuando llega una.
 
 > **Atención:** Sólo puedes **ser propietario** de un hogar a la vez. Si ya eres propietario de uno y quieres crear otro, tendrás que salir o eliminar el primero. Pero no hay límite en cuántos hogares puedes **ser miembro**.
@@ -211,7 +211,7 @@ Son operaciones **distintas**:
 
 La suscripción pertenece al **hogar**, no a ti.
 
-- Cada hogar tiene su propia **prueba de 90 días**.
+- Cada hogar tiene su propia **prueba de 45 días**.
 - Cada hogar tiene su propio **plan** (Mensual / Trimestral / Anual) y su propio portal de facturación.
 - El **Propietario** paga el hogar. Los miembros no reciben cargos por separado.
 - Si la suscripción del Propietario caduca o la prueba termina sin un plan, **todo el hogar pasa a sólo lectura** hasta que el Propietario vuelva a suscribirse. Los miembros no pueden arreglarlo — sólo el Propietario tiene los controles de facturación.

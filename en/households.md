@@ -43,11 +43,11 @@ Exactly **one Owner** per household. The Owner can't leave — they have to eith
 
 ## Creating a household
 
-If you've just signed up, you already have one — vondo creates a household for you on your first sign-in, names it after you, picks a default **currency** and **timezone** from your browser locale, and starts the 90-day trial. You're the Owner. You can rename it (and change the currency and timezone) later.
+If you've just signed up, you already have one — vondo creates a household for you on your first sign-in, names it after you, picks a default **currency** and **timezone** from your browser locale, and starts the 45-day trial. You're the Owner. You can rename it (and change the currency and timezone) later.
 
 If you're a user without any households (for example, you got removed from one and you don't own any), you'll see a welcome screen on sign-in with two options:
 
-- **Create your household** — fresh 90-day trial, you're the Owner, you can invite up to four other people. Pick a name (e.g. "The Smiths' Budget"), confirm the suggested currency and timezone (or change them now if vondo's guess is wrong), done.
+- **Create your household** — fresh 45-day trial, you're the Owner, you can invite up to four other people. Pick a name (e.g. "The Smiths' Budget"), confirm the suggested currency and timezone (or change them now if vondo's guess is wrong), done.
 - **Wait for an invite** — if someone's planning to add you, the welcome screen tells you which email to expect the invitation at, and refreshes automatically when one arrives.
 
 > **Heads up:** You can only **own** one household at a time. If you already own one and want to create a second, you'll need to either leave or delete the first. There's no limit on how many households you can be a **member** of, though.
@@ -211,7 +211,7 @@ These are **different** operations:
 
 The subscription belongs to **the household**, not to you.
 
-- A household has its own **90-day trial**.
+- A household has its own **45-day trial**.
 - A household has its own **plan** (Monthly / Quarterly / Annual) and its own billing portal.
 - The **Owner** pays for the household. Members don't get billed separately.
 - If the Owner's subscription lapses or the trial ends without a plan, **the entire household goes read-only** until the Owner subscribes again. Members can't fix this — only the Owner has the billing controls.

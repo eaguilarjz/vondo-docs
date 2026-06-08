@@ -20,7 +20,7 @@ Esta guía te lleva paso a paso por crear tu cuenta, configurar tu primer mes y 
 
 ## Crea tu cuenta (y empieza tu prueba gratuita)
 
-Cada cuenta nueva en vondo recibe **90 días de prueba gratuita** — la misma duración tanto si te registras con correo como si lo haces con Google, Microsoft o Apple. No se requiere tarjeta de crédito al inicio, sin cargos sorpresa. Úsalos para conocer la herramienta. Elige un plan cuando estés listo, o no — vondo te recordará cerca del final.
+Cada cuenta nueva en vondo recibe **45 días de prueba gratuita** — la misma duración tanto si te registras con correo como si lo haces con Google, Microsoft o Apple. No se requiere tarjeta de crédito al inicio, sin cargos sorpresa. Úsalos para conocer la herramienta. Elige un plan cuando estés listo, o no — vondo te recordará cerca del final.
 
 Al registrarte, vondo crea automáticamente un **hogar** para ti, lo nombra contigo y te hace el Propietario. Si en algún momento quieres compartir el presupuesto con tu pareja o un familiar, podrás invitarlos desde **Perfil → Hogares** después. Hasta cinco personas en total por hogar. Consulta [Hogares](../hogares/) para la foto completa.
 

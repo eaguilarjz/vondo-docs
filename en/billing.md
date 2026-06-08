@@ -24,14 +24,14 @@ For brevity, the rest of this page says "your subscription" — read it as "the 
 
 ---
 
-## The 90-day free trial
+## The 45-day free trial
 
-Every new household starts with a **90-day free trial**. No credit card required.
+Every new household starts with a **45-day free trial**. No credit card required.
 
-Three months is plenty of time to:
+Six weeks is plenty of time to:
 
 - Set up your accounts and categories
-- Get through three full budget cycles
+- Get through a full budget cycle
 - See whether vondo actually fits your life
 - Decide if it's worth paying for
 

@@ -20,7 +20,7 @@ This guide walks you through creating an account, setting up your first month, a
 
 ## Create your account (and start your free trial)
 
-Every new vondo account gets a **90-day free trial** — same length whether you sign up with email or with Google, Microsoft, or Apple. No credit card required up front, no surprise charges. Use it to get your bearings. Pick a paid plan when you're ready, or don't — vondo will remind you near the end.
+Every new vondo account gets a **45-day free trial** — same length whether you sign up with email or with Google, Microsoft, or Apple. No credit card required up front, no surprise charges. Use it to get your bearings. Pick a paid plan when you're ready, or don't — vondo will remind you near the end.
 
 When you sign up, vondo automatically creates a **household** for you, named after you, and makes you the Owner. If you ever want to share the budget with a partner or family member, you can invite them from **Profile → Households** later. Up to five people total per household. See [Households](../households/) for the full picture.
 

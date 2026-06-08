@@ -19,7 +19,7 @@ If you're just getting started, head to [Getting Started](getting-started/). If 
 
 | Guide | What's covered |
 |---|---|
-| [Getting Started](getting-started/) | Sign-up, the 90-day trial, the onboarding wizard, core concepts, your first month |
+| [Getting Started](getting-started/) | Sign-up, the 45-day trial, the onboarding wizard, core concepts, your first month |
 | [Budget](budget/) | Assigning money, Ready to Assign, Quick-fill strategies, targets, moving money |
 | [Accounts](accounts/) | Six account types, loans with interest tracking, closing/reopening, drag-to-reorder |
 | [Activity](activity/) | Income, Expense, Transfer, Credit, splits, debt payments, filters |

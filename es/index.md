@@ -30,7 +30,7 @@ Si apenas empiezas, ve a [Primeros pasos](getting-started/). Si ya conoces vondo
 | [Conciliación](reconcile/) | Hacer coincidir vondo con tu extracto, encontrar discrepancias |
 | [Importar y Exportar](import-export/) | Asistente de importación CSV, exportaciones de transacciones, cuentas, categorías, beneficiarios |
 | [Perfil y Ajustes](profile/) | Nombre, idioma, tema |
-| [Hogares](hogares/) | Compartir un presupuesto con hasta 5 personas, roles, invitaciones, cambio de hogar, transferir propiedad, moneda, zona horaria |
+| [Hogares](hogares/) | Compartir un presupuesto con hasta 5 personas, roles, invitaciones, cambio de hogar, moneda, zona horaria |
 | [App Móvil](movil/) | iOS y Android, sincronización offline-first, la pantalla de Cambios Pendientes, consejos específicos de móvil |
 | [Plan y Facturación](billing/) | Prueba, planes, facturas, cancelación, fallos de pago |
 | [Seguridad](security/) | Autenticación de dos factores, códigos de recuperación, cambio de contraseña, sesiones |

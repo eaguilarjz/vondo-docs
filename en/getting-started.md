@@ -35,16 +35,15 @@ On the sign-up screen, click **Continue with Google**, **Continue with Microsoft
 ### Option B — Sign up with email and password
 
 1. Open the app and click **Sign up**.
-2. Enter your email and click **Continue**.
-3. Check your inbox for a verification link from vondo. Click it.
+2. Enter your **display name**, **email**, and a **password** (8 characters minimum), and accept the **Terms of Service**. Click **Continue**.
+3. vondo emails you a **6-digit verification code**. Enter it in the app to confirm your address.
    - Don't see it within a minute? Check your spam folder.
-   - The link expires after 15 minutes. If it does, just request another one — no harm done.
-4. On the completion page, set your **display name**, choose a **password** (8 characters minimum), and accept the **Terms of Service**.
-5. You're in.
+   - The code expires after **10 minutes**, and you get **5 attempts**. If it expires or you run out, just request a new code.
+4. That's it — you're in.
 
 > **Pro tip:** Use a password manager. The strongest password is one you don't have to remember. See [Security](../security/) for more on locking down your account.
 
-**Forgot your password?** From the sign-in screen, click **Forgot password?** and enter your email. You'll get a reset link valid for one hour. Open it and pick a new password.
+**Forgot your password?** From the sign-in screen, click **Forgot password?** and enter your email. vondo emails you a **6-digit code** — enter it along with your new password. The code is valid for **15 minutes** (5 attempts). For security, resetting your password signs you out on all your other devices, so you'll sign in again afterward.
 
 For two-factor authentication, trusted devices, and how to connect Google, Microsoft, or Apple to an existing account, jump to the [Security](../security/) page when you're ready.
 
@@ -213,7 +212,7 @@ A few details worth knowing:
 | [Reconciliation](../reconcile/) | Matching vondo to your bank statement, finding discrepancies |
 | [Import & Export](../import-export/) | CSV import wizard, exports for transactions/accounts/categories/payees |
 | [Profile & Settings](../profile/) | Display name, language, theme |
-| [Households](../households/) | Sharing a budget with up to 5 people, roles, invites, switching, transferring ownership, currency, timezone |
+| [Households](../households/) | Sharing a budget with up to 5 people, roles, invites, switching, currency, timezone |
 | [Mobile App](../mobile/) | iOS and Android, offline-first, pending-changes UI, what's web-only |
 | [Plans & Billing](../billing/) | Trial, plans, invoices, cancellation, payment failures |
 | [Security](../security/) | Two-factor authentication, recovery codes, password change, sessions |

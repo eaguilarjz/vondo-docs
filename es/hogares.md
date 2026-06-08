@@ -34,10 +34,10 @@ Sólo dos:
 
 | Rol | Puede hacer |
 |---|---|
-| **Propietario** | Todo: editar el presupuesto, invitar miembros, eliminar miembros, revocar invitaciones pendientes, transferir la propiedad, eliminar el hogar. Paga la suscripción. |
+| **Propietario** | Todo: editar el presupuesto, invitar miembros, eliminar miembros, revocar invitaciones pendientes, eliminar el hogar. Paga la suscripción. |
 | **Miembro** | Edita el presupuesto normalmente. Puede salir del hogar cuando quiera. No puede gestionar a otros miembros ni la facturación. |
 
-Exactamente **un Propietario** por hogar. El Propietario no puede salir — tiene que transferir la propiedad a otro miembro o eliminar el hogar. Los demás miembros pueden entrar y salir libremente.
+Exactamente **un Propietario** por hogar — quien lo creó. La propiedad no se puede pasar a otra persona, así que el Propietario no puede salir; para apartarse, elimina el hogar. Los demás miembros pueden entrar y salir libremente.
 
 ---
 
@@ -140,7 +140,7 @@ Abre **Perfil → Hogares → [nombre del hogar]** para ver:
 
 - La lista de miembros (con una insignia de Propietario en quien lo sea)
 - Tus invitaciones pendientes
-- Formularios para invitar nuevas personas, transferir la propiedad y (para propietarios) eliminar el hogar
+- Formularios para invitar nuevas personas y (para propietarios) eliminar el hogar
 
 ### Eliminar a un miembro (sólo Propietario)
 
@@ -148,7 +148,7 @@ Haz clic en **Eliminar** junto al miembro que quieres quitar. Confirma. Pierden 
 
 Su cuenta de vondo no se ve afectada — conservan sus otros hogares, su perfil, sus sesiones, todo. Sólo este hogar desaparece de su vista.
 
-El Propietario no puede eliminarse a sí mismo; para eso, usa Transferir propiedad o Eliminar hogar más abajo.
+El Propietario no puede eliminarse a sí mismo — para apartarse, usa Eliminar hogar más abajo.
 
 ### Revocar una invitación pendiente (sólo Propietario)
 
@@ -159,19 +159,6 @@ En la lista de **Invitaciones pendientes**, haz clic en **Revocar** junto a la i
 Abre la página del hogar, haz clic en **Salir del hogar**, confirma. Pierdes el acceso de inmediato. El Propietario recupera el lugar para invitar a alguien más si quiere.
 
 Si cambias de opinión, el Propietario puede volver a invitarte.
-
-### Transferir la propiedad (sólo Propietario)
-
-Abre la página del hogar, baja a **Transferir propiedad**, elige un miembro del desplegable, haz clic en **Transferir**. Confirma.
-
-Después de la transferencia:
-
-- El nuevo Propietario hereda todos los poderes (invitar, eliminar, borrar).
-- Tú pasas a ser un Miembro regular. Puedes seguir viendo y editando el presupuesto; sólo ya no gestionas membresía ni facturación.
-
-Un miembro sólo puede convertirse en Propietario si no es propietario de otro hogar. Si lo es, tendría que salir o eliminar el otro primero.
-
-> **Cuándo importa esto:** quien paga la suscripción debe ser el Propietario. Si la cuenta debe pasar de ti a tu pareja, transfiere la propiedad y luego ella puede suscribirse (o tomar el control de la suscripción activa, según tu acuerdo de facturación).
 
 ---
 
@@ -203,7 +190,7 @@ Son operaciones **distintas**:
 |---|---|---|
 | **Salir del hogar** | Tu acceso a este hogar específico | Página de Hogares → Salir |
 | **Eliminar el hogar** | El hogar y todo lo que tiene. Tu cuenta de usuario permanece. | Página de Hogares → Eliminar (sólo Propietario) |
-| **Eliminar tu cuenta de vondo** | Tu cuenta de usuario misma. Pierdes acceso a todos los hogares en los que estés. Si eres propietario de un hogar, primero tienes que transferirlo o eliminarlo. | Perfil → Zona de Peligro → Eliminar mi cuenta |
+| **Eliminar tu cuenta de vondo** | Tu cuenta de usuario misma. Pierdes acceso a todos los hogares en los que estés. Si eres propietario de un hogar, primero tienes que eliminarlo. | Perfil → Zona de Peligro → Eliminar mi cuenta |
 
 ---
 
@@ -212,7 +199,7 @@ Son operaciones **distintas**:
 La suscripción pertenece al **hogar**, no a ti.
 
 - Cada hogar tiene su propia **prueba de 45 días**.
-- Cada hogar tiene su propio **plan** (Mensual / Trimestral / Anual) y su propio portal de facturación.
+- Cada hogar tiene su propio **plan** (Mensual / Anual) y su propia facturación.
 - El **Propietario** paga el hogar. Los miembros no reciben cargos por separado.
 - Si la suscripción del Propietario caduca o la prueba termina sin un plan, **todo el hogar pasa a sólo lectura** hasta que el Propietario vuelva a suscribirse. Los miembros no pueden arreglarlo — sólo el Propietario tiene los controles de facturación.
 
@@ -235,7 +222,7 @@ Mira [Plan y Facturación](../billing/) para todos los detalles de la suscripci�
 | **Presupuesto familiar con hijos adultos** | Los padres crean el hogar familiar e invitan a los hijos. Los hijos también pueden tener sus propios hogares personales si quieren — sin conflicto. |
 | **Contador gestionando presupuestos de clientes** | Te invitan a cada hogar de cliente como Miembro. Cambias entre ellos según trabajes. El cliente conserva la Propiedad y la facturación. |
 | **Pasar de solo a compartido a mitad de presupuesto** | Sólo invita a la segunda persona. Se une al hogar existente con todo su historial. Nada se migra ni se divide. |
-| **Separarse cuando un presupuesto compartido ya no tiene sentido** | El Propietario puede transferir la propiedad a la otra persona si hace falta, o cada uno crea su propio hogar nuevo. Los datos del hogar original van a donde el Propietario los lleve. |
+| **Separarse cuando un presupuesto compartido ya no tiene sentido** | El hogar — y sus datos — se quedan con el Propietario. La otra persona sale y crea su propio hogar nuevo (exporta primero desde [Importar y Exportar](../import-export/) si quiere llevarse una copia de los datos). |
 
 ---
 

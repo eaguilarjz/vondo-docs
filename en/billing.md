@@ -8,7 +8,7 @@ nav_order: 14
 
 # Plans & Billing
 
-vondo is a subscription product. Three plans, one straightforward goal: keep the lights on so we can keep building things you'll actually use, while giving you fair, transparent pricing without dark patterns.
+vondo is a subscription product. Two plans, one straightforward goal: keep the lights on so we can keep building things you'll actually use, while giving you fair, transparent pricing without dark patterns.
 
 This page covers everything billing-related: the trial, the plans, how to upgrade or cancel, what happens when a payment fails, and where to find your invoices.
 
@@ -43,12 +43,11 @@ When the trial ends, your data isn't deleted — it just becomes read-only until
 
 ## The plans
 
-Three options, same features. Pick the cadence that works for you:
+Two options, same features. Pick the cadence that works for you:
 
 | Plan | Billing cadence | Best for |
 |---|---|---|
 | **Monthly** | Charged each month | Maximum flexibility, no commitment |
-| **Quarterly** | Charged every three months | A small discount in exchange for less frequent billing |
 | **Annual** | Charged once a year | The biggest discount; best price per month |
 
 Exact prices show up on the [pricing page](https://vondo.app) and in the **Profile → Plans & Billing** section of the app.
@@ -59,38 +58,53 @@ Exact prices show up on the [pricing page](https://vondo.app) and in the **Profi
 
 ## Subscribe
 
+**How you subscribe depends on where you are** — but the subscription unlocks vondo everywhere (billing is per household; see [Where billing happens](#where-billing-happens)).
+
+**On the web:**
+
 1. Open **Profile → Plans & Billing**.
 2. Click the plan you want.
-3. vondo opens the secure billing portal in a new tab.
+3. vondo opens the secure billing portal (LemonSqueezy) in a new tab.
 4. Enter your payment details and confirm.
 5. You're back in vondo, fully subscribed.
 
-The first charge happens immediately. Future charges happen automatically on the same date each cycle.
+**On mobile (iOS or Android):**
 
-> **For example:** You subscribe to the Annual plan on May 15. Your card is charged that day. The next renewal is May 15 of the following year. You'll get an email a few days before each renewal as a reminder.
+1. Open **Profile → Subscribe** — or tap the read-only banner if your trial has ended.
+2. Pick a plan on the paywall. The price shown is your store's own localized price.
+3. Confirm in the **App Store / Google Play** purchase sheet (Face ID, fingerprint, or password).
+4. You're subscribed — access unlocks on this device and everywhere else you use vondo.
+
+> **Already bought it on this store but vondo doesn't show it?** Tap **Restore Purchases** on the paywall to re-sync an existing App Store / Google Play subscription — handy after a reinstall or on a new device.
+
+The first charge happens immediately. Future charges renew automatically each cycle until you cancel.
+
+> **For example:** You subscribe to the Annual plan on May 15. You're charged that day. The next renewal is May 15 of the following year, and you'll get a reminder a few days before.
 
 ### Switching plans (upgrade or downgrade)
 
-Want to switch from Monthly to Annual to save? Or step back from Annual to Monthly? The cleanest path is:
+Want to switch from Monthly to Annual to save? Or step back from Annual to Monthly? It depends on where you subscribed:
 
-1. **Cancel** your current subscription from **Profile → Plans & Billing → Manage Billing**. Access continues until the end of the current period.
-2. When you're ready, **subscribe again** to the plan you want.
-
-This avoids any partial-period proration math and keeps the billing trail clean. There's no penalty for canceling and re-subscribing.
-
-> **Tip:** If you're sure you want Annual, just cancel the current Monthly subscription and re-subscribe to Annual the next time you sign in. The first Annual charge will land cleanly on a fresh cycle.
+- **Web (LemonSqueezy):** the cleanest path is to **cancel** from **Profile → Plans & Billing → Manage Billing** (access continues until the end of the current period), then **subscribe again** to the plan you want. This avoids partial-period proration and keeps the billing trail clean — there's no penalty for canceling and re-subscribing.
+- **App Store / Google Play:** change your plan directly in your **store subscription settings** (App Store → Subscriptions, or Play Store → Subscriptions). The store handles the upgrade/downgrade and any proration for you — no need to cancel first.
 
 ---
 
-## Where billing actually happens
+## Where billing happens
 
-vondo uses a third-party billing portal (powered by **LemonSqueezy**) for payment processing. This means:
+vondo supports three billing sources, and **you manage a subscription wherever you bought it**:
 
-- Your card details never touch vondo's servers — they live with the payment processor, who specializes in this stuff.
-- Plan changes, payment method updates, and cancellations all happen in the same portal, accessible from **Profile → Plans & Billing → Manage Billing**.
-- Receipts and invoices come from LemonSqueezy by email and are also available in your vondo account (see below).
+| You subscribed… | Payments handled by | Manage / cancel / update card from |
+|---|---|---|
+| On the **web** | LemonSqueezy (secure third-party portal) | **Profile → Plans & Billing → Manage Billing** |
+| On **iPhone / iPad** | Apple **App Store** | **App Store → [your name] → Subscriptions** |
+| On **Android** | **Google Play** | **Play Store → Subscriptions** |
 
-If you've ever managed a SaaS subscription before, the portal will feel familiar.
+A few things follow from this:
+
+- **Your subscription works everywhere.** Entitlement lives on the household, so a plan bought on your phone unlocks the web app, and a web subscription unlocks mobile. Only *where you manage it* is tied to where you bought it.
+- **Your card details never touch vondo's servers.** Whether it's LemonSqueezy, Apple, or Google, payment is handled by the store or processor.
+- **vondo routes you to the right place.** Tap **Manage** and vondo sends you to the correct portal or store page for your subscription — you don't have to remember where you bought it.
 
 ---
 
@@ -105,13 +119,15 @@ Every charge generates an invoice. Open **Profile → Plans & Billing → Invoic
 
 Need an older invoice? Email support and we'll dig it up.
 
+> **Subscribed on mobile?** Purchases made through the App Store or Google Play are receipted by **Apple / Google**, not here — you'll find those receipts in your Apple or Google account. The Invoices list covers web (LemonSqueezy) subscriptions.
+
 > **For tax season:** The invoices have everything an accountant needs (dates, amounts, business info). Download a year's worth with a few clicks.
 
 ---
 
 ## Pausing and resuming
 
-If you need a break — maybe you're traveling, between jobs, or just want to step away for a month — you can **pause** instead of canceling.
+If you subscribed **on the web** and need a break — maybe you're traveling, between jobs, or just want to step away for a month — you can **pause** instead of canceling. (Subscribed through the App Store or Google Play? Pausing isn't offered there — manage or cancel in your store subscription settings instead.)
 
 1. Open **Profile → Plans & Billing → Manage Billing**.
 2. In the billing portal, choose **Pause subscription**.
@@ -132,9 +148,9 @@ To resume, click **Resume subscription** from that screen, or open the billing p
 
 We'd rather know why than make it hard. There's no retention call, no five-step "are you sure" maze.
 
-1. Open **Profile → Plans & Billing → Manage Billing**.
-2. In the billing portal, click **Cancel subscription**.
-3. Confirm.
+1. Open **Profile → Plans & Billing → Manage Billing** (on mobile: **Profile → Manage subscription**).
+2. vondo sends you to the right place for your subscription — the **LemonSqueezy portal** (web subs) or your **App Store / Google Play** subscription settings (store subs).
+3. Choose **Cancel subscription** and confirm.
 
 Your subscription stays active until the end of the current billing period. After that, it doesn't renew. You won't be charged again.
 
@@ -154,14 +170,14 @@ If you decide vondo isn't for you during the trial, no action is required. The t
 
 ## Payment failures
 
-Sometimes a card expires, gets replaced, or just gets declined. When that happens:
+Sometimes a card expires, gets replaced, or just gets declined. For **store subscriptions**, Apple or Google handle the retries and reminders on their side — just keep your payment method current in the store. For **web (LemonSqueezy) subscriptions**, here's the flow:
 
 1. The charge fails. Your subscription status changes to **Past Due**.
 2. vondo (via the billing portal) automatically retries the charge over the next several days.
 3. You'll get an email asking you to update your payment method.
 4. If the issue isn't resolved, your subscription eventually moves to **Unpaid** and access becomes read-only.
 
-To fix it: open **Profile → Plans & Billing → Manage Billing** and update your card. The next retry will succeed and your subscription reactivates.
+To fix it: update your card where the subscription lives — **Manage Billing** (web/LemonSqueezy) or your **App Store / Google Play** payment settings (store subs). The next retry will succeed and your subscription reactivates.
 
 > **Heads up:** If you have an outstanding balance, vondo will not let you delete your account until the balance is settled. This is to prevent accidental data loss while billing is unresolved. Settle the bill (or contact support if you believe it's an error) and the delete option reactivates.
 
@@ -177,7 +193,7 @@ A few less-common scenarios:
 | You cancel mid-cycle | You keep full access until the end of the paid period. Then it goes read-only. |
 | You re-subscribe after canceling | You get full access immediately. Your data is exactly where you left it. |
 | Your card expires | We retry; you get email reminders; eventually account goes Past Due/Unpaid. Update the card to recover. |
-| You want a different plan (e.g. Monthly → Annual) | Cancel from the billing portal, finish the current period, then re-subscribe to the new plan. |
+| You want a different plan (e.g. Monthly → Annual) | Web: cancel from the portal, finish the period, then re-subscribe. Store: change the plan in your App Store / Google Play subscription settings. |
 | You pause | Billing stops, your data stays, sign-in shows a Resume button. No proration math, no period-end surprises. |
 | You delete your account with an unpaid balance | Blocked until the balance is settled. |
 

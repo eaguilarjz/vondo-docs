@@ -35,16 +35,15 @@ En la pantalla de registro, haz clic en **Continuar con Google**, **Continuar co
 ### Opción B — Regístrate con correo y contraseña
 
 1. Abre la aplicación y haz clic en **Registrarse**.
-2. Ingresa tu correo y haz clic en **Continuar**.
-3. Revisa tu bandeja de entrada para encontrar el enlace de verificación de vondo. Haz clic.
+2. Ingresa tu **nombre**, tu **correo** y una **contraseña** (mínimo 8 caracteres), y acepta los **Términos de Servicio**. Haz clic en **Continuar**.
+3. vondo te envía un **código de verificación de 6 dígitos** por correo. Ingrésalo en la app para confirmar tu dirección.
    - ¿No lo ves en un minuto? Revisa la carpeta de spam.
-   - El enlace expira en 15 minutos. Si pasa, solo solicita otro — sin drama.
-4. En la pantalla de finalización, configura tu **nombre**, elige una **contraseña** (mínimo 8 caracteres) y acepta los **Términos de Servicio**.
-5. Listo, ya estás dentro.
+   - El código expira en **10 minutos** y tienes **5 intentos**. Si expira o se te acaban, solo solicita un código nuevo.
+4. Listo, ya estás dentro.
 
 > **Pro tip:** Usa un administrador de contraseñas. La contraseña más fuerte es la que no tienes que recordar. Consulta [Seguridad](../security/) para más sobre cómo proteger tu cuenta.
 
-**¿Olvidaste tu contraseña?** Desde la pantalla de inicio de sesión, haz clic en **¿Olvidaste tu contraseña?** e ingresa tu correo. Recibirás un enlace de recuperación válido por una hora. Ábrelo y elige una nueva.
+**¿Olvidaste tu contraseña?** Desde la pantalla de inicio de sesión, haz clic en **¿Olvidaste tu contraseña?** e ingresa tu correo. vondo te envía un **código de 6 dígitos** — ingrésalo junto con tu nueva contraseña. El código es válido por **15 minutos** (5 intentos). Por seguridad, restablecer tu contraseña cierra tu sesión en todos tus otros dispositivos, así que iniciarás sesión de nuevo después.
 
 Para autenticación de dos factores, dispositivos de confianza, y cómo conectar Google, Microsoft o Apple a una cuenta existente, salta a la página [Seguridad](../security/) cuando estés listo.
 
@@ -213,7 +212,7 @@ Algunos detalles que vale saber:
 | [Conciliación](../reconcile/) | Hacer coincidir vondo con tu extracto, encontrar discrepancias |
 | [Importar y Exportar](../import-export/) | Asistente de importación CSV, exportaciones |
 | [Perfil y Ajustes](../profile/) | Nombre, idioma, tema |
-| [Hogares](../hogares/) | Compartir un presupuesto con hasta 5 personas, roles, invitaciones, cambio de hogar, transferir propiedad, moneda, zona horaria |
+| [Hogares](../hogares/) | Compartir un presupuesto con hasta 5 personas, roles, invitaciones, cambio de hogar, moneda, zona horaria |
 | [App Móvil](../movil/) | iOS y Android, offline-first, pantalla de cambios pendientes, qué es solo web |
 | [Plan y Facturación](../billing/) | Prueba, planes, facturas, cancelación, fallos de pago |
 | [Seguridad](../security/) | Autenticación de dos factores, códigos de recuperación, cambio de contraseña, sesiones |

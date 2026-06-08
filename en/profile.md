@@ -26,7 +26,7 @@ Your display name appears on the profile page and anywhere vondo greets you. Edi
 
 ### Email address
 
-Your email is shown read-only. It's the address you registered with and the destination for security messages (password reset links, verification, MFA recovery codes), billing emails (invoices, receipts, trial reminders), and anything else important.
+Your email is shown read-only. It's the address you registered with and the destination for security messages (password reset codes, verification codes, MFA recovery codes), billing emails (invoices, receipts, trial reminders), and anything else important.
 
 > **Need to change your email?** This isn't supported through the UI yet. Contact support if you need to update it.
 

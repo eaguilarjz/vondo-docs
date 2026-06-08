@@ -26,7 +26,7 @@ Tu nombre aparece en la página de perfil y donde sea que vondo te salude. Edít
 
 ### Correo electrónico
 
-Tu correo se muestra en modo solo lectura. Es la dirección con la que te registraste y el destino para mensajes de seguridad (enlaces de recuperación de contraseña, verificación, códigos de recuperación de MFA), correos de facturación (facturas, recibos, recordatorios de prueba) y cualquier otra cosa importante.
+Tu correo se muestra en modo solo lectura. Es la dirección con la que te registraste y el destino para mensajes de seguridad (códigos de recuperación de contraseña, códigos de verificación, códigos de recuperación de MFA), correos de facturación (facturas, recibos, recordatorios de prueba) y cualquier otra cosa importante.
 
 > **¿Necesitas cambiar tu correo?** No está soportado por la interfaz todavía. Contacta soporte si necesitas actualizarlo.
 

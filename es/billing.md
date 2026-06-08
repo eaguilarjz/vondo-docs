@@ -8,7 +8,7 @@ nav_order: 14
 
 # Plan y Facturación
 
-vondo es un producto por suscripción. Tres planes, una meta directa: mantener las luces encendidas para seguir construyendo cosas que de verdad uses, dándote precios justos y transparentes sin patrones oscuros.
+vondo es un producto por suscripción. Dos planes, una meta directa: mantener las luces encendidas para seguir construyendo cosas que de verdad uses, dándote precios justos y transparentes sin patrones oscuros.
 
 Esta página cubre todo lo relacionado con facturación: la prueba, los planes, cómo subir o cancelar, qué pasa cuando un pago falla y dónde encontrar tus facturas.
 
@@ -43,12 +43,11 @@ Cuando termina la prueba, tus datos no se eliminan — solo se vuelven de solo l
 
 ## Los planes
 
-Tres opciones, mismas funciones. Elige la cadencia que te funcione:
+Dos opciones, mismas funciones. Elige la cadencia que te funcione:
 
 | Plan | Cadencia de cobro | Mejor para |
 |---|---|---|
 | **Mensual** | Cargado cada mes | Máxima flexibilidad, sin compromiso |
-| **Trimestral** | Cargado cada tres meses | Un pequeño descuento a cambio de cobros menos frecuentes |
 | **Anual** | Cargado una vez al año | El mejor descuento; el mejor precio por mes |
 
 Los precios exactos aparecen en la [página de precios](https://vondo.app) y en la sección **Perfil → Plan y Facturación** de la app.
@@ -59,38 +58,53 @@ Los precios exactos aparecen en la [página de precios](https://vondo.app) y en 
 
 ## Suscribirse
 
+**Cómo te suscribes depende de dónde estés** — pero la suscripción desbloquea vondo en todos lados (la facturación es por hogar; mira [Dónde sucede la facturación](#dónde-sucede-la-facturación)).
+
+**En la web:**
+
 1. Abre **Perfil → Plan y Facturación**.
 2. Haz clic en el plan que quieres.
-3. vondo abre el portal seguro de facturación en una nueva pestaña.
+3. vondo abre el portal seguro de facturación (LemonSqueezy) en una nueva pestaña.
 4. Ingresa los datos de tu pago y confirma.
 5. Estás de vuelta en vondo, completamente suscrito.
 
-El primer cargo sucede de inmediato. Los cargos futuros suceden automáticamente en la misma fecha de cada ciclo.
+**En móvil (iOS o Android):**
 
-> **Por ejemplo:** Te suscribes al plan Anual el 15 de mayo. Tu tarjeta se carga ese día. La siguiente renovación es el 15 de mayo del año siguiente. Recibirás un correo unos días antes de cada renovación como recordatorio.
+1. Abre **Perfil → Suscribirse** — o toca el banner de solo lectura si tu prueba terminó.
+2. Elige un plan en el paywall. El precio que ves es el precio localizado de tu tienda.
+3. Confirma en la hoja de compra del **App Store / Google Play** (Face ID, huella o contraseña).
+4. Estás suscrito — el acceso se desbloquea en este dispositivo y en todos los demás lugares donde usas vondo.
+
+> **¿Ya lo compraste en esta tienda pero vondo no lo muestra?** Toca **Restaurar compras** en el paywall para volver a sincronizar una suscripción existente del App Store / Google Play — útil tras una reinstalación o en un dispositivo nuevo.
+
+El primer cargo sucede de inmediato. Los cargos futuros se renuevan automáticamente cada ciclo hasta que canceles.
+
+> **Por ejemplo:** Te suscribes al plan Anual el 15 de mayo. Se te cobra ese día. La siguiente renovación es el 15 de mayo del año siguiente, y recibirás un recordatorio unos días antes.
 
 ### Cambiar planes (subir o bajar)
 
-¿Quieres cambiar de Mensual a Anual para ahorrar? ¿O bajar de Anual a Mensual? El camino más limpio es:
+¿Quieres cambiar de Mensual a Anual para ahorrar? ¿O bajar de Anual a Mensual? Depende de dónde te suscribiste:
 
-1. **Cancela** tu suscripción actual desde **Perfil → Plan y Facturación → Administrar Facturación**. El acceso continúa hasta el final del periodo actual.
-2. Cuando estés listo, **suscríbete de nuevo** al plan que quieras.
-
-Esto evita cualquier matemática de prorrateo a mitad de periodo y deja el rastro de facturación limpio. No hay penalización por cancelar y volver a suscribirte.
-
-> **Tip:** Si estás seguro de que quieres Anual, simplemente cancela la suscripción Mensual actual y vuelve a suscribirte a Anual la próxima vez que inicies sesión. El primer cargo Anual caerá limpio en un ciclo nuevo.
+- **Web (LemonSqueezy):** el camino más limpio es **cancelar** desde **Perfil → Plan y Facturación → Administrar Facturación** (el acceso continúa hasta el final del periodo actual) y luego **suscribirte de nuevo** al plan que quieras. Esto evita el prorrateo a mitad de periodo y deja el rastro de facturación limpio — no hay penalización por cancelar y volver a suscribirte.
+- **App Store / Google Play:** cambia tu plan directamente en los **ajustes de suscripción de tu tienda** (App Store → Suscripciones, o Play Store → Suscripciones). La tienda se encarga del cambio y de cualquier prorrateo por ti — no necesitas cancelar primero.
 
 ---
 
-## Dónde sucede realmente la facturación
+## Dónde sucede la facturación
 
-vondo usa un portal de facturación de terceros (potenciado por **LemonSqueezy**) para procesar pagos. Esto significa:
+vondo admite tres fuentes de facturación, y **administras una suscripción donde la compraste**:
 
-- Los datos de tu tarjeta nunca tocan los servidores de vondo — viven con el procesador de pagos, que se especializa en esto.
-- Cambios de plan, actualizaciones de método de pago y cancelaciones todos suceden en el mismo portal, accesible desde **Perfil → Plan y Facturación → Administrar Facturación**.
-- Los recibos y facturas vienen de LemonSqueezy por correo y también están disponibles en tu cuenta de vondo (ver abajo).
+| Te suscribiste… | Pagos manejados por | Administrar / cancelar / actualizar tarjeta desde |
+|---|---|---|
+| En la **web** | LemonSqueezy (portal seguro de terceros) | **Perfil → Plan y Facturación → Administrar Facturación** |
+| En **iPhone / iPad** | **App Store** de Apple | **App Store → [tu nombre] → Suscripciones** |
+| En **Android** | **Google Play** | **Play Store → Suscripciones** |
 
-Si alguna vez has administrado una suscripción SaaS, el portal te resultará familiar.
+Un par de cosas se desprenden de esto:
+
+- **Tu suscripción funciona en todos lados.** La habilitación vive en el hogar, así que un plan comprado en tu teléfono desbloquea la web, y una suscripción web desbloquea el móvil. Solo *dónde la administras* está atado a dónde la compraste.
+- **Los datos de tu tarjeta nunca tocan los servidores de vondo.** Ya sea LemonSqueezy, Apple o Google, el pago lo maneja la tienda o el procesador.
+- **vondo te lleva al lugar correcto.** Toca **Administrar** y vondo te envía al portal o página de tienda correcta para tu suscripción — no tienes que recordar dónde la compraste.
 
 ---
 
@@ -105,13 +119,15 @@ Cada cargo genera una factura. Abre **Perfil → Plan y Facturación → Factura
 
 ¿Necesitas una factura más vieja? Manda correo a soporte y la sacaremos.
 
+> **¿Te suscribiste en móvil?** Las compras hechas a través del App Store o Google Play las recibe **Apple / Google**, no aquí — encontrarás esos recibos en tu cuenta de Apple o Google. La lista de Facturas cubre las suscripciones web (LemonSqueezy).
+
 > **Para temporada de impuestos:** Las facturas tienen todo lo que un contador necesita (fechas, montos, datos del negocio). Descarga un año entero con unos cuantos clics.
 
 ---
 
 ## Pausar y reanudar
 
-Si necesitas un descanso — quizás estás de viaje, entre trabajos, o solo quieres alejarte un mes — puedes **pausar** en lugar de cancelar.
+Si te suscribiste **en la web** y necesitas un descanso — quizás estás de viaje, entre trabajos, o solo quieres alejarte un mes — puedes **pausar** en lugar de cancelar. (¿Te suscribiste a través del App Store o Google Play? Ahí no se ofrece pausar — administra o cancela en los ajustes de suscripción de tu tienda.)
 
 1. Abre **Perfil → Plan y Facturación → Administrar Facturación**.
 2. En el portal de facturación, elige **Pausar suscripción**.
@@ -132,9 +148,9 @@ Para reanudar, haz clic en **Reanudar suscripción** desde esa pantalla, o vuelv
 
 Preferimos saber por qué a hacerlo difícil. No hay llamada de retención, no hay laberinto de cinco pasos de "¿estás seguro?".
 
-1. Abre **Perfil → Plan y Facturación → Administrar Facturación**.
-2. En el portal de facturación, haz clic en **Cancelar suscripción**.
-3. Confirma.
+1. Abre **Perfil → Plan y Facturación → Administrar Facturación** (en móvil: **Perfil → Administrar suscripción**).
+2. vondo te lleva al lugar correcto para tu suscripción — el **portal de LemonSqueezy** (suscripciones web) o los ajustes de suscripción de tu **App Store / Google Play** (suscripciones de tienda).
+3. Elige **Cancelar suscripción** y confirma.
 
 Tu suscripción se mantiene activa hasta el final del periodo de facturación actual. Después de eso, no se renueva. No te cobrarán de nuevo.
 
@@ -154,14 +170,14 @@ Si decides que vondo no es para ti durante la prueba, no se requiere acción. La
 
 ## Fallos de pago
 
-A veces una tarjeta expira, se reemplaza o simplemente es declinada. Cuando pasa:
+A veces una tarjeta expira, se reemplaza o simplemente es declinada. Para las **suscripciones de tienda**, Apple o Google manejan los reintentos y recordatorios de su lado — solo mantén tu método de pago al día en la tienda. Para las **suscripciones web (LemonSqueezy)**, este es el flujo:
 
 1. El cargo falla. Tu estado de suscripción cambia a **Vencido**.
 2. vondo (vía el portal de facturación) automáticamente reintenta el cargo en los siguientes días.
 3. Recibirás un correo pidiendo que actualices tu método de pago.
 4. Si el problema no se resuelve, tu suscripción eventualmente se mueve a **Sin pagar** y el acceso se vuelve de solo lectura.
 
-Para arreglarlo: abre **Perfil → Plan y Facturación → Administrar Facturación** y actualiza tu tarjeta. El siguiente reintento será exitoso y tu suscripción se reactivará.
+Para arreglarlo: actualiza tu tarjeta donde vive la suscripción — **Administrar Facturación** (web/LemonSqueezy) o los ajustes de pago de tu **App Store / Google Play** (suscripciones de tienda). El siguiente reintento será exitoso y tu suscripción se reactivará.
 
 > **Atención:** Si tienes un saldo pendiente, vondo no te dejará eliminar tu cuenta hasta que el saldo se liquide. Esto es para evitar pérdida accidental de datos mientras la facturación está sin resolver. Liquida la cuenta (o contacta soporte si crees que es un error) y la opción de eliminar se reactiva.
 
@@ -177,7 +193,7 @@ Algunos escenarios menos comunes:
 | Cancelas a mitad de ciclo | Mantienes acceso completo hasta el final del periodo pagado. Después se vuelve de solo lectura. |
 | Te re-suscribes después de cancelar | Obtienes acceso completo de inmediato. Tus datos están exactamente donde los dejaste. |
 | Tu tarjeta expira | Reintentamos; recibes recordatorios por correo; eventualmente la cuenta va a Vencido/Sin pagar. Actualiza la tarjeta para recuperar. |
-| Quieres un plan distinto (p. ej. Mensual → Anual) | Cancela desde el portal de facturación, termina el periodo actual, y vuelve a suscribirte al nuevo plan. |
+| Quieres un plan distinto (p. ej. Mensual → Anual) | Web: cancela desde el portal, termina el periodo, y vuelve a suscribirte. Tienda: cambia el plan en los ajustes de suscripción de tu App Store / Google Play. |
 | Pausas | La facturación se detiene, tus datos se quedan, el inicio de sesión muestra un botón Reanudar. Sin matemática de prorrateo, sin sorpresas a fin de periodo. |
 | Eliminas tu cuenta con saldo pendiente | Bloqueado hasta que el saldo se liquide. |
 

@@ -34,10 +34,10 @@ Just two:
 
 | Role | Can do |
 |---|---|
-| **Owner** | Everything: edit the budget, invite members, remove members, revoke pending invites, transfer ownership, delete the household. Pays the subscription. |
+| **Owner** | Everything: edit the budget, invite members, remove members, revoke pending invites, delete the household. Pays the subscription. |
 | **Member** | Edit the budget normally. Leave the household whenever they want. Cannot manage other members or billing. |
 
-Exactly **one Owner** per household. The Owner can't leave — they have to either transfer ownership to another member or delete the household. Other members can come and go freely.
+Exactly **one Owner** per household — whoever created it. Ownership can't be handed to another person, so the Owner can't leave; to step away, they delete the household. Other members can come and go freely.
 
 ---
 
@@ -140,7 +140,7 @@ Open **Profile → Households → [household name]** to see:
 
 - The member list (with an Owner badge on whoever owns the household)
 - Your pending invitations
-- Forms to invite new people, transfer ownership, and (for owners) delete the household
+- Forms to invite new people and (for owners) delete the household
 
 ### Remove a member (Owner only)
 
@@ -148,7 +148,7 @@ Click **Remove** next to the member you want to remove. Confirm. They lose acces
 
 Their vondo account isn't affected — they keep their other households, their profile, their sessions, everything. Only this household disappears from their view.
 
-The Owner can't remove themselves; for that, use Transfer ownership or Delete household below.
+The Owner can't remove themselves — to step away, use Delete household below.
 
 ### Revoke a pending invite (Owner only)
 
@@ -159,19 +159,6 @@ In the **Pending invitations** list, click **Revoke** next to the invite. The to
 Open the household's page, click **Leave household**, confirm. You lose access right away. The Owner gets the seat back to invite someone else if they want.
 
 If you change your mind, the Owner can re-invite you.
-
-### Transfer ownership (Owner only)
-
-Open the household's page, scroll to **Transfer ownership**, pick a member from the dropdown, click **Transfer**. Confirm.
-
-After the transfer:
-
-- The new Owner inherits all owner powers (invite, remove, delete).
-- You become a regular Member. You can still see and edit the budget; you just no longer manage membership or billing.
-
-A member can only become Owner if they don't already own another household. If they do, they have to leave or delete that one first.
-
-> **When this matters:** the person paying the subscription needs to be the Owner. If the bill needs to move from you to your partner, transfer ownership to them and then they can subscribe (or take over the active subscription, depending on your billing arrangement).
 
 ---
 
@@ -203,7 +190,7 @@ These are **different** operations:
 |---|---|---|
 | **Leave household** | Your access to this one household | Households page → Leave |
 | **Delete household** | The household and everything in it. Your user account stays. | Households page → Delete (Owner only) |
-| **Delete your vondo account** | Your user account itself. You lose access to every household you're in. If you own a household, you have to transfer or delete it first. | Profile → Danger Zone → Delete my account |
+| **Delete your vondo account** | Your user account itself. You lose access to every household you're in. If you own a household, you have to delete it first. | Profile → Danger Zone → Delete my account |
 
 ---
 
@@ -212,7 +199,7 @@ These are **different** operations:
 The subscription belongs to **the household**, not to you.
 
 - A household has its own **45-day trial**.
-- A household has its own **plan** (Monthly / Quarterly / Annual) and its own billing portal.
+- A household has its own **plan** (Monthly / Annual) and its own billing.
 - The **Owner** pays for the household. Members don't get billed separately.
 - If the Owner's subscription lapses or the trial ends without a plan, **the entire household goes read-only** until the Owner subscribes again. Members can't fix this — only the Owner has the billing controls.
 
@@ -235,7 +222,7 @@ See [Plans & Billing](../billing/) for the full subscription mechanics.
 | **Family budgeting with adult kids** | Parents create the family household and invite the kids. The kids can also have their own personal households if they want — no conflict. |
 | **Bookkeeper managing client budgets** | Get invited into each client's household as a Member. Switch between them as you work. The client keeps Ownership and billing. |
 | **Moving from solo to shared mid-budget** | Just invite the second person. They join the existing household with all its history. Nothing migrates or splits. |
-| **Splitting after a shared budget no longer makes sense** | The Owner can transfer ownership to the other person if needed, or each person creates their own new household. The original household's data goes wherever the Owner takes it. |
+| **Splitting after a shared budget no longer makes sense** | The household — and its data — stays with the Owner. The other person leaves and creates their own new household (export first via [Import & Export](../import-export/) if they want to take a copy of the data). |
 
 ---
 

@@ -30,13 +30,15 @@ The bottom of the screen has five tabs:
 |---|---|
 | **Home** | A digest of the current month — Ready to Assign at the top, overspent categories that need your attention, recent activity. |
 | **Budget** | The full budget for the current month: groups, categories, Assigned / Spent / Available per category. Tap a category for the detail sheet (assign money, set a target, see history). |
-| **Activity** | Every transaction across every account, with filter pills and search. |
+| **Transactions** | Every transaction across every account, with filter pills and search. (The web calls this tab **Activity**.) |
 | **Accounts** | All your accounts grouped by type. Tap one to see its detail screen with transactions and the reconcile button. |
-| **Reports** | The same four reports as the web — Income vs Expenses, Net Savings, Spending by Category, Top Payees. |
+| **Reports** | The same five reports as the web — Income vs Expenses, Net Savings, Net Worth, Expenses by Category, Top Payees. |
+
+Adding something is always one tap away: a green **+** button sits at the top-right of the main screens. It creates the obvious thing for where you are — a transaction on Home or Transactions, a category on Budget, an account on Accounts.
 
 ### The "…" overflow menu
 
-Things that don't live in a tab — Categories, Payees, Recurring, Profile, Households, Security, Plan & Billing, Active Sessions, Pending Changes — open from an overflow **…** button on the Home, Budget, and Activity screens. Tap it and you get a sheet with all the secondary destinations grouped by topic.
+Things that don't live in a tab — Categories, Payees, Recurring, Profile, Households, Security, Plan & Billing, Active Sessions, Pending Changes — open from an overflow **…** button on the Home, Budget, and Transactions screens. Tap it and you get a sheet with all the secondary destinations grouped by topic. **Undo** and **Redo** live at the top of this menu too.
 
 We took this approach because the bottom tab bar gets crowded fast, and Apple's HIG advises keeping it at five or fewer. The result: the five things you do every day are one tap away; everything else is two taps away.
 
@@ -82,22 +84,24 @@ If a change fails (typically because the server rejects it — e.g. you edited a
 
 ## Sign-in and security on mobile
 
-The mobile app uses the same authentication system as the web: email + password, Continue with Google, Continue with Microsoft, and Continue with Apple. After sign-in, the same [two-factor authentication](../security/#two-factor-authentication-mfa) and [trusted-device](../security/#trusted-devices) flow apply.
+The mobile app uses the same authentication system as the web: email + password (including sign-up, with the same 6-digit email verification), Continue with Google, Continue with Microsoft, and Continue with Apple. After sign-in, the same [two-factor authentication](../security/#two-factor-authentication-mfa) and [trusted-device](../security/#trusted-devices) flow apply.
 
 A couple of mobile-specific notes:
 
+- **Apple sign-in works on Android too.** On iPhone it uses the native Apple sheet; on Android it opens a quick in-app browser to Apple's sign-in page and drops you back in the app when you're done. Either way you land on the same account.
 - **Logout wipes local data.** Signing out on a phone clears the device's local cache, the pending-writes queue, and the sync cursor — so the next person to sign in (you or someone else) starts clean. The web sign-out only clears tokens; mobile sign-out clears tokens *and* the on-device database.
 - **Active sessions show your phones.** Your mobile devices appear in **Security → Active sessions** alongside web browsers. Revoke a phone session from the web if a device is lost.
 
-## When the trial ends (or a subscription is paused)
+## When the trial ends (or the subscription lapses)
 
-If your trial expires or your subscription gets paused without an active plan, the mobile app shows a **subscription gate** screen on launch — a friendly stop sign that:
+If your trial ends or the subscription lapses without an active plan, the household goes **read-only** — all your data is still there and you can browse it freely, but you can't make changes until someone subscribes.
 
-- Tells you the trial has ended (or that the subscription is paused), with the date.
-- Has a single **Manage subscription** button that opens the billing portal in your browser.
-- Stays in front of the app until billing is sorted — you can still sign out, but you can't reach Budget / Activity / etc.
+Rather than a blocking screen, the app shows a **read-only banner** pinned at the top:
 
-Your data is completely safe. The gate is purely an access pause; once you subscribe or resume from the portal, the next time you open the mobile app it lets you straight through to wherever you left off.
+- **If you're the Owner,** tap the banner to open the in-app **paywall**, pick a plan, and pay through the **App Store / Google Play** (see [Plans & Billing → Subscribe](../billing/#subscribe)). You can also reach it from **Profile → Subscribe**. Already subscribed on this store? Tap **Restore Purchases** on the paywall.
+- **If you're a member** (not the Owner), the banner tells you to ask the household's Owner to resubscribe — only the Owner has billing controls.
+
+Your data is completely safe. Once a plan is active, the banner clears and full editing returns — nothing to re-import or set up again.
 
 ---
 
@@ -114,7 +118,7 @@ Nearly everything. To save you reading the rest of the help pages a second time,
 - All six [account types](../accounts/#account-types) including credit cards with optional credit limit and the linked payment category that auto-funds as you spend
 - [Reconciliation](../reconcile/)
 - [Reports](../reports/) — all five charts (Income vs Expenses, Net Savings, Net Worth, Expenses by Category, Top Payees) with the same time-range presets, account, and category filters as web
-- Undo / Redo (tap the curved arrow icons in the top bar)
+- Undo / Redo (from the **…** overflow menu — the first two rows)
 - All your [saved views](../activity/#saved-views), filters, and the search box
 - **System / Light / Dark theme** and language
 
@@ -135,7 +139,6 @@ A few things live on the web app only. None are blockers for day-to-day use; the
 - **CSV import.** Importing a year of bank transactions from a CSV is a desktop task — file pickers and column mapping work much better on a laptop. Use the web's [Import & Export](../import-export/) page.
 - **Power-user search tokens.** Mobile search supports the search box and filter pills, but the `category:Food`, `>100`, `since:YYYY-MM-DD` shorthand syntax is web-only.
 - **Drag-to-reorder categories.** On mobile, you reorder categories from the edit screen with up/down controls. Web has true drag-and-drop.
-- **Plan changes.** Subscribing, canceling, and updating payment methods all run through the billing portal, which opens in your browser — including from the mobile app. The mobile app deep-links you to the portal automatically.
 - **Onboarding wizard.** Web has the full setup wizard; mobile shows a brief welcome screen and assumes you'll do initial setup from a laptop.
 
 ---

@@ -30,13 +30,15 @@ La parte inferior de la pantalla tiene cinco pestañas:
 |---|---|
 | **Inicio** | Un resumen del mes actual — Por asignar arriba, categorías sobregiradas que necesitan atención, actividad reciente. |
 | **Presupuesto** | El presupuesto completo del mes actual: grupos, categorías, Asignado / Gastado / Disponible por categoría. Toca una categoría para abrir la hoja de detalle (asignar dinero, fijar un objetivo, ver historial). |
-| **Actividad** | Cada transacción de todas tus cuentas, con pills de filtro y búsqueda. |
+| **Transacciones** | Cada transacción de todas tus cuentas, con pills de filtro y búsqueda. (En la web esta pestaña se llama **Actividad**.) |
 | **Cuentas** | Todas tus cuentas agrupadas por tipo. Toca una para ver su pantalla de detalle con transacciones y el botón de conciliar. |
-| **Informes** | Los mismos cuatro informes que la web — Ingresos vs Gastos, Ahorro Neto, Gasto por Categoría, Beneficiarios Principales. |
+| **Informes** | Los mismos cinco informes que la web — Ingresos vs Gastos, Ahorro Neto, Patrimonio Neto, Gastos por Categoría, Beneficiarios Principales. |
+
+Agregar algo siempre está a un toque: un botón verde **+** está arriba a la derecha en las pantallas principales. Crea lo obvio según dónde estés — una transacción en Inicio o Transacciones, una categoría en Presupuesto, una cuenta en Cuentas.
 
 ### El menú "…"
 
-Las cosas que no viven en una pestaña — Categorías, Beneficiarios, Recurrentes, Perfil, Hogares, Seguridad, Plan y Facturación, Sesiones Activas, Cambios Pendientes — se abren desde un botón **…** en las pantallas de Inicio, Presupuesto y Actividad. Tócalo y se abre una hoja con todos los destinos secundarios agrupados por tema.
+Las cosas que no viven en una pestaña — Categorías, Beneficiarios, Recurrentes, Perfil, Hogares, Seguridad, Plan y Facturación, Sesiones Activas, Cambios Pendientes — se abren desde un botón **…** en las pantallas de Inicio, Presupuesto y Transacciones. Tócalo y se abre una hoja con todos los destinos secundarios agrupados por tema. **Deshacer** y **Rehacer** también viven arriba de este menú.
 
 Tomamos este enfoque porque la barra de pestañas inferior se llena rápido, y las guías de Apple recomiendan máximo cinco. El resultado: las cinco cosas que haces todos los días están a un toque; el resto, a dos.
 
@@ -82,22 +84,24 @@ Si un cambio falla (típicamente porque el servidor lo rechaza — p. ej. editas
 
 ## Inicio de sesión y seguridad en móvil
 
-La app móvil usa el mismo sistema de autenticación que la web: correo + contraseña, Continuar con Google, Continuar con Microsoft, y Continuar con Apple. Después de iniciar sesión, aplican los mismos flujos de [autenticación de dos factores](../security/#autenticación-de-dos-factores-mfa) y [dispositivos de confianza](../security/#dispositivos-de-confianza).
+La app móvil usa el mismo sistema de autenticación que la web: correo + contraseña (incluido el registro, con el mismo código de verificación de 6 dígitos por correo), Continuar con Google, Continuar con Microsoft, y Continuar con Apple. Después de iniciar sesión, aplican los mismos flujos de [autenticación de dos factores](../security/#autenticación-de-dos-factores-mfa) y [dispositivos de confianza](../security/#dispositivos-de-confianza).
 
 Un par de notas específicas de móvil:
 
+- **Iniciar sesión con Apple también funciona en Android.** En iPhone usa la hoja nativa de Apple; en Android abre un navegador rápido dentro de la app con la página de inicio de sesión de Apple y te regresa a la app al terminar. De cualquier forma llegas a la misma cuenta.
 - **Cerrar sesión borra los datos locales.** Cerrar sesión en un teléfono limpia el caché local del dispositivo, la cola de escrituras pendientes y el cursor de sincronización — así que la siguiente persona que inicie sesión (tú u otra) empieza limpia. El cierre de sesión en web solo limpia los tokens; el móvil limpia tokens *y* la base de datos en el dispositivo.
 - **Las sesiones activas muestran tus teléfonos.** Tus dispositivos móviles aparecen en **Seguridad → Sesiones activas** junto con los navegadores web. Revoca una sesión de teléfono desde la web si pierdes un dispositivo.
 
-## Cuando termina la prueba (o se pausa una suscripción)
+## Cuando termina la prueba (o la suscripción caduca)
 
-Si tu prueba expira o tu suscripción queda en pausa sin un plan activo, la app móvil muestra una pantalla de **bloqueo de suscripción** al abrirla — una señal de alto amigable que:
+Si tu prueba termina o la suscripción caduca sin un plan activo, el hogar pasa a **solo lectura** — todos tus datos siguen ahí y puedes verlos libremente, pero no puedes hacer cambios hasta que alguien se suscriba.
 
-- Te dice que la prueba terminó (o que la suscripción está en pausa), con la fecha.
-- Tiene un único botón **Administrar suscripción** que abre el portal de facturación en tu navegador.
-- Se queda al frente de la app hasta que arregles la facturación — aún puedes cerrar sesión, pero no llegas a Presupuesto / Actividad / etc.
+En lugar de una pantalla que bloquea, la app muestra un **banner de solo lectura** fijo arriba:
 
-Tus datos están completamente a salvo. El bloqueo es una pausa de acceso; en cuanto te suscribas o reanudes desde el portal, la próxima vez que abras la app móvil te deja pasar directo a donde te quedaste.
+- **Si eres el Propietario,** toca el banner para abrir el **paywall** dentro de la app, elige un plan y paga a través del **App Store / Google Play** (mira [Plan y Facturación → Suscribirse](../billing/#suscribirse)). También puedes llegar desde **Perfil → Suscribirse**. ¿Ya estás suscrito en esta tienda? Toca **Restaurar compras** en el paywall.
+- **Si eres miembro** (no el Propietario), el banner te dice que le pidas al Propietario del hogar que se vuelva a suscribir — solo el Propietario tiene los controles de facturación.
+
+Tus datos están completamente a salvo. En cuanto haya un plan activo, el banner desaparece y la edición completa regresa — sin nada que volver a importar o configurar.
 
 ---
 
@@ -114,7 +118,7 @@ Casi todo. Para ahorrarte leer las demás páginas de ayuda otra vez, esto es lo
 - Los seis [tipos de cuenta](../accounts/#tipos-de-cuenta) incluyendo tarjetas de crédito con límite opcional y la categoría de pago vinculada que se autofinancia conforme gastas
 - [Conciliación](../reconcile/)
 - [Informes](../reports/) — las cinco gráficas (Ingresos vs Gastos, Ahorro Neto, Patrimonio Neto, Gastos por Categoría, Beneficiarios Principales) con los mismos preajustes de rango de tiempo y filtros de Cuenta y Categoría que la web
-- Deshacer / Rehacer (toca las flechas curvas en la barra superior)
+- Deshacer / Rehacer (desde el menú **…** — las dos primeras filas)
 - Todas tus [vistas guardadas](../actividad/#vistas-guardadas), filtros y el cuadro de búsqueda
 - Tema **Sistema / Claro / Oscuro** e idioma
 
@@ -135,7 +139,6 @@ Algunas cosas viven solo en la app web. Ninguna te impide el día a día; son ta
 - **Importación CSV.** Importar un año de transacciones bancarias desde un CSV es una tarea de escritorio — los selectores de archivos y el mapeo de columnas funcionan mucho mejor en una laptop. Usa la página web de [Importar y Exportar](../import-export/).
 - **Tokens de búsqueda avanzados.** La búsqueda móvil soporta el cuadro de búsqueda y los pills de filtro, pero la sintaxis abreviada `category:Comida`, `>100`, `since:YYYY-MM-DD` es solo web.
 - **Reordenar categorías arrastrando.** En móvil, reordenas categorías desde la pantalla de edición con controles arriba/abajo. La web tiene drag-and-drop real.
-- **Cambios de plan.** Suscribirse, cancelar y actualizar métodos de pago corre todo por el portal de facturación, que se abre en tu navegador — incluso desde la app móvil. La app móvil te lleva al portal automáticamente.
 - **Asistente de configuración.** La web tiene el asistente completo de configuración; la móvil muestra una pantalla breve de bienvenida y asume que harás la configuración inicial desde una laptop.
 
 ---

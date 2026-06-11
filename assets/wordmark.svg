@@ -1,4 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 36" preserveAspectRatio="xMinYMid meet" role="img" aria-label="vondo">
+  <!--
+    Sidebar logo: the ✓ondo wordmark — orange checkmark (accent #fb923c) +
+    "ondo" in white, for the brand-green sidebar (the dark-surface variant
+    from branding/logo-source.html, where letters go near-white and the
+    check stays accent-orange). Geist won't load inside an <img>-rendered
+    SVG, so it falls back to the system sans stack.
+  -->
   <style>
     .lm { font-family: "Geist", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif; font-weight: 700; }
   </style>
